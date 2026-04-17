@@ -1,21 +1,82 @@
 {
-  "Act 1": {
+  "Base": {
     "connects_to": [
-      "Act 2"
+      "Sword",
+      "Skateboard",
+      "Biograft",
+      "Katana",
+      "Banhammer",
+      "Rocket",
+      "Slingshot",
+      "Hyperlaser",
+      "Shuriken",
+      "Scythe",
+      "Medkit",
+      "Boombox",
+      "Subspace",
+      "Vine Staff",
+      "Coil"
     ],
-    "starting": true,
-    "requires": "|Act 1 Flag|"
+    "starting": true
   },
-  "Act 2": {
-    "connects_to": [
-      "Act 3"
-    ],
-    "requires": "|Act 2 Flag|"
+
+  "Sword": {
+    "requires": "|Sword Unlock|"
   },
-  "Act 3": {
-    "connects_to": [
-      ""
-    ],
-    "requires": "|Act 3 Flag|"
+
+  "Skateboard": {
+    "requires": "|Skateboard Unlock|"
+  },
+
+  "Biograft": {
+    "requires": "|Biograft Unlock|"
+  },
+
+  "Katana": {
+    "requires": "|Katana Unlock|"
+  },
+
+  "Banhammer": {
+    "requires": "|Banhammer Unlock|"
+  },
+
+  "Rocket": {
+    "requires": "|Rocket Unlock|"
+  },
+
+  "Slingshot": {
+    "requires": "|Slingshot Unlock|"
+  },
+
+  "Hyperlaser": {
+    "requires": "|Hyperlaser Unlock|"
+  },
+
+  "Shuriken": {
+    "requires": "|Shuriken Unlock|"
+  },
+
+  "Scythe": {
+    "requires": "|Scythe Unlock|"
+  },
+
+  "Medkit": {
+    "requires": "|Medkit Unlock|"
+  },
+
+  "Boombox": {
+    "requires": "|Boombox Unlock|"
+  },
+
+  "Subspace": {
+    "requires": "|Subspace Unlock|"
+  },
+
+  "Vine Staff": {
+    "requires": "|Vine Staff Unlock|"
+  },
+
+  "Coil": {
+    "requires": "|Coil Unlock|"
   }
 }
