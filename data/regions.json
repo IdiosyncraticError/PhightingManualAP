@@ -1,0 +1,21 @@
+{
+  "Act 1": {
+    "connects_to": [
+      "Act 2"
+    ],
+    "starting": true,
+    "requires": "|Act 1 Flag|"
+  },
+  "Act 2": {
+    "connects_to": [
+      "Act 3"
+    ],
+    "requires": "|Act 2 Flag|"
+  },
+  "Act 3": {
+    "connects_to": [
+      ""
+    ],
+    "requires": "|Act 3 Flag|"
+  }
+}

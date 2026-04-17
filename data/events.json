@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Start Act 1",
+    "region": "Act 1",
+    "category": [
+      "Act Progression"
+    ]
+  },
+  {
+    "name": "Beat Act 2",
+    "region": "Act 2",
+    "category": [
+      "Act Progression"
+    ]
+  },
+  {
+    "name": "Beat Act 3",
+    "region": "Act 3",
+    "category": [
+      "Act Progression"
+    ]
+  }
+]
