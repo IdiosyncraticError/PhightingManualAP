@@ -2,7 +2,127 @@
   {
     "name": "win lol",
     "victory": true,
-    "requires": "|@Win Progression:|"
+    "requires": "|@Win Progression:10|"
+  },
+  {
+    "name": "Sword Map Wins",
+    "region": "Sword",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "|@Sword Map Wins: 5|"
+  },
+  {
+    "name": "Skateboard Map Wins",
+    "region": "Skateboard",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "|@Skateboard Map Wins: 5|"
+  },
+  {
+    "name": "Biograft Map Wins",
+    "region": "Biograft",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "|@Biograft Map Wins: 5|"
+  },
+  {
+    "name": "Katana Map Wins",
+    "region": "Katana",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "|@Katana Map Wins: 5|"
+  },
+  {
+    "name": "Ban Hammer Map Wins",
+    "region": "Ban Hammer",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "|@Ban Hammer Map Wins: 5|"
+  },
+  {
+    "name": "Rocket Map Wins",
+    "region": "Rocket",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "|@Rocket Map Wins: 5|"
+  },
+  {
+    "name": "Slingshot Map Wins",
+    "region": "Slingshot",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "|@Slingshot Map Wins: 5|"
+  },
+  {
+    "name": "Hyperlaser Map Wins",
+    "region": "Hyperlaser",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "|@Hyperlaser Map Wins: 5|"
+  },
+  {
+    "name": "Shuriken Map Wins",
+    "region": "Shuriken",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "|@Shuriken Map Wins: 5|"
+  },
+  {
+    "name": "Scythe Map Wins",
+    "region": "Scythe",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "|@Scythe Map Wins: 5|"
+  },
+  {
+    "name": "Medkit Map Wins",
+    "region": "Medkit",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "|@Medkit Map Wins: 5|"
+  },
+  {
+    "name": "Boombox Map Wins",
+    "region": "Boombox",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "|@Boombox Map Wins: 5|"
+  },
+  {
+    "name": "Subspace Map Wins",
+    "region": "Subspace",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "|@Subspace Map Wins: 5|"
+  },
+  {
+    "name": "Vine Staff Map Wins",
+    "region": "Vine Staff",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "|@Vine Staff Map Wins: 5|"
+  },
+  {
+    "name": "Coil Map Wins",
+    "region": "Coil",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "|@Coil Map Wins: 5|"
   },
   {
     "name": "Be the MVP - Sword",
