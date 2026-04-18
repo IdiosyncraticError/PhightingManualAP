@@ -62,6 +62,22 @@
             "default": false,
             "group": "Abilitysanity"
         },
+        "skinsanity":{
+            "description": [
+                "Skins are checks"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Alt Account"
+        },
+        "stickersanity":{
+            "description": [
+                "Stickers are checks"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Alt Account"
+        },
         "Example_Choice":{
             "type": "Choice",
             "description": [
