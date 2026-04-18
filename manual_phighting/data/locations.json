@@ -1,14 +1,71 @@
 [
   {
-    "name": "Be the MVP",
+    "name": "Be the MVP - Sword",
+    "region": "Sword",
     "category": [
       "MVP Badges"
     ]
   },
   {
-    "name": "Be the SVP",
+    "name": "Be the SVP - Sword",
+    "region": "Sword",
     "category": [
       "MVP Badges"
     ]
   },
+  {
+    "name": "Get the sidekick badge - Sword",
+    "region": "Sword",
+    "category": [
+      "MVP Badges"
+    ]
+    },
+  {
+    "name": "Get the perfection badge - Sword",
+    "region": "Sword",
+    "category": [
+      "MVP Badges"
+    ]
+    },
+  {
+    "name": "Get the unstoppable badge - Sword",
+    "region": "Sword",
+    "category": [
+      "MVP Badges"
+    ]
+    },
+  {
+    "name": "Get the berserker badge - Sword",
+    "region": "Sword",
+    "category": [
+      "MVP Badges"
+    ]
+    },
+  {
+    "name": "Get the bloodbath badge - Sword",
+    "region": "Sword",
+    "category": [
+      "MVP Badges"
+    ]
+    },
+  {
+    "name": "Get the scourge badge - Sword",
+    "region": "Sword",
+    "category": [
+      "MVP Badges"
+    ]
+    },
+  {
+    "name": "Get the guardian badge - Sword",
+    "region": "Sword",
+    "category": [
+      "MVP Badges"
+    ]
+    },
+  {
+    "name": "Get the bulwark badge - Sword",
+    "region": "Sword",
+    "category": [
+      "MVP Badges"
+    ]
 ]
