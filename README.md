@@ -12,7 +12,6 @@ locations
 - map and character win combinations
 - skins (alt account option) (option under alt account
 - stickers (option under alt account)
-- kda/healing/points thresholds
 
 items
 - character unlock
