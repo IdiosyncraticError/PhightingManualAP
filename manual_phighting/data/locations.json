@@ -1,5 +1,10 @@
 [
   {
+    "name": "win lol",
+    "victory": true,
+    "requires": "|@Win Progression:|"
+  },
+  {
     "name": "Be the MVP - Sword",
     "region": "Sword",
     "category": [
