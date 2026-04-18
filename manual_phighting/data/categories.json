@@ -9,6 +9,12 @@
             "stickersanity"
         ]
     },
+    "Map Wins": {
+        "hidden": true
+    },
+    "MVP Badges": {
+        "hidden": true
+    },
     "Sword Abilitysanity": {
         "hidden": true,
         "yaml_option": [
