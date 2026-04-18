@@ -525,8 +525,7 @@
     "count": "1",
     "name": "Scythe M2 Unlock",
     "category": [
-      "Scythe Ability Unlock",
-      "Scythe !Abilitysanity"
+      "Scythe Ability Unlock"
     ],
     "progression": true
   },
@@ -559,15 +558,6 @@
   },
   {
     "count": "1",
-    "name": "Scythe Melee M2 Unlock",
-    "category": [
-      "Scythe Ability Unlock",
-      "Scythe Abilitysanity"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
     "name": "Scythe Melee E Unlock",
     "category": [
       "Scythe Ability Unlock",
@@ -587,15 +577,6 @@
   {
     "count": "1",
     "name": "Scythe Melee Phinisher Unlock",
-    "category": [
-      "Scythe Ability Unlock",
-      "Scythe Abilitysanity"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "Scythe Ranged M2 Unlock",
     "category": [
       "Scythe Ability Unlock",
       "Scythe Abilitysanity"
