@@ -33,7 +33,7 @@
   },
   {
     "count": "1",
-    "name": "Banhammer Unlock",
+    "name": "Ban Hammer Unlock",
     "category": [
       "Phighter Unlock"
     ],
@@ -363,33 +363,33 @@
   },
   {
     "count": "1",
-    "name": "Banhammer M2 Unlock",
+    "name": "Ban Hammer M2 Unlock",
     "category": [
-      "Banhammer Ability Unlock"
+      "Ban Hammer Ability Unlock"
     ],
     "progression": true
   },
   {
     "count": "1",
-    "name": "Banhammer E Unlock",
+    "name": "Ban Hammer E Unlock",
     "category": [
-      "Banhammer Ability Unlock"
+      "Ban Hammer Ability Unlock"
     ],
     "progression": true
   },
   {
     "count": "1",
-    "name": "Banhammer Q Unlock",
+    "name": "Ban Hammer Q Unlock",
     "category": [
-      "Banhammer Ability Unlock"
+      "Ban Hammer Ability Unlock"
     ],
     "progression": true
   },
   {
     "count": "1",
-    "name": "Banhammer Phinisher Unlock",
+    "name": "Ban Hammer Phinisher Unlock",
     "category": [
-      "Banhammer Ability Unlock"
+      "Ban Hammer Ability Unlock"
     ],
     "progression": true
   },
