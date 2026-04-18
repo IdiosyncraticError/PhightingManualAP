@@ -9,11 +9,9 @@ PHIGHTING
 locations
 - mvp badges (plus svp and mvp)
 - doomsekkar (option)
-- sword events perchance
 - map and character win combinations
-- skins (alt account option)
-- titles (alt account option ??)
-- stickers (??? too cheap to be viable maybe)
+- skins (alt account option) (option under alt account
+- stickers (option under alt account)
 - kda/healing/points thresholds
 
 items
