@@ -78,8 +78,8 @@
             "allow_custom_value": false,
             "group": "Example Options"
         },
-        "Example_Range":{
-            "type": "Starting Phighters",
+        "starting_phighters":{
+            "type": "Range",
             "description": [
                 "Number of Phighters that are unlocked at the start"
             ],
