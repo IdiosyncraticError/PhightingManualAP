@@ -10,8 +10,7 @@
     "category": [
       "Win Progression"
     ],
-    "place_item": ["Win Progression Flag"],
-    "requires": "|@Sword Map Wins: 5|"
+    "place_item": ["Win Progression Flag"]
   },
   {
     "name": "Skateboard Map Wins",
@@ -19,8 +18,7 @@
     "category": [
       "Win Progression"
     ],
-    "place_item": ["Win Progression Flag"],
-    "requires": "|@Skateboard Map Wins: 5|"
+    "place_item": ["Win Progression Flag"]
   },
   {
     "name": "Biograft Map Wins",
@@ -28,8 +26,7 @@
     "category": [
       "Win Progression"
     ],
-    "place_item": ["Win Progression Flag"],
-    "requires": "|@Biograft Map Wins: 5|"
+    "place_item": ["Win Progression Flag"]
   },
   {
     "name": "Katana Map Wins",
@@ -37,8 +34,7 @@
     "category": [
       "Win Progression"
     ],
-    "place_item": ["Win Progression Flag"],
-    "requires": "|@Katana Map Wins: 5|"
+    "place_item": ["Win Progression Flag"]
   },
   {
     "name": "Ban Hammer Map Wins",
@@ -46,8 +42,7 @@
     "category": [
       "Win Progression"
     ],
-    "place_item": ["Win Progression Flag"],
-    "requires": "|@Ban Hammer Map Wins: 5|"
+    "place_item": ["Win Progression Flag"]
   },
   {
     "name": "Rocket Map Wins",
@@ -55,8 +50,7 @@
     "category": [
       "Win Progression"
     ],
-    "place_item": ["Win Progression Flag"],
-    "requires": "|@Rocket Map Wins: 5|"
+    "place_item": ["Win Progression Flag"]
   },
   {
     "name": "Slingshot Map Wins",
@@ -64,8 +58,7 @@
     "category": [
       "Win Progression"
     ],
-    "place_item": ["Win Progression Flag"],
-    "requires": "|@Slingshot Map Wins: 5|"
+    "place_item": ["Win Progression Flag"]
   },
   {
     "name": "Hyperlaser Map Wins",
@@ -73,8 +66,7 @@
     "category": [
       "Win Progression"
     ],
-    "place_item": ["Win Progression Flag"],
-    "requires": "|@Hyperlaser Map Wins: 5|"
+    "place_item": ["Win Progression Flag"]
   },
   {
     "name": "Shuriken Map Wins",
@@ -82,8 +74,7 @@
     "category": [
       "Win Progression"
     ],
-    "place_item": ["Win Progression Flag"],
-    "requires": "|@Shuriken Map Wins: 5|"
+    "place_item": ["Win Progression Flag"]
   },
   {
     "name": "Scythe Map Wins",
@@ -91,8 +82,7 @@
     "category": [
       "Win Progression"
     ],
-    "place_item": ["Win Progression Flag"],
-    "requires": "|@Scythe Map Wins: 5|"
+    "place_item": ["Win Progression Flag"]
   },
   {
     "name": "Medkit Map Wins",
@@ -100,8 +90,7 @@
     "category": [
       "Win Progression"
     ],
-    "place_item": ["Win Progression Flag"],
-    "requires": "|@Medkit Map Wins: 5|"
+    "place_item": ["Win Progression Flag"]
   },
   {
     "name": "Boombox Map Wins",
@@ -109,8 +98,7 @@
     "category": [
       "Win Progression"
     ],
-    "place_item": ["Win Progression Flag"],
-    "requires": "|@Boombox Map Wins: 5|"
+    "place_item": ["Win Progression Flag"]
   },
   {
     "name": "Subspace Map Wins",
@@ -118,8 +106,7 @@
     "category": [
       "Win Progression"
     ],
-    "place_item": ["Win Progression Flag"],
-    "requires": "|@Subspace Map Wins: 5|"
+    "place_item": ["Win Progression Flag"]
   },
   {
     "name": "Vine Staff Map Wins",
@@ -127,8 +114,7 @@
     "category": [
       "Win Progression"
     ],
-    "place_item": ["Win Progression Flag"],
-    "requires": "|@Vine Staff Map Wins: 5|"
+    "place_item": ["Win Progression Flag"]
   },
   {
     "name": "Coil Map Wins",
@@ -136,8 +122,7 @@
     "category": [
       "Win Progression"
     ],
-    "place_item": ["Win Progression Flag"],
-    "requires": "|@Coil Map Wins: 5|"
+    "place_item": ["Win Progression Flag"]
   },
   {
     "name": "Be the MVP - Sword",
