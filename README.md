@@ -17,7 +17,8 @@ locations
 items
 - character unlock
 - ability unlocks
-- 
+CHANGE ABILITIES TO BE USEFUL (phinishers and important abilities e.g. offboard E or vine m2 stay as progression)
+make filler item to be encouragement ping
 
 win condition
 - win [X] maps on [X] phighters
