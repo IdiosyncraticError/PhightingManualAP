@@ -33,7 +33,7 @@
   },
   {
     "count": "1",
-    "name": "Banhammer Unlock",
+    "name": "Ban Hammer Unlock",
     "category": [
       "Phighter Unlock"
     ],
@@ -123,7 +123,8 @@
     "count": "1",
     "name": "Sword AB2 Unlock",
     "category": [
-      "Sword Ability Unlock"
+      "Sword Ability Unlock",
+      "Sword !Abilitysanity"
     ],
     "progression": true
   },
@@ -131,7 +132,8 @@
     "count": "1",
     "name": "Sword E Unlock",
     "category": [
-      "Sword Ability Unlock"
+      "Sword Ability Unlock",
+      "Sword !Abilitysanity"
     ],
     "progression": true
   },
@@ -139,7 +141,62 @@
     "count": "1",
     "name": "Sword Q Unlock",
     "category": [
-      "Sword Ability Unlock"
+      "Sword Ability Unlock",
+      "Sword !Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Sword Base AB2 Unlock",
+    "category": [
+      "Sword Ability Unlock",
+      "Sword Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Sword Base E Unlock",
+    "category": [
+      "Sword Ability Unlock",
+      "Sword Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Sword Base Q Unlock",
+    "category": [
+      "Sword Ability Unlock",
+      "Sword Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Sword Empowered M2 Unlock",
+    "category": [
+      "Sword Ability Unlock",
+      "Sword Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Sword Empowered E Unlock",
+    "category": [
+      "Sword Ability Unlock",
+      "Sword Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Sword Empowered Q Unlock",
+    "category": [
+      "Sword Ability Unlock",
+      "Sword Abilitysanity"
     ],
     "progression": true
   },
@@ -153,9 +210,37 @@
   },
   {
     "count": "1",
+    "name": "Skateboard M2 Unlock",
+    "category": [
+      "Skateboard Ability Unlock",
+      "Skateboard !Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Skateboard E Unlock",
+    "category": [
+      "Skateboard Ability Unlock",
+      "Skateboard !Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Skateboard Q Unlock",
+    "category": [
+      "Skateboard Ability Unlock",
+      "Skateboard !Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
     "name": "Skateboard Offboard M2 Unlock",
     "category": [
-      "Skateboard Ability Unlock"
+      "Skateboard Ability Unlock",
+      "Skateboard Abilitysanity"
     ],
     "progression": true
   },
@@ -163,7 +248,8 @@
     "count": "1",
     "name": "Skateboard Offboard E Unlock",
     "category": [
-      "Skateboard Ability Unlock"
+      "Skateboard Ability Unlock",
+      "Skateboard Abilitysanity"
     ],
     "progression": true
   },
@@ -171,7 +257,8 @@
     "count": "1",
     "name": "Skateboard Offboard Q Unlock",
     "category": [
-      "Skateboard Ability Unlock"
+      "Skateboard Ability Unlock",
+      "Skateboard Abilitysanity"
     ],
     "progression": true
   },
@@ -179,7 +266,8 @@
     "count": "1",
     "name": "Skateboard Onboard M2 Unlock",
     "category": [
-      "Skateboard Ability Unlock"
+      "Skateboard Ability Unlock",
+      "Skateboard Abilitysanity"
     ],
     "progression": true
   },
@@ -187,7 +275,8 @@
     "count": "1",
     "name": "Skateboard Onboard E Unlock",
     "category": [
-      "Skateboard Ability Unlock"
+      "Skateboard Ability Unlock",
+      "Skateboard Abilitysanity"
     ],
     "progression": true
   },
@@ -195,7 +284,8 @@
     "count": "1",
     "name": "Skateboard Onboard Q Unlock",
     "category": [
-      "Skateboard Ability Unlock"
+      "Skateboard Ability Unlock",
+      "Skateboard Abilitysanity"
     ],
     "progression": true
   },
@@ -273,33 +363,33 @@
   },
   {
     "count": "1",
-    "name": "Banhammer M2 Unlock",
+    "name": "Ban Hammer M2 Unlock",
     "category": [
-      "Banhammer Ability Unlock"
+      "Ban Hammer Ability Unlock"
     ],
     "progression": true
   },
   {
     "count": "1",
-    "name": "Banhammer E Unlock",
+    "name": "Ban Hammer E Unlock",
     "category": [
-      "Banhammer Ability Unlock"
+      "Ban Hammer Ability Unlock"
     ],
     "progression": true
   },
   {
     "count": "1",
-    "name": "Banhammer Q Unlock",
+    "name": "Ban Hammer Q Unlock",
     "category": [
-      "Banhammer Ability Unlock"
+      "Ban Hammer Ability Unlock"
     ],
     "progression": true
   },
   {
     "count": "1",
-    "name": "Banhammer Phinisher Unlock",
+    "name": "Ban Hammer Phinisher Unlock",
     "category": [
-      "Banhammer Ability Unlock"
+      "Ban Hammer Ability Unlock"
     ],
     "progression": true
   },
@@ -335,4 +425,479 @@
     ],
     "progression": true
   },
+  {
+    "count": "1",
+    "name": "Slingshot M2 Unlock",
+    "category": [
+      "Slingshot Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Slingshot E Unlock",
+    "category": [
+      "Slingshot Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Slingshot Q Unlock",
+    "category": [
+      "Slingshot Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Slingshot Phinisher Unlock",
+    "category": [
+      "Slingshot Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Hyperlaser M2 Unlock",
+    "category": [
+      "Hyperlaser Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Hyperlaser E Unlock",
+    "category": [
+      "Hyperlaser Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Hyperlaser Q Unlock",
+    "category": [
+      "Hyperlaser Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Hyperlaser Phinisher Unlock",
+    "category": [
+      "Hyperlaser Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Shuriken M2 Unlock",
+    "category": [
+      "Shuriken Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Shuriken E Unlock",
+    "category": [
+      "Shuriken Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Shuriken Q Unlock",
+    "category": [
+      "Shuriken Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Shuriken Phinisher Unlock",
+    "category": [
+      "Shuriken Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Scythe M2 Unlock",
+    "category": [
+      "Scythe Ability Unlock",
+      "Scythe !Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Scythe E Unlock",
+    "category": [
+      "Scythe Ability Unlock",
+      "Scythe !Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Scythe Q Unlock",
+    "category": [
+      "Scythe Ability Unlock",
+      "Scythe !Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Scythe Phinisher Unlock",
+    "category": [
+      "Scythe Ability Unlock",
+      "Scythe !Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Scythe Melee M2 Unlock",
+    "category": [
+      "Scythe Ability Unlock",
+      "Scythe Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Scythe Melee E Unlock",
+    "category": [
+      "Scythe Ability Unlock",
+      "Scythe Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Scythe Melee Q Unlock",
+    "category": [
+      "Scythe Ability Unlock",
+      "Scythe Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Scythe Melee Phinisher Unlock",
+    "category": [
+      "Scythe Ability Unlock",
+      "Scythe Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Scythe Ranged M2 Unlock",
+    "category": [
+      "Scythe Ability Unlock",
+      "Scythe Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Rifle Ranged E Unlock",
+    "category": [
+      "Scythe Ability Unlock",
+      "Scythe Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Rifle Ranged Q Unlock",
+    "category": [
+      "Scythe Ability Unlock",
+      "Scythe Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Rifle Ranged Phinisher Unlock",
+    "category": [
+      "Scythe Ability Unlock",
+      "Scythe Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Medkit M2 Unlock",
+    "category": [
+      "Medkit Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Medkit E Unlock",
+    "category": [
+      "Medkit Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Medkit Q Unlock",
+    "category": [
+      "Medkit Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Medkit Phinisher Unlock",
+    "category": [
+      "Medkit Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Boombox M2 Unlock",
+    "category": [
+      "Boombox Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Boombox E Unlock",
+    "category": [
+      "Boombox Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Boombox Q Unlock",
+    "category": [
+      "Boombox Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Boombox Phinisher Unlock",
+    "category": [
+      "Boombox Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Subspace M2 Unlock",
+    "category": [
+      "Subspace Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Subspace E Unlock",
+    "category": [
+      "Subspace Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Subspace Q Unlock",
+    "category": [
+      "Subspace Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Subspace Phinisher Unlock",
+    "category": [
+      "Subspace Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Vine Staff M2 Unlock",
+    "category": [
+      "Vine Staff Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Vine Staff E Unlock",
+    "category": [
+      "Vine Staff Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Vine Staff Q Unlock",
+    "category": [
+      "Vine Staff Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Vine Staff Phinisher Unlock",
+    "category": [
+      "Vine Staff Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Coil M2 Unlock",
+    "category": [
+      "Coil Ability Unlock",
+      "Coil !Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Coil E Unlock",
+    "category": [
+      "Coil Ability Unlock",
+      "Coil !Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Coil Q Unlock",
+    "category": [
+      "Coil Ability Unlock",
+      "Coil !Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Coil Phinisher Unlock",
+    "category": [
+      "Coil Ability Unlock"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Coil Regen M2 Unlock",
+    "category": [
+      "Coil Ability Unlock",
+      "Coil Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Coil Regen E Unlock",
+    "category": [
+      "Coil Ability Unlock",
+      "Coil Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Coil Regen Q Unlock",
+    "category": [
+      "Coil Ability Unlock",
+      "Coil Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Coil Bounce M2 Unlock",
+    "category": [
+      "Coil Ability Unlock",
+      "Coil Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Coil Bounce E Unlock",
+    "category": [
+      "Coil Ability Unlock",
+      "Coil Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Coil Bounce Q Unlock",
+    "category": [
+      "Coil Ability Unlock",
+      "Coil Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Coil Haste M2 Unlock",
+    "category": [
+      "Coil Ability Unlock",
+      "Coil Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Coil Haste E Unlock",
+    "category": [
+      "Coil Ability Unlock",
+      "Coil Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Coil Haste Q Unlock",
+    "category": [
+      "Coil Ability Unlock",
+      "Coil Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Coil Phinisher M2 Unlock",
+    "category": [
+      "Coil Ability Unlock",
+      "Coil Phinisher Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Coil Phinisher E Unlock",
+    "category": [
+      "Coil Ability Unlock",
+      "Coil Phinisher Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Coil Phinisher Q Unlock",
+    "category": [
+      "Coil Ability Unlock",
+      "Coil Phinisher Abilitysanity"
+    ],
+    "progression": true
+  }
 ]

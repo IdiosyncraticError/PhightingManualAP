@@ -5,7 +5,7 @@
       "Skateboard",
       "Biograft",
       "Katana",
-      "Banhammer",
+      "Ban Hammer",
       "Rocket",
       "Slingshot",
       "Hyperlaser",
@@ -36,8 +36,8 @@
     "requires": "|Katana Unlock|"
   },
 
-  "Banhammer": {
-    "requires": "|Banhammer Unlock|"
+  "Ban Hammer": {
+    "requires": "|Ban Hammer Unlock|"
   },
 
   "Rocket": {
