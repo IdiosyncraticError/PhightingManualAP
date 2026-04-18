@@ -1,1 +1,50 @@
-{}
+{
+    "Sword Abilitysanity": {
+        "hidden": true,
+        "yaml_option": [
+            "sword_abiltysanity"
+        ]
+    },
+    "Sword !Abilitysanity": {
+        "hidden": true,
+        "yaml_option": [
+            "!sword_abilitysanity"
+        ]
+    },
+    "Skateboard Abilitysanity": {
+        "hidden": true,
+        "yaml_option": [
+            "skateboard_abilitysanity"
+        ]
+    },
+    "Skateboard !Abilitysanity": {
+        "hidden": true,
+        "yaml_option": [
+            "!skateboard_abilitysanity"
+        ]
+    },
+    "Scythe Abilitysanity": {
+        "hidden": true,
+        "yaml_option": [
+            "scythe_abilitysanity"
+        ]
+    },
+    "Scythe !Abilitysanity": {
+        "hidden": true,
+        "yaml_option": [
+            "!scythe_abilitysanity"
+        ]
+    },
+    "Coil Abilitysanity": {
+        "hidden": true,
+        "yaml_option": [
+            "coil_abilitysanity"
+        ]
+    },
+    "Coil !Abilitysanity": {
+        "hidden": true,
+        "yaml_option": [
+            "!coil_abilitysanity"
+        ]
+    },
+}

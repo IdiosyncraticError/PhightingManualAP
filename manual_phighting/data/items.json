@@ -523,46 +523,10 @@
   },
   {
     "count": "1",
-    "name": "All Scythe M2 Unlock",
-    "category": [
-      "Scythe Ability Unlock",
-      "Scythe !Abilitysanity"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "All Scythe E Unlock",
-    "category": [
-      "Scythe Ability Unlock",
-      "Scythe !Abilitysanity"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "All Scythe Q Unlock",
-    "category": [
-      "Scythe Ability Unlock",
-      "Scythe !Abilitysanity"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
-    "name": "All Scythe Phinisher Unlock",
-    "category": [
-      "Scythe Ability Unlock",
-      "Scythe !Abilitysanity"
-    ],
-    "progression": true
-  },
-  {
-    "count": "1",
     "name": "Scythe M2 Unlock",
     "category": [
       "Scythe Ability Unlock",
-      "Scythe Abilitysanity"
+      "Scythe !Abilitysanity"
     ],
     "progression": true
   },
@@ -571,7 +535,7 @@
     "name": "Scythe E Unlock",
     "category": [
       "Scythe Ability Unlock",
-      "Scythe Abilitysanity"
+      "Scythe !Abilitysanity"
     ],
     "progression": true
   },
@@ -580,7 +544,7 @@
     "name": "Scythe Q Unlock",
     "category": [
       "Scythe Ability Unlock",
-      "Scythe Abilitysanity"
+      "Scythe !Abilitysanity"
     ],
     "progression": true
   },
@@ -589,13 +553,13 @@
     "name": "Scythe Phinisher Unlock",
     "category": [
       "Scythe Ability Unlock",
-      "Scythe Abilitysanity"
+      "Scythe !Abilitysanity"
     ],
     "progression": true
   },
   {
     "count": "1",
-    "name": "Rifle M2 Unlock",
+    "name": "Scythe Melee M2 Unlock",
     "category": [
       "Scythe Ability Unlock",
       "Scythe Abilitysanity"
@@ -604,7 +568,7 @@
   },
   {
     "count": "1",
-    "name": "Rifle E Unlock",
+    "name": "Scythe Melee E Unlock",
     "category": [
       "Scythe Ability Unlock",
       "Scythe Abilitysanity"
@@ -613,7 +577,7 @@
   },
   {
     "count": "1",
-    "name": "Rifle Q Unlock",
+    "name": "Scythe Melee Q Unlock",
     "category": [
       "Scythe Ability Unlock",
       "Scythe Abilitysanity"
@@ -622,7 +586,43 @@
   },
   {
     "count": "1",
-    "name": "Rifle Phinisher Unlock",
+    "name": "Scythe Melee Phinisher Unlock",
+    "category": [
+      "Scythe Ability Unlock",
+      "Scythe Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Scythe Ranged M2 Unlock",
+    "category": [
+      "Scythe Ability Unlock",
+      "Scythe Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Rifle Ranged E Unlock",
+    "category": [
+      "Scythe Ability Unlock",
+      "Scythe Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Rifle Ranged Q Unlock",
+    "category": [
+      "Scythe Ability Unlock",
+      "Scythe Abilitysanity"
+    ],
+    "progression": true
+  },
+  {
+    "count": "1",
+    "name": "Rifle Ranged Phinisher Unlock",
     "category": [
       "Scythe Ability Unlock",
       "Scythe Abilitysanity"

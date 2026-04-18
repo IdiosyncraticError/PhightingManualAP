@@ -26,14 +26,37 @@
             "type": "Toggle",
             "default": true
         },
-        "Example_Toggle":{
+        "sword_abilitysanity":{
             "description": [
-                "This is a Toggle",
-                "A simple boolean, aka True or False set the initial value with \"default\""
+                "Sword's base and empowered abilities are individually locked"
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Abilitysanity"
+        },
+        "skateboard_abilitysanity":{
+            "description": [
+                "Skateboard's offboard and onboard abilities are individually locked"
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Abilitysanity"
+        },
+        "scythe_abilitysanity":{
+            "description": [
+                "Scythe's melee and ranged abilities (including Phinishers) are individually locked"
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Abilitysanity"
+        },
+        "coil_abilitysanity":{
+            "description": [
+                "Every coil mode's abilities are individually locked (including Phinisher abilities)"
             ],
             "type": "Toggle",
             "default": false,
-            "group": "Example Options"
+            "group": "Abilitysanity"
         },
         "Example_Choice":{
             "type": "Choice",
