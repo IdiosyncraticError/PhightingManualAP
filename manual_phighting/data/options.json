@@ -22,10 +22,6 @@
         }
     },
     "user": {
-        "_commented_out_option":{
-            "type": "Toggle",
-            "default": true
-        },
         "sword_abilitysanity":{
             "description": [
                 "Sword's base and empowered abilities are individually locked"
@@ -52,7 +48,15 @@
         },
         "coil_abilitysanity":{
             "description": [
-                "Every coil mode's abilities are individually locked (including Phinisher abilities)"
+                "Every coil mode's abilities are individually locked"
+            ],
+            "type": "Toggle",
+            "default": false,
+            "group": "Abilitysanity"
+        },
+        "coil_phinishersanity":{
+            "description": [
+                "Fusion coil abilities are individually locked"
             ],
             "type": "Toggle",
             "default": false,
