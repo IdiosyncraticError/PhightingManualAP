@@ -2,7 +2,7 @@
     "Sword Abilitysanity": {
         "hidden": true,
         "yaml_option": [
-            "sword_abiltysanity"
+            "sword_abilitysanity"
         ]
     },
     "Sword !Abilitysanity": {
@@ -45,6 +45,12 @@
         "hidden": true,
         "yaml_option": [
             "!coil_abilitysanity"
+        ]
+    },
+    "Coil Phinisher Abilitysanity": {
+        "hidden": true,
+        "yaml_option": [
+            "coil_phinishersanity"
         ]
     }
 }
