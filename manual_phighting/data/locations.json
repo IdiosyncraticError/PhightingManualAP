@@ -3501,7 +3501,7 @@
   },
   {
     "name": "Win on Chaos Canyon - Subspace",
-    "region": "Subspacer",
+    "region": "Subspace",
     "category": [
       "Map Wins"
     ]
@@ -4113,6 +4113,820 @@
     "region": "Coil",
     "category": [
       "Map Wins"
+    ]
+  },
+  {
+    "name": "Purchase SCI-FI Sword",
+    "region": "Sword",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Marshmallow Sword",
+    "region": "Sword",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Follower Sword",
+    "region": "Sword",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Sunburst Sword",
+    "region": "Sword",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Harpy Sword",
+    "region": "Sword",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Hoverboard",
+    "region": "Skateboard",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Snowboard",
+    "region": "Skateboard",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Egobworder",
+    "region": "Skateboard",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Surfboard",
+    "region": "Skateboard",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Hellboarder",
+    "region": "Skateboard",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Floatie Biograft",
+    "region": "Biograft",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Biocarved",
+    "region": "Biograft",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Beta Biograft",
+    "region": "Biograft",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Cocoagraft",
+    "region": "Biograft",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Biohazard",
+    "region": "Biograft",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Beetlegraft",
+    "region": "Biograft",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Kramptana",
+    "region": "Katana",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Moaitana",
+    "region": "Katana",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Cybertana",
+    "region": "Katana",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Follower Katana",
+    "region": "Katana",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Katana Neo",
+    "region": "Katana",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Fisherman Katana",
+    "region": "Katana",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Frankenhammer",
+    "region": "Ban Hammer",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Sunken Ban Hammer",
+    "region": "Ban Hammer",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Clownhammer",
+    "region": "Ban Hammer",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase PJ Rocket",
+    "region": "Rocket",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Buster Rocket",
+    "region": "Rocket",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Stargazer Rocket",
+    "region": "Rocket",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Party Rocket",
+    "region": "Rocket",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Catshot",
+    "region": "Slingshot",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Cozyshot",
+    "region": "Slingshot",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Seashot",
+    "region": "Slingshot",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Cursedshot",
+    "region": "Slingshot",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Bugshot",
+    "region": "Slingshot",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Witchlaser",
+    "region": "Hyperlaser",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Seraphlaser",
+    "region": "Hyperlaser",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Yulaser",
+    "region": "Hyperlaser",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Kittylaser",
+    "region": "Hyperlaser",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Shurifin",
+    "region": "Shuriken",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Shuri-long",
+    "region": "Shuriken",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Astroken",
+    "region": "Shuriken",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Dutchman Scythe",
+    "region": "Scythe",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Reaper Scythe",
+    "region": "Scythe",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Medcarrot",
+    "region": "Medkit",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Pirate Medkit",
+    "region": "Medkit",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Sianachkit",
+    "region": "Medkit",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase 7MK0",
+    "region": "Medkit",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Bivekit",
+    "region": "Medkit",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Madkit",
+    "region": "Medkit",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Wranglerkit",
+    "region": "Medkit",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Cooler Boombox",
+    "region": "Boombox",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Eggsquerade Boombox",
+    "region": "Boombox",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Rainbox",
+    "region": "Boombox",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Astrobox",
+    "region": "Boombox",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Boomwave",
+    "region": "Boombox",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Exorspace",
+    "region": "Subspace",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Cutiespace",
+    "region": "Subspace",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Jesterspace",
+    "region": "Subspace",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Grieferspace",
+    "region": "Subspace",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Outerspace",
+    "region": "Subspace",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Valleystaff",
+    "region": "Vine Staff",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Vine Splash",
+    "region": "Vine Staff",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Vineberry",
+    "region": "Vine Staff",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Mothstaff",
+    "region": "Vine Staff",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Coil 2.0",
+    "region": "Coil",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Sharkbite Coil",
+    "region": "Coil",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Punk Coil",
+    "region": "Coil",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase WereCoil",
+    "region": "Coil",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Party Rocket",
+    "region": "Rocket",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Catshot",
+    "region": "Slingshot",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Cozyshot",
+    "region": "Slingshot",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Seashot",
+    "region": "Slingshot",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Cursedshot",
+    "region": "Slingshot",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Bugshot",
+    "region": "Slingshot",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Witchlaser",
+    "region": "Hyperlaser",
+    "category": [
+      "Map Wins"
+    ]
+  },
+  {
+    "name": "Purchase Seraphlaser",
+    "region": "Hyperlaser",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Yulaser",
+    "region": "Hyperlaser",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Kittylaser",
+    "region": "Hyperlaser",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Shurifin",
+    "region": "Shuriken",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Shuri-long",
+    "region": "Shuriken",
+    "category": [
+      "Skins"
+    ]
+      },
+  {
+    "name": "Purchase Boomwave",
+    "region": "Boombox",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Exorspace",
+    "region": "Subspace",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Cutiespace",
+    "region": "Subspace",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Jesterspace",
+    "region": "Subspace",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Grieferspace",
+    "region": "Subspace",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Outerspace",
+    "region": "Subspace",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Valleystaff",
+    "region": "Vine Staff",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Vine Splash",
+    "region": "Vine Staff",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Vineberry",
+    "region": "Vine Staff",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Mothstaff",
+    "region": "Vine Staff",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Coil 2.0",
+    "region": "Coil",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Sharkbite Coil",
+    "region": "Coil",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Punk Coil",
+    "region": "Coil",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase WereCoil",
+    "region": "Coil",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Sword and Sisyphus Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Mighty Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Mwahahaha Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Cool Guy Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Chuckle Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Whoops Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Worm Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Menacing Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Beast Mode Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Cherish Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Hardy Laugh Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Bleeeh Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Ghostwalker Happy Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Redkit Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Deep Thinking Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Content Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Evil and Intimidating Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Stacks Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Disbelief Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Ponder Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Heartwarming Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Bug Eyes Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Peace Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Laser Beam Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Moai Sticker",
+    "category": [
+      "Stickers"
+    ]
+  },
+  {
+    "name": "Purchase Vine Derp Sticker",
+    "category": [
+      "Stickers"
     ]
   }
 ]
