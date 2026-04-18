@@ -22,3 +22,5 @@ make filler item to be encouragement ping
 win condition
 - win [X] maps on [X] phighters
 - NEEDS WIN CONDITION TO GENERATE CORRECTLY (duh)
+
+ADD CATEGORIES FOR MVP BADGES LOL I HATE SCROLLING
