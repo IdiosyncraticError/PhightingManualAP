@@ -79,18 +79,13 @@
             "group": "Example Options"
         },
         "Example_Range":{
-            "type": "Range",
+            "type": "Starting Phighters",
             "description": [
-                "This is a Range",
-                "Allow the player to specify a value between 'start' and 'end'",
-                "if you include a \"values\" you can define the label for certain values",
-                "Currently the only use for Range in Manual outside of hooks is 'filler_trap'"
+                "Number of Phighters that are unlocked at the start"
             ],
-            "range_start": 0,
+            "range_start": 1,
             "default": 1,
-            "range_end": 10,
-            "values": {"example": 2},
-            "group": "Example Options"
+            "range_end": 5
         },
 
         "DLC_enabled":{
