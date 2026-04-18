@@ -1,23 +1,17 @@
 [
   {
-    "name": "Start Act 1",
-    "region": "Act 1",
+    "name": "Sword Win Condition",
+    "region": "Sword",
     "category": [
-      "Act Progression"
-    ]
+      "Win Progression"
+    ],
+    "requires": ""
   },
   {
-    "name": "Beat Act 2",
-    "region": "Act 2",
+    "name": "Skateboard Win Condition",
+    "region": "Skateborad",
     "category": [
-      "Act Progression"
+      "Win Progression"
     ]
   },
-  {
-    "name": "Beat Act 3",
-    "region": "Act 3",
-    "category": [
-      "Act Progression"
-    ]
-  }
 ]
