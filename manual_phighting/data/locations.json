@@ -56,17 +56,913 @@
     ]
   },
   {
-    "name": "Get the guardian badge - Sword",
-    "region": "Sword",
-    "category": [
-      "MVP Badges"
-    ]
-  },
-  {
     "name": "Get the bulwark badge - Sword",
     "region": "Sword",
     "category": [
       "MVP Badges"
     ]
   },
+  {
+    "name": "Be the MVP - Skateboard",
+    "region": "Skateboard",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the SVP - Skateboard",
+    "region": "Skateboard",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the sidekick badge - Skateboard",
+    "region": "Skateboard",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the perfection badge - Skateboard",
+    "region": "Skateboard",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the unstoppable badge - Skateboard",
+    "region": "Skateboard",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the berserker badge - Skateboard",
+    "region": "Skateboard",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bloodbath badge - Skateboard",
+    "region": "Skateboard",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the scourge badge - Skateboard",
+    "region": "Skateboard",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bulwark badge - Skateboard",
+    "region": "Skateboard",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the MVP - Biograft",
+    "region": "Biograft",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the SVP - Biograft",
+    "region": "Biograft",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the sidekick badge - Biograft",
+    "region": "Biograft",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the perfection badge - Biograft",
+    "region": "Biograft",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the unstoppable badge - Biograft",
+    "region": "Biograft",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the berserker badge - Biograft",
+    "region": "Biograft",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bloodbath badge - Biograft",
+    "region": "Biograft",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the scourge badge - Biograft",
+    "region": "Biograft",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bulwark badge - Biograft",
+    "region": "Biograft",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the MVP - Katana",
+    "region": "Katana",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the SVP - Katana",
+    "region": "Katana",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the sidekick badge - Katana",
+    "region": "Katana",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the perfection badge - Katana",
+    "region": "Katana",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the unstoppable badge - Katana",
+    "region": "Katana",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the berserker badge - Katana",
+    "region": "Katana",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bloodbath badge - Katana",
+    "region": "Katana",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the scourge badge - Katana",
+    "region": "Katana",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bulwark badge - Katana",
+    "region": "Katana",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the MVP - Ban Hammer",
+    "region": "Ban Hammer",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the SVP - Ban Hammer",
+    "region": "Ban Hammer",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the sidekick badge - Ban Hammer",
+    "region": "Ban Hammer",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the perfection badge - Ban Hammer",
+    "region": "Ban Hammer",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the unstoppable badge - Ban Hammer",
+    "region": "Ban Hammer",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the berserker badge - Ban Hammer",
+    "region": "Ban Hammer",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bloodbath badge - Ban Hammer",
+    "region": "Ban Hammer",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the scourge badge - Ban Hammer",
+    "region": "Ban Hammer",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bulwark badge - Ban Hammer",
+    "region": "Ban Hammer",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the MVP - Rocket",
+    "region": "Rocket",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the SVP - Rocket",
+    "region": "Rocket",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the sidekick badge - Rocket",
+    "region": "Rocket",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the perfection badge - Rocket",
+    "region": "Rocket",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the unstoppable badge - Rocket",
+    "region": "Rocket",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the berserker badge - Rocket",
+    "region": "Rocket",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bloodbath badge - Rocket",
+    "region": "Rocket",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the scourge badge - Rocket",
+    "region": "Rocket",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bulwark badge - Rocket",
+    "region": "Rocket",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the MVP - Slingshot",
+    "region": "Slingshot",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the SVP - Slingshot",
+    "region": "Slingshot",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the sidekick badge - Slingshot",
+    "region": "Slingshot",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the perfection badge - Slingshot",
+    "region": "Slingshot",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the unstoppable badge - Slingshot",
+    "region": "Slingshot",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the berserker badge - Slingshot",
+    "region": "Slingshot",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bloodbath badge - Slingshot",
+    "region": "Slingshot",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the scourge badge - Slingshot",
+    "region": "Slingshot",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bulwark badge - Slingshot",
+    "region": "Slingshot",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the MVP - Hyperlaser",
+    "region": "Hyperlaser",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the SVP - Hyperlaser",
+    "region": "Hyperlaser",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the sidekick badge - Hyperlaser",
+    "region": "Hyperlaser",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the perfection badge - Hyperlaser",
+    "region": "Hyperlaser",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the unstoppable badge - Hyperlaser",
+    "region": "Hyperlaser",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the berserker badge - Hyperlaser",
+    "region": "Hyperlaser",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bloodbath badge - Hyperlaser",
+    "region": "Hyperlaser",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the scourge badge - Hyperlaser",
+    "region": "Hyperlaser",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bulwark badge - Hyperlaser",
+    "region": "Hyperlaser",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the MVP - Shuriken",
+    "region": "Shuriken",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the SVP - Shuriken",
+    "region": "Shuriken",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the sidekick badge - Shuriken",
+    "region": "Shuriken",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the perfection badge - Shuriken",
+    "region": "Shuriken",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the unstoppable badge - Shuriken",
+    "region": "Shuriken",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the berserker badge - Shuriken",
+    "region": "Shuriken",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bloodbath badge - Shuriken",
+    "region": "Shuriken",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the scourge badge - Shuriken",
+    "region": "Shuriken",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bulwark badge - Shuriken",
+    "region": "Shuriken",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the MVP - Scythe",
+    "region": "Scythe",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the SVP - Scythe",
+    "region": "Scythe",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the sidekick badge - Scythe",
+    "region": "Scythe",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the perfection badge - Scythe",
+    "region": "Scythe",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the unstoppable badge - Scythe",
+    "region": "Scythe",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the berserker badge - Scythe",
+    "region": "Scythe",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bloodbath badge - Scythe",
+    "region": "Scythe",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the scourge badge - Scythe",
+    "region": "Scythe",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bulwark badge - Scythe",
+    "region": "Scythe",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the MVP - Medkit",
+    "region": "Medkit",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the SVP - Medkit",
+    "region": "Medkit",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the sidekick badge - Medkit",
+    "region": "Medkit",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the perfection badge - Medkit",
+    "region": "Medkit",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the unstoppable badge - Medkit",
+    "region": "Medkit",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the berserker badge - Medkit",
+    "region": "Medkit",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bloodbath badge - Medkit",
+    "region": "Medkit",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the scourge badge - Medkit",
+    "region": "Medkit",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the guardian badge - Medkit",
+    "region": "Medkit",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bulwark badge - Medkit",
+    "region": "Medkit",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the MVP - Boombox",
+    "region": "Boombox",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the SVP - Boombox",
+    "region": "Boombox",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the sidekick badge - Boombox",
+    "region": "Boombox",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the perfection badge - Boombox",
+    "region": "Boombox",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the unstoppable badge - Boombox",
+    "region": "Boombox",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the berserker badge - Boombox",
+    "region": "Boombox",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bloodbath badge - Boombox",
+    "region": "Boombox",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the scourge badge - Boombox",
+    "region": "Boombox",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bulwark badge - Boombox",
+    "region": "Boombox",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the MVP - Subspace",
+    "region": "Subspace",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the SVP - Subspace",
+    "region": "Subspace",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the sidekick badge - Subspace",
+    "region": "Subspace",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the perfection badge - Subspace",
+    "region": "Subspace",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the unstoppable badge - Subspace",
+    "region": "Subspace",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the berserker badge - Subspace",
+    "region": "Subspace",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bloodbath badge - Subspace",
+    "region": "Subspace",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the scourge badge - Subspace",
+    "region": "Subspace",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bulwark badge - Subspace",
+    "region": "Subspace",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the MVP - Vine Staff",
+    "region": "Vine Staff",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the SVP - Vine Staff",
+    "region": "Vine Staff",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the sidekick badge - Vine Staff",
+    "region": "Vine Staff",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the perfection badge - Vine Staff",
+    "region": "Vine Staff",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the unstoppable badge - Vine Staff",
+    "region": "Vine Staff",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the berserker badge - Vine Staff",
+    "region": "Vine Staff",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bloodbath badge - Vine Staff",
+    "region": "Vine Staff",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the scourge badge - Vine Staff",
+    "region": "Vine Staff",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the guardian badge - Vine Staff",
+    "region": "Vine Staff",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bulwark badge - Vine Staff",
+    "region": "Vine Staff",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the MVP - Coil",
+    "region": "Coil",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Be the SVP - Coil",
+    "region": "Coil",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the sidekick badge - Coil",
+    "region": "Coil",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the perfection badge - Coil",
+    "region": "Coil",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the unstoppable badge - Coil",
+    "region": "Coil",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the berserker badge - Coil",
+    "region": "Coil",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bloodbath badge - Coil",
+    "region": "Coil",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the scourge badge - Coil",
+    "region": "Coil",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the guardian badge - Coil",
+    "region": "Coil",
+    "category": [
+      "MVP Badges"
+    ]
+  },
+  {
+    "name": "Get the bulwark badge - Coil",
+    "region": "Coil",
+    "category": [
+      "MVP Badges"
+    ]
+  }
 ]
