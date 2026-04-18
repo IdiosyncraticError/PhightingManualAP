@@ -1,4 +1,14 @@
 {
+    "Skins": {
+        "yaml_option": [
+            "skinsanity"
+        ]
+    },
+    "Stickers": {
+        "yaml_option": [
+            "stickersanity"
+        ]
+    },
     "Sword Abilitysanity": {
         "hidden": true,
         "yaml_option": [
