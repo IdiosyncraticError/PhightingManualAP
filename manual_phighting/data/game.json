@@ -1,6 +1,6 @@
 {
   "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
-  "game": "Critical Tower Defense",
+  "game": "Phighting!",
   "creator": "IdiosyncraticError",
   "filler_item_name": "nothing",
   "starting_items": []

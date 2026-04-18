@@ -1,127 +1,14 @@
 [
   {
-    "name": "Beat Tutorial",
+    "name": "Be the MVP",
     "category": [
-      "Areas"
+      "MVP Badges"
     ]
   },
   {
-    "name": "Beat Alley",
-    "region": "Act 1",
+    "name": "Be the SVP",
     "category": [
-      "Areas"
-    ],
-    "requires": "|Alley Unlock|"
+      "MVP Badges"
+    ]
   },
-  {
-    "name": "Beat Sewers",
-    "region": "Act 1",
-    "category": [
-      "Areas"
-    ],
-    "requires": "|Progressive Sewers/Caves Unlock:1|"
-  },
-  {
-    "name": "Beat Caves",
-    "region": "Act 1",
-    "category": [
-      "Areas"
-    ],
-    "requires": "|Progressive Sewers/Caves Unlock:2|"
-  },
-  {
-    "name": "Beat Junkyard",
-    "region": "Act 1",
-    "category": [
-      "Areas"
-    ],
-    "requires": "|Progressive Junkyard/Boneyard Unlock:1|"
-  },
-  {
-    "name": "Beat Boneyard",
-    "region": "Act 1",
-    "category": [
-      "Areas"
-    ],
-    "requires": "|Progressive Junkyard/Boneyard Unlock:2|"
-  },
-  {
-    "name": "Beat Desert",
-    "region": "Act 2",
-    "category": [
-      "Areas"
-    ],
-    "requires": "|Desert Unlock|"
-  },
-  {
-    "name": "Beat Bunker",
-    "region": "Act 2",
-    "category": [
-      "Areas"
-    ],
-    "requires": "|Progressive Bunker/Core Unlock:1|"
-  },
-  {
-    "name": "Beat Core",
-    "region": "Act 2",
-    "category": [
-      "Areas"
-    ],
-    "requires": "|Progressive Bunker/Core Unlock:2|"
-  },
-  {
-    "name": "Beat Crater",
-    "region": "Act 2",
-    "category": [
-      "Areas"
-    ],
-    "requires": "|Progressive Crater/Moon Unlock:1|"
-  },
-  {
-    "name": "Beat Moon",
-    "region": "Act 2",
-    "category": [
-      "Areas"
-    ],
-    "requires": "|Progressive Crater/Moon Unlock:2|"
-  },
-  {
-    "name": "Beat Lab",
-    "region": "Act 3",
-    "category": [
-      "Areas"
-    ],
-    "requires": "|Lab Unlock|"
-  },
-  {
-    "name": "Beat Ice Age",
-    "region": "Act 3",
-    "category": [
-      "Areas"
-    ],    "requires": "|Progressive Ice Age/Jurassic Unlock:1|"
-  },
-  {
-    "name": "Beat Jurassic",
-    "region": "Act 3",
-    "category": [
-      "Areas"
-    ],
-    "requires": "|Progressive Ice Age/Jurassic Unlock:2|"
-  },
-  {
-    "name": "Beat Future",
-    "region": "Act 3",
-    "category": [
-      "Areas"
-    ],
-    "requires": "|Progressive Future/End Unlock:1|"
-  },
-  {
-    "name": "Beat End",
-    "region": "Act 3",
-    "category": [
-      "Areas"
-    ],
-    "requires": "|Progressive Future/End Unlock:2|"
-  }
 ]
