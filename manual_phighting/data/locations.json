@@ -4114,5 +4114,74 @@
     "category": [
       "Map Wins"
     ]
-  }
+  },
+  {
+    "name": "Purchase SCI-FI Sword",
+    "region": "Sword",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Marshmallow Sword",
+    "region": "Sword",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Follower Sword",
+    "region": "Sword",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Sunburst Sword",
+    "region": "Sword",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Harpy Sword",
+    "region": "Sword",
+    "category": [
+      "Map Wins"
+    ]
+  },
+  {
+    "name": "Purchase Hoverboard",
+    "region": "Skateboard",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Snowboard",
+    "region": "Skateboard",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Egobworder",
+    "region": "Skateboard",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Surfboard",
+    "region": "Skateboard",
+    "category": [
+      "Skins"
+    ]
+  },
+  {
+    "name": "Purchase Hellboarder",
+    "region": "Skateboard",
+    "category": [
+      "Map Wins"
+    ]
 ]
