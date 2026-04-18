@@ -1,738 +1,338 @@
 [
   {
     "count": "1",
-    "name": "Grenadier Unlock",
+    "name": "Sword Unlock",
     "category": [
-      "Tower Unlock"
+      "Phighter Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Gunner Unlock",
+    "name": "Skateboard Unlock",
     "category": [
-      "Tower Unlock"
+      "Phighter Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Smuggler Unlock",
+    "name": "Biograft Unlock",
     "category": [
-      "Tower Unlock"
+      "Phighter Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Snowman Unlock",
+    "name": "Katana Unlock",
     "category": [
-      "Tower Unlock"
+      "Phighter Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Warrior Unlock",
+    "name": "Banhammer Unlock",
     "category": [
-      "Tower Unlock"
+      "Phighter Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Infernus Unlock",
+    "name": "Rocket Unlock",
     "category": [
-      "Tower Unlock"
+      "Phighter Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Ninja Unlock",
+    "name": "Slingshot Unlock",
     "category": [
-      "Tower Unlock"
+      "Phighter Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Spearman Unlock",
+    "name": "Hyperlaser Unlock",
     "category": [
-      "Tower Unlock"
+      "Phighter Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Thief Unlock",
+    "name": "Shuriken Unlock",
     "category": [
-      "Tower Unlock"
+      "Phighter Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Mercenary Unlock",
+    "name": "Scythe Unlock",
     "category": [
-      "Tower Unlock"
+      "Phighter Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Miner Unlock",
+    "name": "Medkit Unlock",
     "category": [
-      "Tower Unlock"
+      "Phighter Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Recon Unlock",
+    "name": "Boombox Unlock",
     "category": [
-      "Tower Unlock"
+      "Phighter Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Sniper Unlock",
+    "name": "Subspace Unlock",
     "category": [
-      "Tower Unlock"
+      "Phighter Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Blaster Unlock",
+    "name": "Vine Staff Unlock",
     "category": [
-      "Tower Unlock"
+      "Phighter Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Hot Rash Unlock",
+    "name": "Coil Unlock",
     "category": [
-      "Tower Unlock"
+      "Phighter Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Programmer Unlock",
+    "name": "Sword AB2 Unlock",
     "category": [
-      "Tower Unlock"
+      "Sword Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Bomber Unlock",
+    "name": "Sword E Unlock",
     "category": [
-      "Tower Unlock"
+      "Sword Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Prophet Unlock",
+    "name": "Sword Q Unlock",
     "category": [
-      "Tower Unlock"
+      "Sword Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Priest Unlock",
+    "name": "Sword Phinisher Unlock",
     "category": [
-      "Tower Unlock"
+      "Sword Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Cyborg Unlock",
+    "name": "Skateboard Offboard M2 Unlock",
     "category": [
-      "Tower Unlock"
+      "Skateboard Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Vanguard Unlock",
+    "name": "Skateboard Offboard E Unlock",
     "category": [
-      "Tower Unlock"
+      "Skateboard Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Vindicator Unlock",
+    "name": "Skateboard Offboard Q Unlock",
     "category": [
-      "Tower Unlock"
+      "Skateboard Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Incinerator Unlock",
+    "name": "Skateboard Onboard M2 Unlock",
     "category": [
-      "Tower Unlock"
+      "Skateboard Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "april fools recon Unlock",
+    "name": "Skateboard Onboard E Unlock",
     "category": [
-      "Tower Unlock"
+      "Skateboard Ability Unlock"
     ],
-    "filler": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Cryolator Unlock",
+    "name": "Skateboard Onboard Q Unlock",
     "category": [
-      "Tower Unlock"
+      "Skateboard Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Shocker Unlock",
+    "name": "Skateboard Phinisher Unlock",
     "category": [
-      "Tower Unlock"
+      "Skateboard Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Samurai Unlock",
+    "name": "Biograft M2 Unlock",
     "category": [
-      "Tower Unlock"
+      "Biograft Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Tempest Unlock",
+    "name": "Biograft E Unlock",
     "category": [
-      "Tower Unlock"
+      "Biograft Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Soul Master Unlock",
+    "name": "Biograft Q Unlock",
     "category": [
-      "Tower Unlock"
+      "Biograft Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Toxicator Unlock",
+    "name": "Biograft Phinisher Unlock",
     "category": [
-      "Tower Unlock"
+      "Biograft Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Juggernaut Unlock",
+    "name": "Katana M2 Unlock",
     "category": [
-      "Tower Unlock"
+      "Katana Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Hunter Unlock",
+    "name": "Katana E Unlock",
     "category": [
-      "Tower Unlock"
+      "Katana Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Farmer Unlock",
+    "name": "Katana Q Unlock",
     "category": [
-      "Tower Unlock"
+      "Katana Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Eradicator Unlock",
+    "name": "Katana Phinisher Unlock",
     "category": [
-      "Tower Unlock"
+      "Katana Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Scarecrow Unlock",
+    "name": "Banhammer M2 Unlock",
     "category": [
-      "Tower Unlock"
+      "Banhammer Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Ducky Unlock",
+    "name": "Banhammer E Unlock",
     "category": [
-      "Tower Unlock"
+      "Banhammer Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Technomancer Unlock",
+    "name": "Banhammer Q Unlock",
     "category": [
-      "Tower Unlock"
+      "Banhammer Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Golden Bandit Unlock",
+    "name": "Banhammer Phinisher Unlock",
     "category": [
-      "Tower Unlock"
+      "Banhammer Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Hired Dreadeye Unlock",
+    "name": "Rocket M2 Unlock",
     "category": [
-      "Tower Unlock"
+      "Rocket Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Dumpster Fire (Ripoff) Unlock",
+    "name": "Rocket E Unlock",
     "category": [
-      "Tower Unlock"
+      "Rocket Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Phantom Unlock",
+    "name": "Rocket Q Unlock",
     "category": [
-      "Tower Unlock"
+      "Rocket Ability Unlock"
     ],
-    "useful": true
+    "progression": true
   },
   {
     "count": "1",
-    "name": "Artisan Unlock",
+    "name": "Rocket Phinisher Unlock",
     "category": [
-      "Tower Unlock"
+      "Rocket Ability Unlock"
     ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Frost Reaver Unlock",
-    "category": [
-      "Tower Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Deadeye Bandit Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Unorthodox Divide Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Candy Corn Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Pumpkin Bomb Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "BOOM! WAHAHAHA Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Complicated Sight Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Cyber Augment: Adapt Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Agricultural Investment Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Rigged Gamble Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Accursed Lightning Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Skyfall Sword Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Warlock: Deathwisps Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Quaternary Kandezii Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Catseye Beamstrike Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Dreadeye Beamstrike Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Promotion Explosion Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Ultraburst Gunner Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Alternative Training Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Withering Flames Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Crippling Smash Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Kuroyuki Shuriken Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Semi-Auto Shotgun Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Sniper Ricochet Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Winter Vigor Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Vindictive Souls Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Big Muscles Unlock",
-    "category": [
-      "Basic Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Potential: Bandit Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Frigid Ruin Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Shatter Time Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "EX: Overload Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Soularium Tale Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Ritual of Blood Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Crimson Catseye (Ripoff) Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Towering Forces Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Fervent Beats Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Head Start Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Warlock: Stormcast Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Auxiliary: Nomad Blade Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Auxiliary: Reserve Combat Drone Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Enhance: Explosives Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Role Swap Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Blitzkrieg Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Ritual of Quack Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Potential: Grenadier Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "ALTER: Solemn Lament Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "ALTER: Shi Director Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Blood Money Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "ALTER: Vulcan Unlock",
-    "category": [
-      "Slot Perk Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": "1",
-    "name": "Unlock",
-    "category": [
-      "Cosmetic Unlock"
-    ],
-    "filler": true
+    "progression": true
   },
 ]
