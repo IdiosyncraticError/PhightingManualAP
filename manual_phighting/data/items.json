@@ -1,5 +1,10 @@
 [
   {
+    "count": "15",
+    "name": "Win Progression Flag",
+    "progression": true
+  },
+  {
     "count": "1",
     "name": "Sword Unlock",
     "category": [

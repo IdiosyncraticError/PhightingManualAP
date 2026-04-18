@@ -2,7 +2,7 @@
   {
     "name": "win lol",
     "victory": true,
-    "requires": "|@Win Progression:10|"
+    "requires": "|Win Progression:10|"
   },
   {
     "name": "Sword Map Wins",
@@ -10,6 +10,7 @@
     "category": [
       "Win Progression"
     ],
+    "place_item": "Win Progresion Flag",
     "requires": "|@Sword Map Wins: 5|"
   },
   {
@@ -18,6 +19,7 @@
     "category": [
       "Win Progression"
     ],
+    "place_item": "Win Progresion Flag",
     "requires": "|@Skateboard Map Wins: 5|"
   },
   {
@@ -26,6 +28,7 @@
     "category": [
       "Win Progression"
     ],
+    "place_item": "Win Progresion Flag",
     "requires": "|@Biograft Map Wins: 5|"
   },
   {
@@ -34,6 +37,7 @@
     "category": [
       "Win Progression"
     ],
+    "place_item": "Win Progresion Flag",
     "requires": "|@Katana Map Wins: 5|"
   },
   {
@@ -42,6 +46,7 @@
     "category": [
       "Win Progression"
     ],
+    "place_item": "Win Progresion Flag",
     "requires": "|@Ban Hammer Map Wins: 5|"
   },
   {
@@ -50,6 +55,7 @@
     "category": [
       "Win Progression"
     ],
+    "place_item": "Win Progresion Flag",
     "requires": "|@Rocket Map Wins: 5|"
   },
   {
@@ -58,6 +64,7 @@
     "category": [
       "Win Progression"
     ],
+    "place_item": "Win Progresion Flag",
     "requires": "|@Slingshot Map Wins: 5|"
   },
   {
@@ -66,6 +73,7 @@
     "category": [
       "Win Progression"
     ],
+    "place_item": "Win Progresion Flag",
     "requires": "|@Hyperlaser Map Wins: 5|"
   },
   {
@@ -74,6 +82,7 @@
     "category": [
       "Win Progression"
     ],
+    "place_item": "Win Progresion Flag",
     "requires": "|@Shuriken Map Wins: 5|"
   },
   {
@@ -82,6 +91,7 @@
     "category": [
       "Win Progression"
     ],
+    "place_item": "Win Progresion Flag",
     "requires": "|@Scythe Map Wins: 5|"
   },
   {
@@ -90,6 +100,7 @@
     "category": [
       "Win Progression"
     ],
+    "place_item": "Win Progresion Flag",
     "requires": "|@Medkit Map Wins: 5|"
   },
   {
@@ -98,6 +109,7 @@
     "category": [
       "Win Progression"
     ],
+    "place_item": "Win Progresion Flag",
     "requires": "|@Boombox Map Wins: 5|"
   },
   {
@@ -106,6 +118,7 @@
     "category": [
       "Win Progression"
     ],
+    "place_item": "Win Progresion Flag",
     "requires": "|@Subspace Map Wins: 5|"
   },
   {
@@ -114,6 +127,7 @@
     "category": [
       "Win Progression"
     ],
+    "place_item": "Win Progresion Flag",
     "requires": "|@Vine Staff Map Wins: 5|"
   },
   {
@@ -122,6 +136,7 @@
     "category": [
       "Win Progression"
     ],
+    "place_item": "Win Progresion Flag",
     "requires": "|@Coil Map Wins: 5|"
   },
   {
@@ -5068,181 +5083,6 @@
       "Skins"
     ]
   },
-  {
-    "name": "Purchase Boomwave",
-    "region": "Boombox",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Exorspace",
-    "region": "Subspace",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Cutiespace",
-    "region": "Subspace",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Jesterspace",
-    "region": "Subspace",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Grieferspace",
-    "region": "Subspace",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Outerspace",
-    "region": "Subspace",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Valleystaff",
-    "region": "Vine Staff",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Vine Splash",
-    "region": "Vine Staff",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Vineberry",
-    "region": "Vine Staff",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Mothstaff",
-    "region": "Vine Staff",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Coil 2.0",
-    "region": "Coil",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Sharkbite Coil",
-    "region": "Coil",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Punk Coil",
-    "region": "Coil",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase WereCoil",
-    "region": "Coil",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Catshot",
-    "region": "Slingshot",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Cozyshot",
-    "region": "Slingshot",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Seashot",
-    "region": "Slingshot",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Cursedshot",
-    "region": "Slingshot",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Bugshot",
-    "region": "Slingshot",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Witchlaser",
-    "region": "Hyperlaser",
-    "category": [
-      "Map Wins"
-    ]
-  },
-  {
-    "name": "Purchase Seraphlaser",
-    "region": "Hyperlaser",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Yulaser",
-    "region": "Hyperlaser",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Kittylaser",
-    "region": "Hyperlaser",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Shurifin",
-    "region": "Shuriken",
-    "category": [
-      "Skins"
-    ]
-  },
-  {
-    "name": "Purchase Shuri-long",
-    "region": "Shuriken",
-    "category": [
-      "Skins"
-    ]
-      },
   {
     "name": "Purchase Boomwave",
     "region": "Boombox",
