@@ -21,62 +21,77 @@
   },
 
   "Sword": {
-    "requires": "|Sword Unlock|"
+    "requires": "|Sword Unlock|",
+    "exit_requires": "|@Sword Ability Unlock:2|"
   },
 
   "Skateboard": {
-    "requires": "|Skateboard Unlock|"
+    "requires": "|Skateboard Unlock|",
+    "exit_requires": "|@Skateboard Ability Unlock:2|"
   },
 
   "Biograft": {
-    "requires": "|Biograft Unlock|"
+    "requires": "|Biograft Unlock|",
+    "exit_requires": "|@Biograft Ability Unlock:2|"
   },
 
   "Katana": {
-    "requires": "|Katana Unlock|"
+    "requires": "|Katana Unlock|",
+    "exit_requires": "|@Katana Ability Unlock:2|"
   },
 
   "Ban Hammer": {
-    "requires": "|Ban Hammer Unlock|"
+    "requires": "|Ban Hammer Unlock|",
+    "exit_requires": "|@Ban Hammer Ability Unlock:2|"
   },
 
   "Rocket": {
-    "requires": "|Rocket Unlock|"
+    "requires": "|Rocket Unlock|",
+    "exit_requires": "|@Rocket Ability Unlock:2|"
   },
 
   "Slingshot": {
-    "requires": "|Slingshot Unlock|"
+    "requires": "|Slingshot Unlock|",
+    "exit_requires": "|@Slingshot Ability Unlock:2|"
   },
 
   "Hyperlaser": {
-    "requires": "|Hyperlaser Unlock|"
+    "requires": "|Hyperlaser Unlock|",
+    "exit_requires": "|@Hyperlaser Ability Unlock:2|"
   },
 
   "Shuriken": {
-    "requires": "|Shuriken Unlock|"
+    "requires": "|Shuriken Unlock|",
+    "exit_requires": "|@Shuriken Ability Unlock:2|"
   },
 
   "Scythe": {
-    "requires": "|Scythe Unlock|"
+    "requires": "|Scythe Unlock|",
+    "exit_requires": "|@Scythe Ability Unlock:2|"
   },
 
   "Medkit": {
-    "requires": "|Medkit Unlock|"
+    "requires": "|Medkit Unlock|",
+    "exit_requires": "|@Medkit Ability Unlock:2|"
   },
 
   "Boombox": {
-    "requires": "|Boombox Unlock|"
+    "requires": "|Boombox Unlock|",
+    "exit_requires": "|@Boombox Ability Unlock:2|"
   },
 
   "Subspace": {
-    "requires": "|Subspace Unlock|"
+    "requires": "|Subspace Unlock|",
+    "exit_requires": "|@Subspace Ability Unlock:2|"
   },
 
   "Vine Staff": {
-    "requires": "|Vine Staff Unlock|"
+    "requires": "|Vine Staff Unlock|",
+    "exit_requires": "|@Vine Staff Ability Unlock:2|"
   },
 
   "Coil": {
-    "requires": "|Coil Unlock|"
+    "requires": "|Coil Unlock|",
+    "exit_requires": "|@Coil Ability Unlock:2|"
   }
 }
