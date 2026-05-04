@@ -94,16 +94,6 @@
             "allow_custom_value": false,
             "group": "Example Options"
         },
-        "starting_phighters":{
-            "type": "Range",
-            "description": [
-                "Number of Phighters that are unlocked at the start"
-            ],
-            "range_start": 1,
-            "default": 1,
-            "range_end": 5
-        },
-
         "DLC_enabled":{
             "display_name": "DLC Enabled",
             "description": "Is the Dlc enabled?",
