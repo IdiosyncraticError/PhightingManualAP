@@ -2,13 +2,5 @@
   "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
   "game": "Phighting!",
   "creator": "IdiosyncraticError",
-  "filler_item_name": "Encouragement",
-  "starting_items": [
-    {
-      "item_categories": [
-        "Phighter Unlock"
-      ],
-      "random": 1
-    }
-  ]
+  "filler_item_name": "Encouragement"
 }
