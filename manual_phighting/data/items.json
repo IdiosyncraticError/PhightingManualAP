@@ -121,7 +121,7 @@
   },
   {
     "count": "3",
-    "name": "Sword M3 Unlock",
+    "name": "Sword M2 Unlock",
     "category": [
       "Sword Ability Unlock",
       "Sword !Abilitysanity"
@@ -148,7 +148,7 @@
   },
   {
     "count": "3",
-    "name": "Sword Base M3 Unlock",
+    "name": "Sword Base M2 Unlock",
     "category": [
       "Sword Ability Unlock",
       "Sword Abilitysanity"
@@ -175,7 +175,7 @@
   },
   {
     "count": "3",
-    "name": "Sword Empowered M3 Unlock",
+    "name": "Sword Empowered M2 Unlock",
     "category": [
       "Sword Ability Unlock",
       "Sword Abilitysanity"
@@ -210,7 +210,7 @@
   },
   {
     "count": "3",
-    "name": "Skateboard M3 Unlock",
+    "name": "Skateboard M2 Unlock",
     "category": [
       "Skateboard Ability Unlock",
       "Skateboard !Abilitysanity"
@@ -237,7 +237,7 @@
   },
   {
     "count": "3",
-    "name": "Skateboard Offboard M3 Unlock",
+    "name": "Skateboard Offboard M2 Unlock",
     "category": [
       "Skateboard Ability Unlock",
       "Skateboard Abilitysanity"
@@ -264,7 +264,7 @@
   },
   {
     "count": "3",
-    "name": "Skateboard Onboard M3 Unlock",
+    "name": "Skateboard Onboard M2 Unlock",
     "category": [
       "Skateboard Ability Unlock",
       "Skateboard Abilitysanity"
@@ -299,7 +299,7 @@
   },
   {
     "count": "3",
-    "name": "Biograft M3 Unlock",
+    "name": "Biograft M2 Unlock",
     "category": [
       "Biograft Ability Unlock"
     ],
@@ -331,7 +331,7 @@
   },
   {
     "count": "3",
-    "name": "Katana M3 Unlock",
+    "name": "Katana M2 Unlock",
     "category": [
       "Katana Ability Unlock"
     ],
@@ -363,7 +363,7 @@
   },
   {
     "count": "3",
-    "name": "Ban Hammer M3 Unlock",
+    "name": "Ban Hammer M2 Unlock",
     "category": [
       "Ban Hammer Ability Unlock"
     ],
@@ -395,7 +395,7 @@
   },
   {
     "count": "3",
-    "name": "Rocket M3 Unlock",
+    "name": "Rocket M2 Unlock",
     "category": [
       "Rocket Ability Unlock"
     ],
@@ -427,7 +427,7 @@
   },
   {
     "count": "3",
-    "name": "Slingshot M3 Unlock",
+    "name": "Slingshot M2 Unlock",
     "category": [
       "Slingshot Ability Unlock"
     ],
@@ -459,7 +459,7 @@
   },
   {
     "count": "3",
-    "name": "Hyperlaser M3 Unlock",
+    "name": "Hyperlaser M2 Unlock",
     "category": [
       "Hyperlaser Ability Unlock"
     ],
@@ -491,7 +491,7 @@
   },
   {
     "count": "3",
-    "name": "Shuriken M3 Unlock",
+    "name": "Shuriken M2 Unlock",
     "category": [
       "Shuriken Ability Unlock"
     ],
@@ -523,7 +523,7 @@
   },
   {
     "count": "3",
-    "name": "Scythe M3 Unlock",
+    "name": "Scythe M2 Unlock",
     "category": [
       "Scythe Ability Unlock"
     ],
@@ -612,7 +612,7 @@
   },
   {
     "count": "3",
-    "name": "Medkit M3 Unlock",
+    "name": "Medkit M2 Unlock",
     "category": [
       "Medkit Ability Unlock"
     ],
@@ -644,7 +644,7 @@
   },
   {
     "count": "3",
-    "name": "Boombox M3 Unlock",
+    "name": "Boombox M2 Unlock",
     "category": [
       "Boombox Ability Unlock"
     ],
@@ -676,7 +676,7 @@
   },
   {
     "count": "3",
-    "name": "Subspace M3 Unlock",
+    "name": "Subspace M2 Unlock",
     "category": [
       "Subspace Ability Unlock"
     ],
@@ -708,7 +708,7 @@
   },
   {
     "count": "3",
-    "name": "Vine Staff M3 Unlock",
+    "name": "Vine Staff M2 Unlock",
     "category": [
       "Vine Staff Ability Unlock"
     ],
@@ -740,7 +740,7 @@
   },
   {
     "count": "3",
-    "name": "Coil M3 Unlock",
+    "name": "Coil M2 Unlock",
     "category": [
       "Coil Ability Unlock",
       "Coil !Abilitysanity"
@@ -775,7 +775,7 @@
   },
   {
     "count": "3",
-    "name": "Coil Regen M3 Unlock",
+    "name": "Coil Regen M2 Unlock",
     "category": [
       "Coil Ability Unlock",
       "Coil Abilitysanity"
@@ -802,7 +802,7 @@
   },
   {
     "count": "3",
-    "name": "Coil Bounce M3 Unlock",
+    "name": "Coil Bounce M2 Unlock",
     "category": [
       "Coil Ability Unlock",
       "Coil Abilitysanity"
@@ -829,7 +829,7 @@
   },
   {
     "count": "3",
-    "name": "Coil Haste M3 Unlock",
+    "name": "Coil Haste M2 Unlock",
     "category": [
       "Coil Ability Unlock",
       "Coil Abilitysanity"
@@ -856,7 +856,7 @@
   },
   {
     "count": "3",
-    "name": "Coil Phinisher M3 Unlock",
+    "name": "Coil Phinisher M2 Unlock",
     "category": [
       "Coil Ability Unlock",
       "Coil Phinisher Abilitysanity"

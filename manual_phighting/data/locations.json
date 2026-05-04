@@ -2,7 +2,127 @@
   {
     "name": "win lol",
     "victory": true,
-    "requires": "|@Win Progression:|"
+    "requires": "|Win Progression Flag:10|"
+  },
+  {
+    "name": "Sword Map Wins",
+    "region": "Sword",
+    "category": [
+      "Win Progression"
+    ],
+    "place_item": ["Win Progression Flag"]
+  },
+  {
+    "name": "Skateboard Map Wins",
+    "region": "Skateboard",
+    "category": [
+      "Win Progression"
+    ],
+    "place_item": ["Win Progression Flag"]
+  },
+  {
+    "name": "Biograft Map Wins",
+    "region": "Biograft",
+    "category": [
+      "Win Progression"
+    ],
+    "place_item": ["Win Progression Flag"]
+  },
+  {
+    "name": "Katana Map Wins",
+    "region": "Katana",
+    "category": [
+      "Win Progression"
+    ],
+    "place_item": ["Win Progression Flag"]
+  },
+  {
+    "name": "Ban Hammer Map Wins",
+    "region": "Ban Hammer",
+    "category": [
+      "Win Progression"
+    ],
+    "place_item": ["Win Progression Flag"]
+  },
+  {
+    "name": "Rocket Map Wins",
+    "region": "Rocket",
+    "category": [
+      "Win Progression"
+    ],
+    "place_item": ["Win Progression Flag"]
+  },
+  {
+    "name": "Slingshot Map Wins",
+    "region": "Slingshot",
+    "category": [
+      "Win Progression"
+    ],
+    "place_item": ["Win Progression Flag"]
+  },
+  {
+    "name": "Hyperlaser Map Wins",
+    "region": "Hyperlaser",
+    "category": [
+      "Win Progression"
+    ],
+    "place_item": ["Win Progression Flag"]
+  },
+  {
+    "name": "Shuriken Map Wins",
+    "region": "Shuriken",
+    "category": [
+      "Win Progression"
+    ],
+    "place_item": ["Win Progression Flag"]
+  },
+  {
+    "name": "Scythe Map Wins",
+    "region": "Scythe",
+    "category": [
+      "Win Progression"
+    ],
+    "place_item": ["Win Progression Flag"]
+  },
+  {
+    "name": "Medkit Map Wins",
+    "region": "Medkit",
+    "category": [
+      "Win Progression"
+    ],
+    "place_item": ["Win Progression Flag"]
+  },
+  {
+    "name": "Boombox Map Wins",
+    "region": "Boombox",
+    "category": [
+      "Win Progression"
+    ],
+    "place_item": ["Win Progression Flag"]
+  },
+  {
+    "name": "Subspace Map Wins",
+    "region": "Subspace",
+    "category": [
+      "Win Progression"
+    ],
+    "place_item": ["Win Progression Flag"]
+  },
+  {
+    "name": "Vine Staff Map Wins",
+    "region": "Vine Staff",
+    "category": [
+      "Win Progression"
+    ],
+    "place_item": ["Win Progression Flag"]
+  },
+  {
+    "name": "Coil Map Wins",
+    "region": "Coil",
+    "category": [
+      "Win Progression"
+    ],
+    "place_item": ["Win Progression Flag"]
   },
   {
     "name": "Be the MVP - Sword",
