@@ -26,20 +26,28 @@ from typing import Type, Any
 #   options["total_characters_to_win_with"] = TotalCharactersToWinWith
 #
 class TotalPhighterWinCount(Range):
-    """Instead of having to beat the game with all characters, you can limit locations to a subset of character victory locations."""
+    """
+    Number of phighters you must complete maps on to progress the win condition
+    """
     display_name = "Number of characters the map requirement must be completed on to goal"
     range_start = 1
     range_end = 15
     default = 10
 
 class TotalMapWinCount(Range):
+    """
+    Number of maps each phighter must win to progress the win condition
+    """
     display_name = "Number of maps that must be beaten on each Phighter to win"
     range_start = 1
     range_end = 30
     default = 5
 
 class StartingPhighterCount(Range):
-    display_name = "How many phighter unlocks you start with"
+    """
+    Number of phighter unlocks given at the beginning
+    """
+    display_name = "Starting Phighter Count"
     range_start = 1
     range_end = 15
     default = 1
