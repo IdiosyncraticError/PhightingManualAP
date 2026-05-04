@@ -27,3 +27,7 @@ def anyClassLevel(state: CollectionState, player: int, level: str):
 def requiresMelee():
     """Returns a requires string that checks if the player has unlocked the tank."""
     return "|Figher Level:15| or |Black Belt Level:15| or |Thief Level:15|"
+
+def maps_beaten(phighter: str):
+    """checks if specified phighter has completed required amount of maps"""
+    return "|@" + phighter + " Map Wins:" + str(world.options.total_map_win_count.value) + "|"
