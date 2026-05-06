@@ -6,14 +6,10 @@ current todo
 
 PHIGHTING
 
-locations
-- doomsekkar (option)
+- doomsekkar location (option)
 - make mapsanity to be random maps on each phighter instead of all maps on each phighter, with player able to set limits
 - add a setting to remove abilitysanity altogether, and is just phighter unlocks period
-
-items
-- CHANGE ABILITIES TO BE USEFUL (phinishers and important abilities e.g. offboard E or vine m2 stay as progression)
-- add an option to start with a random ability on the phighter ur using maybe ??
+- option for random number of abilities unlocked (1 per phighter and 1 per region requirement default)
 
 win condition
 - win [X] maps on [X] phighters
