@@ -1,1 +1,122 @@
-[]
+[
+  {
+    "name": "Sword Win Condition",
+    "region": "Sword",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "{maps_beaten(Sword)}"
+  },
+  {
+    "name": "Skateboard Win Condition",
+    "region": "Skateboard",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "{maps_beaten(Skateboard)}"
+  },
+  {
+    "name": "Biograft Win Condition",
+    "region": "Biograft",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "{maps_beaten(Biograft)}"
+  },
+  {
+    "name": "Katana Win Condition",
+    "region": "Katana",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "{maps_beaten(Katana)}"
+  },
+  {
+    "name": "Ban Hammer Win Condition",
+    "region": "Ban Hammer",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "{maps_beaten(Ban Hammer)}"
+  },
+  {
+    "name": "Rocket Win Condition",
+    "region": "Rocket",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "{maps_beaten(Rocket)}"
+  },
+  {
+    "name": "Slingshot Win Condition",
+    "region": "Slingshot",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "{maps_beaten(Slingshot)}"
+  },
+  {
+    "name": "Hyperlaser Win Condition",
+    "region": "Hyperlaser",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "{maps_beaten(Hyperlaser)}"
+  },
+  {
+    "name": "Shuriken Win Condition",
+    "region": "Shuriken",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "{maps_beaten(Shuriken)}"
+  },
+  {
+    "name": "Scythe Win Condition",
+    "region": "Scythe",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "{maps_beaten(Scythe)}"
+  },
+  {
+    "name": "Medkit Win Condition",
+    "region": "Medkit",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "{maps_beaten(Medkit)}"
+  },
+  {
+    "name": "Boombox Win Condition",
+    "region": "Boombox",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "{maps_beaten(Boombox)}"
+  },
+  {
+    "name": "Subspace Win Condition",
+    "region": "Subspace",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "{maps_beaten(Subspace)}"
+  },
+  {
+    "name": "Vine Staff Win Condition",
+    "region": "Vine Staff",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "{maps_beaten(Vine Staff)}"
+  },
+  {
+    "name": "Coil Win Condition",
+    "region": "Coil",
+    "category": [
+      "Win Progression"
+    ],
+    "requires": "{maps_beaten(Coil)}"
+  }
+]
