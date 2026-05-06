@@ -4,76 +4,91 @@
 
   "Sword": {
     "requires": "|Sword Unlock|",
+    "connects_to": ["Base"],
     "exit_requires": "|@Sword Ability Unlock:2|"
   },
 
   "Skateboard": {
     "requires": "|Skateboard Unlock|",
+    "connects_to": ["Base"],
     "exit_requires": "|@Skateboard Ability Unlock:2|"
   },
 
   "Biograft": {
     "requires": "|Biograft Unlock|",
+    "connects_to": ["Base"],
     "exit_requires": "|@Biograft Ability Unlock:2|"
   },
 
   "Katana": {
     "requires": "|Katana Unlock|",
+    "connects_to": ["Base"],
     "exit_requires": "|@Katana Ability Unlock:2|"
   },
 
   "Ban Hammer": {
     "requires": "|Ban Hammer Unlock|",
+    "connects_to": ["Base"],
     "exit_requires": "|@Ban Hammer Ability Unlock:2|"
   },
 
   "Rocket": {
     "requires": "|Rocket Unlock|",
+    "connects_to": ["Base"],
     "exit_requires": "|@Rocket Ability Unlock:2|"
   },
 
   "Slingshot": {
     "requires": "|Slingshot Unlock|",
+    "connects_to": ["Base"],
     "exit_requires": "|@Slingshot Ability Unlock:2|"
   },
 
   "Hyperlaser": {
     "requires": "|Hyperlaser Unlock|",
+    "connects_to": ["Base"],
     "exit_requires": "|@Hyperlaser Ability Unlock:2|"
   },
 
   "Shuriken": {
     "requires": "|Shuriken Unlock|",
+    "connects_to": ["Base"],
     "exit_requires": "|@Shuriken Ability Unlock:2|"
   },
 
   "Scythe": {
     "requires": "|Scythe Unlock|",
+    "connects_to": ["Base"],
     "exit_requires": "|@Scythe Ability Unlock:2|"
   },
 
   "Medkit": {
     "requires": "|Medkit Unlock|",
+    "connects_to": ["Base"],
     "exit_requires": "|@Medkit Ability Unlock:2|"
   },
 
   "Boombox": {
     "requires": "|Boombox Unlock|",
+    "connects_to": ["Base"],
     "exit_requires": "|@Boombox Ability Unlock:2|"
   },
 
   "Subspace": {
     "requires": "|Subspace Unlock|",
+    "connects_to": ["Base"],
     "exit_requires": "|@Subspace Ability Unlock:2|"
   },
 
   "Vine Staff": {
     "requires": "|Vine Staff Unlock|",
+    "connects_to": ["Base"],
     "exit_requires": "|@Vine Staff Ability Unlock:2|"
   },
 
   "Coil": {
     "requires": "|Coil Unlock|",
+    "connects_to": ["Base"],
     "exit_requires": "|@Coil Ability Unlock:2|"
   }
 }
