@@ -25,15 +25,38 @@ from typing import Type, Any
 # To add an option, use the before_options_defined hook below and something like this:
 #   options["total_characters_to_win_with"] = TotalCharactersToWinWith
 #
-class TotalCharactersToWinWith(Range):
-    """Instead of having to beat the game with all characters, you can limit locations to a subset of character victory locations."""
-    display_name = "Number of characters to beat the game with before victory"
-    range_start = 10
-    range_end = 50
-    default = 50
+class TotalPhighterWinCount(Range):
+    """
+    Number of phighters you must complete maps on to progress the win condition
+    """
+    display_name = "Number of characters the map requirement must be completed on to goal"
+    range_start = 1
+    range_end = 15
+    default = 10
+
+class TotalMapWinCount(Range):
+    """
+    Number of maps each phighter must win to progress the win condition
+    """
+    display_name = "Number of maps that must be beaten on each Phighter to win"
+    range_start = 1
+    range_end = 30
+    default = 5
+
+class StartingPhighterCount(Range):
+    """
+    Number of phighter unlocks given at the beginning
+    """
+    display_name = "Starting Phighter Count"
+    range_start = 1
+    range_end = 15
+    default = 1
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
+    options["total_phighter_win_count"] = TotalPhighterWinCount
+    options["total_map_win_count"] = TotalMapWinCount
+    options["starting_phighter_count"] = StartingPhighterCount
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
