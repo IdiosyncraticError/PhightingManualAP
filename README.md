@@ -20,6 +20,7 @@ win condition
   - an event that triggers based on how many map wins you have per phighter
   - event may need to be made with hook due to custom requirements
 - hook to choose how many maps per phighter will be locations
+  - may require importing another class from baseclasses
 - NEEDS WIN CONDITION TO GENERATE CORRECTLY (duh)
 
 ADD CATEGORIES FOR MVP BADGES LOL I HATE SCROLLING (if possible to make a sub-header)
