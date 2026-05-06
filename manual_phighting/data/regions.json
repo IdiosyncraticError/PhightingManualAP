@@ -1,22 +1,5 @@
 {
   "Base": {
-    "connects_to": [
-      "Sword",
-      "Skateboard",
-      "Biograft",
-      "Katana",
-      "Ban Hammer",
-      "Rocket",
-      "Slingshot",
-      "Hyperlaser",
-      "Shuriken",
-      "Scythe",
-      "Medkit",
-      "Boombox",
-      "Subspace",
-      "Vine Staff",
-      "Coil"
-    ],
     "starting": true
   },
 
