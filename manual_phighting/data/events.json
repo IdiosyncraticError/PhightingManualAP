@@ -5,7 +5,7 @@
     "category": [
       "Win Progression"
     ],
-    "requires": "|@Sword Map Wins:|"
+    "requires": "{maps_beaten(Sword)}"
   },
   {
     "name": "Skateboard Win Condition",
@@ -13,7 +13,7 @@
     "category": [
       "Win Progression"
     ],
-    "requires": "|@Skateboard Map Wins:|"
+    "requires": "{maps_beaten(Skateboard)}"
   },
   {
     "name": "Biograft Win Condition",
@@ -21,7 +21,7 @@
     "category": [
       "Win Progression"
     ],
-    "requires": "|@Biograft Map Wins:|"
+    "requires": "{maps_beaten(Biograft)}"
   },
   {
     "name": "Katana Win Condition",
@@ -29,7 +29,7 @@
     "category": [
       "Win Progression"
     ],
-    "requires": "|@Katana Map Wins:|"
+    "requires": "{maps_beaten(Katana)}"
   },
   {
     "name": "Ban Hammer Win Condition",
@@ -37,7 +37,7 @@
     "category": [
       "Win Progression"
     ],
-    "requires": "|@Ban Hammer Map Wins:|"
+    "requires": "{maps_beaten(Ban Hammer)}"
   },
   {
     "name": "Rocket Win Condition",
@@ -45,7 +45,7 @@
     "category": [
       "Win Progression"
     ],
-    "requires": "|@Rocket Map Wins:|"
+    "requires": "{maps_beaten(Rocket)}"
   },
   {
     "name": "Slingshot Win Condition",
@@ -53,7 +53,7 @@
     "category": [
       "Win Progression"
     ],
-    "requires": "|@Slingshot Map Wins:|"
+    "requires": "{maps_beaten(Slingshot)}"
   },
   {
     "name": "Hyperlaser Win Condition",
@@ -61,7 +61,7 @@
     "category": [
       "Win Progression"
     ],
-    "requires": "|@Hyperlaser Map Wins:|"
+    "requires": "{maps_beaten(Hyperlaser)}"
   },
   {
     "name": "Shuriken Win Condition",
@@ -69,7 +69,7 @@
     "category": [
       "Win Progression"
     ],
-    "requires": "|@Shuriken Map Wins:|"
+    "requires": "{maps_beaten(Shuriken)}"
   },
   {
     "name": "Scythe Win Condition",
@@ -77,7 +77,7 @@
     "category": [
       "Win Progression"
     ],
-    "requires": "|@Scythe Map Wins:|"
+    "requires": "{maps_beaten(Scythe)}"
   },
   {
     "name": "Medkit Win Condition",
@@ -85,7 +85,7 @@
     "category": [
       "Win Progression"
     ],
-    "requires": "|@Medkit Map Wins:|"
+    "requires": "{maps_beaten(Medkit)}"
   },
   {
     "name": "Boombox Win Condition",
@@ -93,7 +93,7 @@
     "category": [
       "Win Progression"
     ],
-    "requires": "|@Boombox Map Wins:|"
+    "requires": "{maps_beaten(Boombox)}"
   },
   {
     "name": "Subspace Win Condition",
@@ -101,7 +101,7 @@
     "category": [
       "Win Progression"
     ],
-    "requires": "|@Subspace Map Wins:|"
+    "requires": "{maps_beaten(Subspace)}"
   },
   {
     "name": "Vine Staff Win Condition",
@@ -109,7 +109,7 @@
     "category": [
       "Win Progression"
     ],
-    "requires": "|@Vine Staff Map Wins:|"
+    "requires": "{maps_beaten(Vine Staff)}"
   },
   {
     "name": "Coil Win Condition",
@@ -117,6 +117,6 @@
     "category": [
       "Win Progression"
     ],
-    "requires": "|@Coil Map Wins:|"
+    "requires": "{maps_beaten(Coil)}"
   }
 ]
