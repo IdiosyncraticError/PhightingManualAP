@@ -33,6 +33,6 @@ def maps_beaten(phighter: str, world: World):
     return "|@" + phighter + " Map Wins:" + str(world.options.total_map_win_count.value) + "|"
 #return state.count(phighter + " Map Wins", player) >= world.options.total_map_win_count.value
 
-#def victory_check(world: World):
-#    """do u need me to describe this"""
-#    return "|@Win Progression:" + str(world.options.total_phighter_win_count.value) + "|"
+def victory_check(world: World):
+    """do u need me to describe this"""
+    return "|@Win Progression:" + str(world.options.total_phighter_win_count.value) + "|"
