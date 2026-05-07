@@ -66,31 +66,31 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    random_unlocks = world.options.starting_phighter_count.value
+#    random_unlocks = world.options.starting_phighter_count.value
 
-    possible_item_names = []
+#    possible_item_names = []
         
-    possible_item_names.extend(
+#    possible_item_names.extend(
         # spacing out the list comprehension here maybe makes it easier to follow
-        [
-            name for name, i in world.item_name_to_item.items()
-                if "Phighter Unlock" in i.get("category", []) # .get() accounts for the key not existing and provides a default if it doesn't
-        ]
-    )
+#        [
+#            name for name, i in world.item_name_to_item.items()
+#                if "Phighter Unlock" in i.get("category", []) # .get() accounts for the key not existing and provides a default if it doesn't
+#        ]
+#    )
     
     # remove any duplicate names from the list of possible items
-    possible_item_names = set(possible_item_names)
+#    possible_item_names = set(possible_item_names)
 
-    possible_items = [
-            i for i in item_pool 
-                if i.name in possible_item_names
-        ]
+#    possible_items = [
+#            i for i in item_pool 
+#                if i.name in possible_item_names
+#        ]
     
-    for _ in range(random_unlocks):
-            random_starting_item = world.random.choice(possible_items)
-            multiworld.push_precollected(random_starting_item)
-            possible_items.remove(random_starting_item) # don't allow choosing the exact same item again
-            item_pool.remove(random_starting_item) # remove it from the pool since we're starting with it
+#    for _ in range(random_unlocks):
+#            random_starting_item = world.random.choice(possible_items)
+#            multiworld.push_precollected(random_starting_item)
+#            possible_items.remove(random_starting_item) # don't allow choosing the exact same item again
+#            item_pool.remove(random_starting_item) # remove it from the pool since we're starting with it
 
     return item_pool
 

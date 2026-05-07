@@ -1,8 +1,7 @@
 [
   {
     "name": "win lol",
-    "victory": true,
-    "requires": "{victory_check()}"
+    "victory": true
   },
   {
     "name": "Sword Map Wins",
