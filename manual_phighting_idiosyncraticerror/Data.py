@@ -7,9 +7,9 @@ from .Helpers import load_data_file as helpers_load_data_file
 from .hooks.Data import \
     after_load_game_file, \
     after_load_item_file, after_load_location_file, \
-    after_load_event_file, \
     after_load_region_file, after_load_category_file, \
     after_load_option_file, after_load_meta_file
+#    after_load_event_file, \
 
 # blatantly copied from the minecraft ap world because why not
 def load_data_file(*args) -> dict:
