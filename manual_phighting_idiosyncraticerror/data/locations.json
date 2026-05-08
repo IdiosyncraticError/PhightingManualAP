@@ -2,7 +2,7 @@
   {
     "name": "win lol",
     "victory": true,
-    "requires": "{victory_check()}"
+    "requires": "{OptionCount(@Win Progression, total_phighter_win_count)}"
   },
   {
     "name": "Be the MVP - Sword",
