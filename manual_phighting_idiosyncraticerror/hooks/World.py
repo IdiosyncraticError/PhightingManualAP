@@ -116,6 +116,22 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         item = next(i for i in item_pool if i.name == itemName)
         item_pool.remove(item)
 
+    map_number = world.options.map_count.value
+    phighters = []
+    for region in multiworld.regions:
+        if region.player == player:
+            if region.name != "Base":
+                phighters.append(region)
+
+    while map_number*15 < len(item_pool):
+        map_number += 1
+
+    for region in multiworld.regions:
+        if region.player == player:
+            if region.name != "Base":
+                while len(list(region.locations)) > map_number:
+                    region.locations.remove(world.random.choice(list(region.locations)))
+
     return item_pool
 
     # Some other useful hook options:
