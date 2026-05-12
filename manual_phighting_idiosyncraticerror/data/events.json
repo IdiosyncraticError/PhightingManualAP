@@ -1,122 +1,3707 @@
 [
-  {
-    "name": "Sword Win Condition",
-    "region": "Sword",
-    "category": [
-      "Win Progression"
-    ],
-    "requires": "{OptionCount(@Sword Map Wins, total_map_win_count)}"
-  },
-  {
-    "name": "Skateboard Win Condition",
-    "region": "Skateboard",
-    "category": [
-      "Win Progression"
-    ],
-    "requires": "{OptionCount(@Skateboard Map Wins, total_map_win_count)}"
-  },
-  {
-    "name": "Biograft Win Condition",
-    "region": "Biograft",
-    "category": [
-      "Win Progression"
-    ],
-    "requires": "{OptionCount(@Biograft Map Wins, total_map_win_count)}"
-  },
-  {
-    "name": "Katana Win Condition",
-    "region": "Katana",
-    "category": [
-      "Win Progression"
-    ],
-    "requires": "{OptionCount(@Katana Map Wins, total_map_win_count)}"
-  },
-  {
-    "name": "Ban Hammer Win Condition",
-    "region": "Ban Hammer",
-    "category": [
-      "Win Progression"
-    ],
-    "requires": "{OptionCount(@Ban Hammer Map Wins, total_map_win_count)}"
-  },
-  {
-    "name": "Rocket Win Condition",
-    "region": "Rocket",
-    "category": [
-      "Win Progression"
-    ],
-    "requires": "{OptionCount(@Rocket Map Wins, total_map_win_count)}"
-  },
-  {
-    "name": "Slingshot Win Condition",
-    "region": "Slingshot",
-    "category": [
-      "Win Progression"
-    ],
-    "requires": "{OptionCount(@Slingshot Map Wins, total_map_win_count)}"
-  },
-  {
-    "name": "Hyperlaser Win Condition",
-    "region": "Hyperlaser",
-    "category": [
-      "Win Progression"
-    ],
-    "requires": "{OptionCount(@Hyperlaser Map Wins, total_map_win_count)}"
-  },
-  {
-    "name": "Shuriken Win Condition",
-    "region": "Shuriken",
-    "category": [
-      "Win Progression"
-    ],
-    "requires": "{OptionCount(@Shuriken Map Wins, total_map_win_count)}"
-  },
-  {
-    "name": "Scythe Win Condition",
-    "region": "Scythe",
-    "category": [
-      "Win Progression"
-    ],
-    "requires": "{OptionCount(@Scythe Map Wins, total_map_win_count)}"
-  },
-  {
-    "name": "Medkit Win Condition",
-    "region": "Medkit",
-    "category": [
-      "Win Progression"
-    ],
-    "requires": "{OptionCount(@Medkit Map Wins, total_map_win_count)}"
-  },
-  {
-    "name": "Boombox Win Condition",
-    "region": "Boombox",
-    "category": [
-      "Win Progression"
-    ],
-    "requires": "{OptionCount(@Boombox Map Wins, total_map_win_count)}"
-  },
-  {
-    "name": "Subspace Win Condition",
-    "region": "Subspace",
-    "category": [
-      "Win Progression"
-    ],
-    "requires": "{OptionCount(@Subspace Map Wins, total_map_win_count)}"
-  },
-  {
-    "name": "Vine Staff Win Condition",
-    "region": "Vine Staff",
-    "category": [
-      "Win Progression"
-    ],
-    "requires": "{OptionCount(@Vine Staff Map Wins, total_map_win_count)}"
-  },
-  {
-    "name": "Coil Win Condition",
-    "region": "Coil",
-    "category": [
-      "Win Progression"
-    ],
-    "requires": "{OptionCount(@Coil Map Wins, total_map_win_count)}"
-  }
+    {
+        "name": "Sword Win Condition",
+        "category": [
+            "Win Progression"
+        ],
+        "requires": "{OptionCount(@Sword Tracker, total_map_win_count)}"
+    },
+    {
+        "name": "Skateboard Win Condition",
+        "category": [
+            "Win Progression"
+        ],
+        "requires": "{OptionCount(@Skateboard Tracker, total_map_win_count)}"
+    },
+    {
+        "name": "Biograft Win Condition",
+        "category": [
+            "Win Progression"
+        ],
+        "requires": "{OptionCount(@Biograft Tracker, total_map_win_count)}"
+    },
+    {
+        "name": "Katana Win Condition",
+        "category": [
+            "Win Progression"
+        ],
+        "requires": "{OptionCount(@Katana Tracker, total_map_win_count)}"
+    },
+    {
+        "name": "Ban Hammer Win Condition",
+        "category": [
+            "Win Progression"
+        ],
+        "requires": "{OptionCount(@Ban Hammer Tracker, total_map_win_count)}"
+    },
+    {
+        "name": "Rocket Win Condition",
+        "category": [
+            "Win Progression"
+        ],
+        "requires": "{OptionCount(@Rocket Tracker, total_map_win_count)}"
+    },
+    {
+        "name": "Slingshot Win Condition",
+        "category": [
+            "Win Progression"
+        ],
+        "requires": "{OptionCount(@Slingshot Tracker, total_map_win_count)}"
+    },
+    {
+        "name": "Hyperlaser Win Condition",
+        "category": [
+            "Win Progression"
+        ],
+        "requires": "{OptionCount(@Hyperlaser Tracker, total_map_win_count)}"
+    },
+    {
+        "name": "Shuriken Win Condition",
+        "category": [
+            "Win Progression"
+        ],
+        "requires": "{OptionCount(@Shuriken Tracker, total_map_win_count)}"
+    },
+    {
+        "name": "Scythe Win Condition",
+        "category": [
+            "Win Progression"
+        ],
+        "requires": "{OptionCount(@Scythe Tracker, total_map_win_count)}"
+    },
+    {
+        "name": "Medkit Win Condition",
+        "category": [
+            "Win Progression"
+        ],
+        "requires": "{OptionCount(@Medkit Tracker, total_map_win_count)}"
+    },
+    {
+        "name": "Boombox Win Condition",
+        "category": [
+            "Win Progression"
+        ],
+        "requires": "{OptionCount(@Boombox Tracker, total_map_win_count)}"
+    },
+    {
+        "name": "Subspace Win Condition",
+        "category": [
+            "Win Progression"
+        ],
+        "requires": "{OptionCount(@Subspace Tracker, total_map_win_count)}"
+    },
+    {
+        "name": "Vine Staff Win Condition",
+        "category": [
+            "Win Progression"
+        ],
+        "requires": "{OptionCount(@Vine Staff Tracker, total_map_win_count)}"
+    },
+    {
+        "name": "Coil Win Condition",
+        "category": [
+            "Win Progression"
+        ],
+        "requires": "{OptionCount(@Coil Tracker, total_map_win_count)}"
+    },
+    {
+        "name": "Sword Banland Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on Banland - Sword"
+    },
+    {
+        "name": "Skateboard Banland Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on Banland - Skateboard"
+    },
+    {
+        "name": "Biograft Banland Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on Banland - Biograft"
+    },
+    {
+        "name": "Katana Banland Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on Banland - Katana"
+    },
+    {
+        "name": "Ban Hammer Banland Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on Banland - Ban Hammer"
+    },
+    {
+        "name": "Rocket Banland Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on Banland - Rocket"
+    },
+    {
+        "name": "Slingshot Banland Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on Banland - Slingshot"
+    },
+    {
+        "name": "Hyperlaser Banland Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on Banland - Hyperlaser"
+    },
+    {
+        "name": "Shuriken Banland Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on Banland - Shuriken"
+    },
+    {
+        "name": "Scythe Banland Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on Banland - Scythe"
+    },
+    {
+        "name": "Medkit Banland Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on Banland - Medkit"
+    },
+    {
+        "name": "Boombox Banland Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on Banland - Boombox"
+    },
+    {
+        "name": "Subspace Banland Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on Banland - Subspace"
+    },
+    {
+        "name": "Vine Staff Banland Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on Banland - Vine Staff"
+    },
+    {
+        "name": "Coil Banland Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on Banland - Coil"
+    },
+    {
+        "name": "Sword BOGIO Skatepark Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on BOGIO Skatepark - Sword"
+    },
+    {
+        "name": "Skateboard BOGIO Skatepark Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on BOGIO Skatepark - Skateboard"
+    },
+    {
+        "name": "Biograft BOGIO Skatepark Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on BOGIO Skatepark - Biograft"
+    },
+    {
+        "name": "Katana BOGIO Skatepark Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on BOGIO Skatepark - Katana"
+    },
+    {
+        "name": "Ban Hammer BOGIO Skatepark Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on BOGIO Skatepark - Ban Hammer"
+    },
+    {
+        "name": "Rocket BOGIO Skatepark Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on BOGIO Skatepark - Rocket"
+    },
+    {
+        "name": "Slingshot BOGIO Skatepark Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on BOGIO Skatepark - Slingshot"
+    },
+    {
+        "name": "Hyperlaser BOGIO Skatepark Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on BOGIO Skatepark - Hyperlaser"
+    },
+    {
+        "name": "Shuriken BOGIO Skatepark Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on BOGIO Skatepark - Shuriken"
+    },
+    {
+        "name": "Scythe BOGIO Skatepark Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on BOGIO Skatepark - Scythe"
+    },
+    {
+        "name": "Medkit BOGIO Skatepark Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on BOGIO Skatepark - Medkit"
+    },
+    {
+        "name": "Boombox BOGIO Skatepark Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on BOGIO Skatepark - Boombox"
+    },
+    {
+        "name": "Subspace BOGIO Skatepark Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on BOGIO Skatepark - Subspace"
+    },
+    {
+        "name": "Vine Staff BOGIO Skatepark Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on BOGIO Skatepark - Vine Staff"
+    },
+    {
+        "name": "Coil BOGIO Skatepark Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on BOGIO Skatepark - Coil"
+    },
+    {
+        "name": "Sword Chaos Canyon Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on Chaos Canyon - Sword"
+    },
+    {
+        "name": "Skateboard Chaos Canyon Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on Chaos Canyon - Skateboard"
+    },
+    {
+        "name": "Biograft Chaos Canyon Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on Chaos Canyon - Biograft"
+    },
+    {
+        "name": "Katana Chaos Canyon Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on Chaos Canyon - Katana"
+    },
+    {
+        "name": "Ban Hammer Chaos Canyon Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on Chaos Canyon - Ban Hammer"
+    },
+    {
+        "name": "Rocket Chaos Canyon Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on Chaos Canyon - Rocket"
+    },
+    {
+        "name": "Slingshot Chaos Canyon Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on Chaos Canyon - Slingshot"
+    },
+    {
+        "name": "Hyperlaser Chaos Canyon Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on Chaos Canyon - Hyperlaser"
+    },
+    {
+        "name": "Shuriken Chaos Canyon Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on Chaos Canyon - Shuriken"
+    },
+    {
+        "name": "Scythe Chaos Canyon Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on Chaos Canyon - Scythe"
+    },
+    {
+        "name": "Medkit Chaos Canyon Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on Chaos Canyon - Medkit"
+    },
+    {
+        "name": "Boombox Chaos Canyon Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on Chaos Canyon - Boombox"
+    },
+    {
+        "name": "Subspace Chaos Canyon Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on Chaos Canyon - Subspace"
+    },
+    {
+        "name": "Vine Staff Chaos Canyon Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on Chaos Canyon - Vine Staff"
+    },
+    {
+        "name": "Coil Chaos Canyon Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on Chaos Canyon - Coil"
+    },
+    {
+        "name": "Sword Craterdust Capital Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on Craterdust Capital - Sword"
+    },
+    {
+        "name": "Skateboard Craterdust Capital Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on Craterdust Capital - Skateboard"
+    },
+    {
+        "name": "Biograft Craterdust Capital Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on Craterdust Capital - Biograft"
+    },
+    {
+        "name": "Katana Craterdust Capital Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on Craterdust Capital - Katana"
+    },
+    {
+        "name": "Ban Hammer Craterdust Capital Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on Craterdust Capital - Ban Hammer"
+    },
+    {
+        "name": "Rocket Craterdust Capital Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on Craterdust Capital - Rocket"
+    },
+    {
+        "name": "Slingshot Craterdust Capital Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on Craterdust Capital - Slingshot"
+    },
+    {
+        "name": "Hyperlaser Craterdust Capital Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on Craterdust Capital - Hyperlaser"
+    },
+    {
+        "name": "Shuriken Craterdust Capital Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on Craterdust Capital - Shuriken"
+    },
+    {
+        "name": "Scythe Craterdust Capital Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on Craterdust Capital - Scythe"
+    },
+    {
+        "name": "Medkit Craterdust Capital Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on Craterdust Capital - Medkit"
+    },
+    {
+        "name": "Boombox Craterdust Capital Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on Craterdust Capital - Boombox"
+    },
+    {
+        "name": "Subspace Craterdust Capital Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on Craterdust Capital - Subspace"
+    },
+    {
+        "name": "Vine Staff Craterdust Capital Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on Craterdust Capital - Vine Staff"
+    },
+    {
+        "name": "Coil Craterdust Capital Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on Craterdust Capital - Coil"
+    },
+    {
+        "name": "Sword Darkage Cliffs Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on Darkage Cliffs - Sword"
+    },
+    {
+        "name": "Skateboard Darkage Cliffs Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on Darkage Cliffs - Skateboard"
+    },
+    {
+        "name": "Biograft Darkage Cliffs Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on Darkage Cliffs - Biograft"
+    },
+    {
+        "name": "Katana Darkage Cliffs Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on Darkage Cliffs - Katana"
+    },
+    {
+        "name": "Ban Hammer Darkage Cliffs Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on Darkage Cliffs - Ban Hammer"
+    },
+    {
+        "name": "Rocket Darkage Cliffs Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on Darkage Cliffs - Rocket"
+    },
+    {
+        "name": "Slingshot Darkage Cliffs Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on Darkage Cliffs - Slingshot"
+    },
+    {
+        "name": "Hyperlaser Darkage Cliffs Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on Darkage Cliffs - Hyperlaser"
+    },
+    {
+        "name": "Shuriken Darkage Cliffs Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on Darkage Cliffs - Shuriken"
+    },
+    {
+        "name": "Scythe Darkage Cliffs Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on Darkage Cliffs - Scythe"
+    },
+    {
+        "name": "Medkit Darkage Cliffs Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on Darkage Cliffs - Medkit"
+    },
+    {
+        "name": "Boombox Darkage Cliffs Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on Darkage Cliffs - Boombox"
+    },
+    {
+        "name": "Subspace Darkage Cliffs Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on Darkage Cliffs - Subspace"
+    },
+    {
+        "name": "Vine Staff Darkage Cliffs Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on Darkage Cliffs - Vine Staff"
+    },
+    {
+        "name": "Coil Darkage Cliffs Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on Darkage Cliffs - Coil"
+    },
+    {
+        "name": "Sword DODGEBALL! Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on DODGEBALL! - Sword"
+    },
+    {
+        "name": "Skateboard DODGEBALL! Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on DODGEBALL! - Skateboard"
+    },
+    {
+        "name": "Biograft DODGEBALL! Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on DODGEBALL! - Biograft"
+    },
+    {
+        "name": "Katana DODGEBALL! Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on DODGEBALL! - Katana"
+    },
+    {
+        "name": "Ban Hammer DODGEBALL! Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on DODGEBALL! - Ban Hammer"
+    },
+    {
+        "name": "Rocket DODGEBALL! Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on DODGEBALL! - Rocket"
+    },
+    {
+        "name": "Slingshot DODGEBALL! Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on DODGEBALL! - Slingshot"
+    },
+    {
+        "name": "Hyperlaser DODGEBALL! Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on DODGEBALL! - Hyperlaser"
+    },
+    {
+        "name": "Shuriken DODGEBALL! Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on DODGEBALL! - Shuriken"
+    },
+    {
+        "name": "Scythe DODGEBALL! Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on DODGEBALL! - Scythe"
+    },
+    {
+        "name": "Medkit DODGEBALL! Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on DODGEBALL! - Medkit"
+    },
+    {
+        "name": "Boombox DODGEBALL! Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on DODGEBALL! - Boombox"
+    },
+    {
+        "name": "Subspace DODGEBALL! Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on DODGEBALL! - Subspace"
+    },
+    {
+        "name": "Vine Staff DODGEBALL! Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on DODGEBALL! - Vine Staff"
+    },
+    {
+        "name": "Coil DODGEBALL! Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on DODGEBALL! - Coil"
+    },
+    {
+        "name": "Sword Domino Valley Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on Domino Valley - Sword"
+    },
+    {
+        "name": "Skateboard Domino Valley Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on Domino Valley - Skateboard"
+    },
+    {
+        "name": "Biograft Domino Valley Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on Domino Valley - Biograft"
+    },
+    {
+        "name": "Katana Domino Valley Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on Domino Valley - Katana"
+    },
+    {
+        "name": "Ban Hammer Domino Valley Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on Domino Valley - Ban Hammer"
+    },
+    {
+        "name": "Rocket Domino Valley Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on Domino Valley - Rocket"
+    },
+    {
+        "name": "Slingshot Domino Valley Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on Domino Valley - Slingshot"
+    },
+    {
+        "name": "Hyperlaser Domino Valley Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on Domino Valley - Hyperlaser"
+    },
+    {
+        "name": "Shuriken Domino Valley Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on Domino Valley - Shuriken"
+    },
+    {
+        "name": "Scythe Domino Valley Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on Domino Valley - Scythe"
+    },
+    {
+        "name": "Medkit Domino Valley Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on Domino Valley - Medkit"
+    },
+    {
+        "name": "Boombox Domino Valley Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on Domino Valley - Boombox"
+    },
+    {
+        "name": "Subspace Domino Valley Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on Domino Valley - Subspace"
+    },
+    {
+        "name": "Vine Staff Domino Valley Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on Domino Valley - Vine Staff"
+    },
+    {
+        "name": "Coil Domino Valley Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on Domino Valley - Coil"
+    },
+    {
+        "name": "Sword Doomspire Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on Doomspire - Sword"
+    },
+    {
+        "name": "Skateboard Doomspire Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on Doomspire - Skateboard"
+    },
+    {
+        "name": "Biograft Doomspire Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on Doomspire - Biograft"
+    },
+    {
+        "name": "Katana Doomspire Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on Doomspire - Katana"
+    },
+    {
+        "name": "Ban Hammer Doomspire Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on Doomspire - Ban Hammer"
+    },
+    {
+        "name": "Rocket Doomspire Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on Doomspire - Rocket"
+    },
+    {
+        "name": "Slingshot Doomspire Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on Doomspire - Slingshot"
+    },
+    {
+        "name": "Hyperlaser Doomspire Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on Doomspire - Hyperlaser"
+    },
+    {
+        "name": "Shuriken Doomspire Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on Doomspire - Shuriken"
+    },
+    {
+        "name": "Scythe Doomspire Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on Doomspire - Scythe"
+    },
+    {
+        "name": "Medkit Doomspire Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on Doomspire - Medkit"
+    },
+    {
+        "name": "Boombox Doomspire Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on Doomspire - Boombox"
+    },
+    {
+        "name": "Subspace Doomspire Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on Doomspire - Subspace"
+    },
+    {
+        "name": "Vine Staff Doomspire Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on Doomspire - Vine Staff"
+    },
+    {
+        "name": "Coil Doomspire Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on Doomspire - Coil"
+    },
+    {
+        "name": "Sword Hotel Elephant Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on Hotel Elephant - Sword"
+    },
+    {
+        "name": "Skateboard Hotel Elephant Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on Hotel Elephant - Skateboard"
+    },
+    {
+        "name": "Biograft Hotel Elephant Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on Hotel Elephant - Biograft"
+    },
+    {
+        "name": "Katana Hotel Elephant Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on Hotel Elephant - Katana"
+    },
+    {
+        "name": "Ban Hammer Hotel Elephant Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on Hotel Elephant - Ban Hammer"
+    },
+    {
+        "name": "Rocket Hotel Elephant Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on Hotel Elephant - Rocket"
+    },
+    {
+        "name": "Slingshot Hotel Elephant Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on Hotel Elephant - Slingshot"
+    },
+    {
+        "name": "Hyperlaser Hotel Elephant Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on Hotel Elephant - Hyperlaser"
+    },
+    {
+        "name": "Shuriken Hotel Elephant Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on Hotel Elephant - Shuriken"
+    },
+    {
+        "name": "Scythe Hotel Elephant Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on Hotel Elephant - Scythe"
+    },
+    {
+        "name": "Medkit Hotel Elephant Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on Hotel Elephant - Medkit"
+    },
+    {
+        "name": "Boombox Hotel Elephant Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on Hotel Elephant - Boombox"
+    },
+    {
+        "name": "Subspace Hotel Elephant Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on Hotel Elephant - Subspace"
+    },
+    {
+        "name": "Vine Staff Hotel Elephant Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on Hotel Elephant - Vine Staff"
+    },
+    {
+        "name": "Coil Hotel Elephant Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on Hotel Elephant - Coil"
+    },
+    {
+        "name": "Sword King of the Hill Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on King of the Hill - Sword"
+    },
+    {
+        "name": "Skateboard King of the Hill Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on King of the Hill - Skateboard"
+    },
+    {
+        "name": "Biograft King of the Hill Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on King of the Hill - Biograft"
+    },
+    {
+        "name": "Katana King of the Hill Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on King of the Hill - Katana"
+    },
+    {
+        "name": "Ban Hammer King of the Hill Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on King of the Hill - Ban Hammer"
+    },
+    {
+        "name": "Rocket King of the Hill Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on King of the Hill - Rocket"
+    },
+    {
+        "name": "Slingshot King of the Hill Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on King of the Hill - Slingshot"
+    },
+    {
+        "name": "Hyperlaser King of the Hill Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on King of the Hill - Hyperlaser"
+    },
+    {
+        "name": "Shuriken King of the Hill Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on King of the Hill - Shuriken"
+    },
+    {
+        "name": "Scythe King of the Hill Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on King of the Hill - Scythe"
+    },
+    {
+        "name": "Medkit King of the Hill Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on King of the Hill - Medkit"
+    },
+    {
+        "name": "Boombox King of the Hill Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on King of the Hill - Boombox"
+    },
+    {
+        "name": "Subspace King of the Hill Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on King of the Hill - Subspace"
+    },
+    {
+        "name": "Vine Staff King of the Hill Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on King of the Hill - Vine Staff"
+    },
+    {
+        "name": "Coil King of the Hill Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on King of the Hill - Coil"
+    },
+    {
+        "name": "Sword Nuke The Whales Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on Nuke The Whales - Sword"
+    },
+    {
+        "name": "Skateboard Nuke The Whales Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on Nuke The Whales - Skateboard"
+    },
+    {
+        "name": "Biograft Nuke The Whales Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on Nuke The Whales - Biograft"
+    },
+    {
+        "name": "Katana Nuke The Whales Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on Nuke The Whales - Katana"
+    },
+    {
+        "name": "Ban Hammer Nuke The Whales Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on Nuke The Whales - Ban Hammer"
+    },
+    {
+        "name": "Rocket Nuke The Whales Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on Nuke The Whales - Rocket"
+    },
+    {
+        "name": "Slingshot Nuke The Whales Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on Nuke The Whales - Slingshot"
+    },
+    {
+        "name": "Hyperlaser Nuke The Whales Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on Nuke The Whales - Hyperlaser"
+    },
+    {
+        "name": "Shuriken Nuke The Whales Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on Nuke The Whales - Shuriken"
+    },
+    {
+        "name": "Scythe Nuke The Whales Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on Nuke The Whales - Scythe"
+    },
+    {
+        "name": "Medkit Nuke The Whales Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on Nuke The Whales - Medkit"
+    },
+    {
+        "name": "Boombox Nuke The Whales Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on Nuke The Whales - Boombox"
+    },
+    {
+        "name": "Subspace Nuke The Whales Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on Nuke The Whales - Subspace"
+    },
+    {
+        "name": "Vine Staff Nuke The Whales Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on Nuke The Whales - Vine Staff"
+    },
+    {
+        "name": "Coil Nuke The Whales Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on Nuke The Whales - Coil"
+    },
+    {
+        "name": "Sword Protect Telamon Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on Protect Telamon - Sword"
+    },
+    {
+        "name": "Skateboard Protect Telamon Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on Protect Telamon - Skateboard"
+    },
+    {
+        "name": "Biograft Protect Telamon Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on Protect Telamon - Biograft"
+    },
+    {
+        "name": "Katana Protect Telamon Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on Protect Telamon - Katana"
+    },
+    {
+        "name": "Ban Hammer Protect Telamon Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on Protect Telamon - Ban Hammer"
+    },
+    {
+        "name": "Rocket Protect Telamon Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on Protect Telamon - Rocket"
+    },
+    {
+        "name": "Slingshot Protect Telamon Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on Protect Telamon - Slingshot"
+    },
+    {
+        "name": "Hyperlaser Protect Telamon Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on Protect Telamon - Hyperlaser"
+    },
+    {
+        "name": "Shuriken Protect Telamon Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on Protect Telamon - Shuriken"
+    },
+    {
+        "name": "Scythe Protect Telamon Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on Protect Telamon - Scythe"
+    },
+    {
+        "name": "Medkit Protect Telamon Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on Protect Telamon - Medkit"
+    },
+    {
+        "name": "Boombox Protect Telamon Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on Protect Telamon - Boombox"
+    },
+    {
+        "name": "Subspace Protect Telamon Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on Protect Telamon - Subspace"
+    },
+    {
+        "name": "Vine Staff Protect Telamon Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on Protect Telamon - Vine Staff"
+    },
+    {
+        "name": "Coil Protect Telamon Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on Protect Telamon - Coil"
+    },
+    {
+        "name": "Sword Raven Rock Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on Raven Rock - Sword"
+    },
+    {
+        "name": "Skateboard Raven Rock Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on Raven Rock - Skateboard"
+    },
+    {
+        "name": "Biograft Raven Rock Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on Raven Rock - Biograft"
+    },
+    {
+        "name": "Katana Raven Rock Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on Raven Rock - Katana"
+    },
+    {
+        "name": "Ban Hammer Raven Rock Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on Raven Rock - Ban Hammer"
+    },
+    {
+        "name": "Rocket Raven Rock Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on Raven Rock - Rocket"
+    },
+    {
+        "name": "Slingshot Raven Rock Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on Raven Rock - Slingshot"
+    },
+    {
+        "name": "Hyperlaser Raven Rock Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on Raven Rock - Hyperlaser"
+    },
+    {
+        "name": "Shuriken Raven Rock Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on Raven Rock - Shuriken"
+    },
+    {
+        "name": "Scythe Raven Rock Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on Raven Rock - Scythe"
+    },
+    {
+        "name": "Medkit Raven Rock Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on Raven Rock - Medkit"
+    },
+    {
+        "name": "Boombox Raven Rock Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on Raven Rock - Boombox"
+    },
+    {
+        "name": "Subspace Raven Rock Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on Raven Rock - Subspace"
+    },
+    {
+        "name": "Vine Staff Raven Rock Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on Raven Rock - Vine Staff"
+    },
+    {
+        "name": "Coil Raven Rock Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on Raven Rock - Coil"
+    },
+    {
+        "name": "Sword ROBLOX Arcade Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Arcade - Sword"
+    },
+    {
+        "name": "Skateboard ROBLOX Arcade Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Arcade - Skateboard"
+    },
+    {
+        "name": "Biograft ROBLOX Arcade Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Arcade - Biograft"
+    },
+    {
+        "name": "Katana ROBLOX Arcade Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Arcade - Katana"
+    },
+    {
+        "name": "Ban Hammer ROBLOX Arcade Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Arcade - Ban Hammer"
+    },
+    {
+        "name": "Rocket ROBLOX Arcade Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Arcade - Rocket"
+    },
+    {
+        "name": "Slingshot ROBLOX Arcade Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Arcade - Slingshot"
+    },
+    {
+        "name": "Hyperlaser ROBLOX Arcade Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Arcade - Hyperlaser"
+    },
+    {
+        "name": "Shuriken ROBLOX Arcade Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Arcade - Shuriken"
+    },
+    {
+        "name": "Scythe ROBLOX Arcade Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Arcade - Scythe"
+    },
+    {
+        "name": "Medkit ROBLOX Arcade Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Arcade - Medkit"
+    },
+    {
+        "name": "Boombox ROBLOX Arcade Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Arcade - Boombox"
+    },
+    {
+        "name": "Subspace ROBLOX Arcade Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Arcade - Subspace"
+    },
+    {
+        "name": "Vine Staff ROBLOX Arcade Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Arcade - Vine Staff"
+    },
+    {
+        "name": "Coil ROBLOX Arcade Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Arcade - Coil"
+    },
+    {
+        "name": "Sword ROBLOX Bowling Alley Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Bowling Alley - Sword"
+    },
+    {
+        "name": "Skateboard ROBLOX Bowling Alley Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Bowling Alley - Skateboard"
+    },
+    {
+        "name": "Biograft ROBLOX Bowling Alley Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Bowling Alley - Biograft"
+    },
+    {
+        "name": "Katana ROBLOX Bowling Alley Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Bowling Alley - Katana"
+    },
+    {
+        "name": "Ban Hammer ROBLOX Bowling Alley Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Bowling Alley - Ban Hammer"
+    },
+    {
+        "name": "Rocket ROBLOX Bowling Alley Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Bowling Alley - Rocket"
+    },
+    {
+        "name": "Slingshot ROBLOX Bowling Alley Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Bowling Alley - Slingshot"
+    },
+    {
+        "name": "Hyperlaser ROBLOX Bowling Alley Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Bowling Alley - Hyperlaser"
+    },
+    {
+        "name": "Shuriken ROBLOX Bowling Alley Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Bowling Alley - Shuriken"
+    },
+    {
+        "name": "Scythe ROBLOX Bowling Alley Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Bowling Alley - Scythe"
+    },
+    {
+        "name": "Medkit ROBLOX Bowling Alley Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Bowling Alley - Medkit"
+    },
+    {
+        "name": "Boombox ROBLOX Bowling Alley Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Bowling Alley - Boombox"
+    },
+    {
+        "name": "Subspace ROBLOX Bowling Alley Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Bowling Alley - Subspace"
+    },
+    {
+        "name": "Vine Staff ROBLOX Bowling Alley Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Bowling Alley - Vine Staff"
+    },
+    {
+        "name": "Coil ROBLOX Bowling Alley Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Bowling Alley - Coil"
+    },
+    {
+        "name": "Sword ROBLOX City Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on ROBLOX City - Sword"
+    },
+    {
+        "name": "Skateboard ROBLOX City Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on ROBLOX City - Skateboard"
+    },
+    {
+        "name": "Biograft ROBLOX City Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on ROBLOX City - Biograft"
+    },
+    {
+        "name": "Katana ROBLOX City Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on ROBLOX City - Katana"
+    },
+    {
+        "name": "Ban Hammer ROBLOX City Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on ROBLOX City - Ban Hammer"
+    },
+    {
+        "name": "Rocket ROBLOX City Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on ROBLOX City - Rocket"
+    },
+    {
+        "name": "Slingshot ROBLOX City Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on ROBLOX City - Slingshot"
+    },
+    {
+        "name": "Hyperlaser ROBLOX City Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on ROBLOX City - Hyperlaser"
+    },
+    {
+        "name": "Shuriken ROBLOX City Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on ROBLOX City - Shuriken"
+    },
+    {
+        "name": "Scythe ROBLOX City Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on ROBLOX City - Scythe"
+    },
+    {
+        "name": "Medkit ROBLOX City Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on ROBLOX City - Medkit"
+    },
+    {
+        "name": "Boombox ROBLOX City Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on ROBLOX City - Boombox"
+    },
+    {
+        "name": "Subspace ROBLOX City Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on ROBLOX City - Subspace"
+    },
+    {
+        "name": "Vine Staff ROBLOX City Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on ROBLOX City - Vine Staff"
+    },
+    {
+        "name": "Coil ROBLOX City Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on ROBLOX City - Coil"
+    },
+    {
+        "name": "Sword ROBLOX HQ Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on ROBLOX HQ - Sword"
+    },
+    {
+        "name": "Skateboard ROBLOX HQ Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on ROBLOX HQ - Skateboard"
+    },
+    {
+        "name": "Biograft ROBLOX HQ Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on ROBLOX HQ - Biograft"
+    },
+    {
+        "name": "Katana ROBLOX HQ Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on ROBLOX HQ - Katana"
+    },
+    {
+        "name": "Ban Hammer ROBLOX HQ Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on ROBLOX HQ - Ban Hammer"
+    },
+    {
+        "name": "Rocket ROBLOX HQ Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on ROBLOX HQ - Rocket"
+    },
+    {
+        "name": "Slingshot ROBLOX HQ Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on ROBLOX HQ - Slingshot"
+    },
+    {
+        "name": "Hyperlaser ROBLOX HQ Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on ROBLOX HQ - Hyperlaser"
+    },
+    {
+        "name": "Shuriken ROBLOX HQ Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on ROBLOX HQ - Shuriken"
+    },
+    {
+        "name": "Scythe ROBLOX HQ Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on ROBLOX HQ - Scythe"
+    },
+    {
+        "name": "Medkit ROBLOX HQ Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on ROBLOX HQ - Medkit"
+    },
+    {
+        "name": "Boombox ROBLOX HQ Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on ROBLOX HQ - Boombox"
+    },
+    {
+        "name": "Subspace ROBLOX HQ Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on ROBLOX HQ - Subspace"
+    },
+    {
+        "name": "Vine Staff ROBLOX HQ Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on ROBLOX HQ - Vine Staff"
+    },
+    {
+        "name": "Coil ROBLOX HQ Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on ROBLOX HQ - Coil"
+    },
+    {
+        "name": "Sword ROBLOX Laundromat Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Laundromat - Sword"
+    },
+    {
+        "name": "Skateboard ROBLOX Laundromat Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Laundromat - Skateboard"
+    },
+    {
+        "name": "Biograft ROBLOX Laundromat Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Laundromat - Biograft"
+    },
+    {
+        "name": "Katana ROBLOX Laundromat Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Laundromat - Katana"
+    },
+    {
+        "name": "Ban Hammer ROBLOX Laundromat Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Laundromat - Ban Hammer"
+    },
+    {
+        "name": "Rocket ROBLOX Laundromat Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Laundromat - Rocket"
+    },
+    {
+        "name": "Slingshot ROBLOX Laundromat Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Laundromat - Slingshot"
+    },
+    {
+        "name": "Hyperlaser ROBLOX Laundromat Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Laundromat - Hyperlaser"
+    },
+    {
+        "name": "Shuriken ROBLOX Laundromat Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Laundromat - Shuriken"
+    },
+    {
+        "name": "Scythe ROBLOX Laundromat Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Laundromat - Scythe"
+    },
+    {
+        "name": "Medkit ROBLOX Laundromat Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Laundromat - Medkit"
+    },
+    {
+        "name": "Boombox ROBLOX Laundromat Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Laundromat - Boombox"
+    },
+    {
+        "name": "Subspace ROBLOX Laundromat Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Laundromat - Subspace"
+    },
+    {
+        "name": "Vine Staff ROBLOX Laundromat Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Laundromat - Vine Staff"
+    },
+    {
+        "name": "Coil ROBLOX Laundromat Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Laundromat - Coil"
+    },
+    {
+        "name": "Sword ROBLOX Mall Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Mall - Sword"
+    },
+    {
+        "name": "Skateboard ROBLOX Mall Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Mall - Skateboard"
+    },
+    {
+        "name": "Biograft ROBLOX Mall Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Mall - Biograft"
+    },
+    {
+        "name": "Katana ROBLOX Mall Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Mall - Katana"
+    },
+    {
+        "name": "Ban Hammer ROBLOX Mall Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Mall - Ban Hammer"
+    },
+    {
+        "name": "Rocket ROBLOX Mall Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Mall - Rocket"
+    },
+    {
+        "name": "Slingshot ROBLOX Mall Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Mall - Slingshot"
+    },
+    {
+        "name": "Hyperlaser ROBLOX Mall Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Mall - Hyperlaser"
+    },
+    {
+        "name": "Shuriken ROBLOX Mall Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Mall - Shuriken"
+    },
+    {
+        "name": "Scythe ROBLOX Mall Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Mall - Scythe"
+    },
+    {
+        "name": "Medkit ROBLOX Mall Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Mall - Medkit"
+    },
+    {
+        "name": "Boombox ROBLOX Mall Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Mall - Boombox"
+    },
+    {
+        "name": "Subspace ROBLOX Mall Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Mall - Subspace"
+    },
+    {
+        "name": "Vine Staff ROBLOX Mall Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Mall - Vine Staff"
+    },
+    {
+        "name": "Coil ROBLOX Mall Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Mall - Coil"
+    },
+    {
+        "name": "Sword ROBLOX Museum Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Museum - Sword"
+    },
+    {
+        "name": "Skateboard ROBLOX Museum Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Museum - Skateboard"
+    },
+    {
+        "name": "Biograft ROBLOX Museum Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Museum - Biograft"
+    },
+    {
+        "name": "Katana ROBLOX Museum Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Museum - Katana"
+    },
+    {
+        "name": "Ban Hammer ROBLOX Museum Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Museum - Ban Hammer"
+    },
+    {
+        "name": "Rocket ROBLOX Museum Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Museum - Rocket"
+    },
+    {
+        "name": "Slingshot ROBLOX Museum Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Museum - Slingshot"
+    },
+    {
+        "name": "Hyperlaser ROBLOX Museum Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Museum - Hyperlaser"
+    },
+    {
+        "name": "Shuriken ROBLOX Museum Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Museum - Shuriken"
+    },
+    {
+        "name": "Scythe ROBLOX Museum Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Museum - Scythe"
+    },
+    {
+        "name": "Medkit ROBLOX Museum Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Museum - Medkit"
+    },
+    {
+        "name": "Boombox ROBLOX Museum Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Museum - Boombox"
+    },
+    {
+        "name": "Subspace ROBLOX Museum Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Museum - Subspace"
+    },
+    {
+        "name": "Vine Staff ROBLOX Museum Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Museum - Vine Staff"
+    },
+    {
+        "name": "Coil ROBLOX Museum Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on ROBLOX Museum - Coil"
+    },
+    {
+        "name": "Sword Rob the ROBLOX Bank Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on Rob the ROBLOX Bank - Sword"
+    },
+    {
+        "name": "Skateboard Rob the ROBLOX Bank Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on Rob the ROBLOX Bank - Skateboard"
+    },
+    {
+        "name": "Biograft Rob the ROBLOX Bank Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on Rob the ROBLOX Bank - Biograft"
+    },
+    {
+        "name": "Katana Rob the ROBLOX Bank Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on Rob the ROBLOX Bank - Katana"
+    },
+    {
+        "name": "Ban Hammer Rob the ROBLOX Bank Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on Rob the ROBLOX Bank - Ban Hammer"
+    },
+    {
+        "name": "Rocket Rob the ROBLOX Bank Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on Rob the ROBLOX Bank - Rocket"
+    },
+    {
+        "name": "Slingshot Rob the ROBLOX Bank Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on Rob the ROBLOX Bank - Slingshot"
+    },
+    {
+        "name": "Hyperlaser Rob the ROBLOX Bank Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on Rob the ROBLOX Bank - Hyperlaser"
+    },
+    {
+        "name": "Shuriken Rob the ROBLOX Bank Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on Rob the ROBLOX Bank - Shuriken"
+    },
+    {
+        "name": "Scythe Rob the ROBLOX Bank Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on Rob the ROBLOX Bank - Scythe"
+    },
+    {
+        "name": "Medkit Rob the ROBLOX Bank Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on Rob the ROBLOX Bank - Medkit"
+    },
+    {
+        "name": "Boombox Rob the ROBLOX Bank Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on Rob the ROBLOX Bank - Boombox"
+    },
+    {
+        "name": "Subspace Rob the ROBLOX Bank Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on Rob the ROBLOX Bank - Subspace"
+    },
+    {
+        "name": "Vine Staff Rob the ROBLOX Bank Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on Rob the ROBLOX Bank - Vine Staff"
+    },
+    {
+        "name": "Coil Rob the ROBLOX Bank Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on Rob the ROBLOX Bank - Coil"
+    },
+    {
+        "name": "Sword Rocket Arena Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on Rocket Arena - Sword"
+    },
+    {
+        "name": "Skateboard Rocket Arena Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on Rocket Arena - Skateboard"
+    },
+    {
+        "name": "Biograft Rocket Arena Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on Rocket Arena - Biograft"
+    },
+    {
+        "name": "Katana Rocket Arena Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on Rocket Arena - Katana"
+    },
+    {
+        "name": "Ban Hammer Rocket Arena Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on Rocket Arena - Ban Hammer"
+    },
+    {
+        "name": "Rocket Rocket Arena Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on Rocket Arena - Rocket"
+    },
+    {
+        "name": "Slingshot Rocket Arena Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on Rocket Arena - Slingshot"
+    },
+    {
+        "name": "Hyperlaser Rocket Arena Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on Rocket Arena - Hyperlaser"
+    },
+    {
+        "name": "Shuriken Rocket Arena Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on Rocket Arena - Shuriken"
+    },
+    {
+        "name": "Scythe Rocket Arena Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on Rocket Arena - Scythe"
+    },
+    {
+        "name": "Medkit Rocket Arena Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on Rocket Arena - Medkit"
+    },
+    {
+        "name": "Boombox Rocket Arena Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on Rocket Arena - Boombox"
+    },
+    {
+        "name": "Subspace Rocket Arena Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on Rocket Arena - Subspace"
+    },
+    {
+        "name": "Vine Staff Rocket Arena Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on Rocket Arena - Vine Staff"
+    },
+    {
+        "name": "Coil Rocket Arena Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on Rocket Arena - Coil"
+    },
+    {
+        "name": "Sword Shooting Teapot Observatory Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on Shooting Teapot Observatory - Sword"
+    },
+    {
+        "name": "Skateboard Shooting Teapot Observatory Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on Shooting Teapot Observatory - Skateboard"
+    },
+    {
+        "name": "Biograft Shooting Teapot Observatory Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on Shooting Teapot Observatory - Biograft"
+    },
+    {
+        "name": "Katana Shooting Teapot Observatory Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on Shooting Teapot Observatory - Katana"
+    },
+    {
+        "name": "Ban Hammer Shooting Teapot Observatory Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on Shooting Teapot Observatory - Ban Hammer"
+    },
+    {
+        "name": "Rocket Shooting Teapot Observatory Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on Shooting Teapot Observatory - Rocket"
+    },
+    {
+        "name": "Slingshot Shooting Teapot Observatory Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on Shooting Teapot Observatory - Slingshot"
+    },
+    {
+        "name": "Hyperlaser Shooting Teapot Observatory Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on Shooting Teapot Observatory - Hyperlaser"
+    },
+    {
+        "name": "Shuriken Shooting Teapot Observatory Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on Shooting Teapot Observatory - Shuriken"
+    },
+    {
+        "name": "Scythe Shooting Teapot Observatory Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on Shooting Teapot Observatory - Scythe"
+    },
+    {
+        "name": "Medkit Shooting Teapot Observatory Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on Shooting Teapot Observatory - Medkit"
+    },
+    {
+        "name": "Boombox Shooting Teapot Observatory Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on Shooting Teapot Observatory - Boombox"
+    },
+    {
+        "name": "Subspace Shooting Teapot Observatory Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on Shooting Teapot Observatory - Subspace"
+    },
+    {
+        "name": "Vine Staff Shooting Teapot Observatory Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on Shooting Teapot Observatory - Vine Staff"
+    },
+    {
+        "name": "Coil Shooting Teapot Observatory Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on Shooting Teapot Observatory - Coil"
+    },
+    {
+        "name": "Sword Space Knights Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on Space Knights - Sword"
+    },
+    {
+        "name": "Skateboard Space Knights Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on Space Knights - Skateboard"
+    },
+    {
+        "name": "Biograft Space Knights Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on Space Knights - Biograft"
+    },
+    {
+        "name": "Katana Space Knights Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on Space Knights - Katana"
+    },
+    {
+        "name": "Ban Hammer Space Knights Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on Space Knights - Ban Hammer"
+    },
+    {
+        "name": "Rocket Space Knights Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on Space Knights - Rocket"
+    },
+    {
+        "name": "Slingshot Space Knights Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on Space Knights - Slingshot"
+    },
+    {
+        "name": "Hyperlaser Space Knights Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on Space Knights - Hyperlaser"
+    },
+    {
+        "name": "Shuriken Space Knights Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on Space Knights - Shuriken"
+    },
+    {
+        "name": "Scythe Space Knights Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on Space Knights - Scythe"
+    },
+    {
+        "name": "Medkit Space Knights Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on Space Knights - Medkit"
+    },
+    {
+        "name": "Boombox Space Knights Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on Space Knights - Boombox"
+    },
+    {
+        "name": "Subspace Space Knights Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on Space Knights - Subspace"
+    },
+    {
+        "name": "Vine Staff Space Knights Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on Space Knights - Vine Staff"
+    },
+    {
+        "name": "Coil Space Knights Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on Space Knights - Coil"
+    },
+    {
+        "name": "Sword Sword Fight On The Heights Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on Sword Fight On The Heights - Sword"
+    },
+    {
+        "name": "Skateboard Sword Fight On The Heights Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on Sword Fight On The Heights - Skateboard"
+    },
+    {
+        "name": "Biograft Sword Fight On The Heights Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on Sword Fight On The Heights - Biograft"
+    },
+    {
+        "name": "Katana Sword Fight On The Heights Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on Sword Fight On The Heights - Katana"
+    },
+    {
+        "name": "Ban Hammer Sword Fight On The Heights Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on Sword Fight On The Heights - Ban Hammer"
+    },
+    {
+        "name": "Rocket Sword Fight On The Heights Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on Sword Fight On The Heights - Rocket"
+    },
+    {
+        "name": "Slingshot Sword Fight On The Heights Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on Sword Fight On The Heights - Slingshot"
+    },
+    {
+        "name": "Hyperlaser Sword Fight On The Heights Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on Sword Fight On The Heights - Hyperlaser"
+    },
+    {
+        "name": "Shuriken Sword Fight On The Heights Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on Sword Fight On The Heights - Shuriken"
+    },
+    {
+        "name": "Scythe Sword Fight On The Heights Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on Sword Fight On The Heights - Scythe"
+    },
+    {
+        "name": "Medkit Sword Fight On The Heights Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on Sword Fight On The Heights - Medkit"
+    },
+    {
+        "name": "Boombox Sword Fight On The Heights Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on Sword Fight On The Heights - Boombox"
+    },
+    {
+        "name": "Subspace Sword Fight On The Heights Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on Sword Fight On The Heights - Subspace"
+    },
+    {
+        "name": "Vine Staff Sword Fight On The Heights Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on Sword Fight On The Heights - Vine Staff"
+    },
+    {
+        "name": "Coil Sword Fight On The Heights Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on Sword Fight On The Heights - Coil"
+    },
+    {
+        "name": "Sword Sword Fighting Tournament Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on Sword Fighting Tournament - Sword"
+    },
+    {
+        "name": "Skateboard Sword Fighting Tournament Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on Sword Fighting Tournament - Skateboard"
+    },
+    {
+        "name": "Biograft Sword Fighting Tournament Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on Sword Fighting Tournament - Biograft"
+    },
+    {
+        "name": "Katana Sword Fighting Tournament Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on Sword Fighting Tournament - Katana"
+    },
+    {
+        "name": "Ban Hammer Sword Fighting Tournament Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on Sword Fighting Tournament - Ban Hammer"
+    },
+    {
+        "name": "Rocket Sword Fighting Tournament Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on Sword Fighting Tournament - Rocket"
+    },
+    {
+        "name": "Slingshot Sword Fighting Tournament Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on Sword Fighting Tournament - Slingshot"
+    },
+    {
+        "name": "Hyperlaser Sword Fighting Tournament Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on Sword Fighting Tournament - Hyperlaser"
+    },
+    {
+        "name": "Shuriken Sword Fighting Tournament Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on Sword Fighting Tournament - Shuriken"
+    },
+    {
+        "name": "Scythe Sword Fighting Tournament Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on Sword Fighting Tournament - Scythe"
+    },
+    {
+        "name": "Medkit Sword Fighting Tournament Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on Sword Fighting Tournament - Medkit"
+    },
+    {
+        "name": "Boombox Sword Fighting Tournament Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on Sword Fighting Tournament - Boombox"
+    },
+    {
+        "name": "Subspace Sword Fighting Tournament Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on Sword Fighting Tournament - Subspace"
+    },
+    {
+        "name": "Vine Staff Sword Fighting Tournament Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on Sword Fighting Tournament - Vine Staff"
+    },
+    {
+        "name": "Coil Sword Fighting Tournament Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on Sword Fighting Tournament - Coil"
+    },
+    {
+        "name": "Sword The Bread Factory Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on The Bread Factory - Sword"
+    },
+    {
+        "name": "Skateboard The Bread Factory Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on The Bread Factory - Skateboard"
+    },
+    {
+        "name": "Biograft The Bread Factory Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on The Bread Factory - Biograft"
+    },
+    {
+        "name": "Katana The Bread Factory Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on The Bread Factory - Katana"
+    },
+    {
+        "name": "Ban Hammer The Bread Factory Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on The Bread Factory - Ban Hammer"
+    },
+    {
+        "name": "Rocket The Bread Factory Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on The Bread Factory - Rocket"
+    },
+    {
+        "name": "Slingshot The Bread Factory Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on The Bread Factory - Slingshot"
+    },
+    {
+        "name": "Hyperlaser The Bread Factory Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on The Bread Factory - Hyperlaser"
+    },
+    {
+        "name": "Shuriken The Bread Factory Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on The Bread Factory - Shuriken"
+    },
+    {
+        "name": "Scythe The Bread Factory Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on The Bread Factory - Scythe"
+    },
+    {
+        "name": "Medkit The Bread Factory Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on The Bread Factory - Medkit"
+    },
+    {
+        "name": "Boombox The Bread Factory Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on The Bread Factory - Boombox"
+    },
+    {
+        "name": "Subspace The Bread Factory Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on The Bread Factory - Subspace"
+    },
+    {
+        "name": "Vine Staff The Bread Factory Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on The Bread Factory - Vine Staff"
+    },
+    {
+        "name": "Coil The Bread Factory Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on The Bread Factory - Coil"
+    },
+    {
+        "name": "Sword The Iron Cafe Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on The Iron Cafe - Sword"
+    },
+    {
+        "name": "Skateboard The Iron Cafe Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on The Iron Cafe - Skateboard"
+    },
+    {
+        "name": "Biograft The Iron Cafe Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on The Iron Cafe - Biograft"
+    },
+    {
+        "name": "Katana The Iron Cafe Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on The Iron Cafe - Katana"
+    },
+    {
+        "name": "Ban Hammer The Iron Cafe Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on The Iron Cafe - Ban Hammer"
+    },
+    {
+        "name": "Rocket The Iron Cafe Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on The Iron Cafe - Rocket"
+    },
+    {
+        "name": "Slingshot The Iron Cafe Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on The Iron Cafe - Slingshot"
+    },
+    {
+        "name": "Hyperlaser The Iron Cafe Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on The Iron Cafe - Hyperlaser"
+    },
+    {
+        "name": "Shuriken The Iron Cafe Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on The Iron Cafe - Shuriken"
+    },
+    {
+        "name": "Scythe The Iron Cafe Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on The Iron Cafe - Scythe"
+    },
+    {
+        "name": "Medkit The Iron Cafe Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on The Iron Cafe - Medkit"
+    },
+    {
+        "name": "Boombox The Iron Cafe Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on The Iron Cafe - Boombox"
+    },
+    {
+        "name": "Subspace The Iron Cafe Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on The Iron Cafe - Subspace"
+    },
+    {
+        "name": "Vine Staff The Iron Cafe Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on The Iron Cafe - Vine Staff"
+    },
+    {
+        "name": "Coil The Iron Cafe Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on The Iron Cafe - Coil"
+    },
+    {
+        "name": "Sword Train Demolition Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on Train Demolition - Sword"
+    },
+    {
+        "name": "Skateboard Train Demolition Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on Train Demolition - Skateboard"
+    },
+    {
+        "name": "Biograft Train Demolition Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on Train Demolition - Biograft"
+    },
+    {
+        "name": "Katana Train Demolition Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on Train Demolition - Katana"
+    },
+    {
+        "name": "Ban Hammer Train Demolition Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on Train Demolition - Ban Hammer"
+    },
+    {
+        "name": "Rocket Train Demolition Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on Train Demolition - Rocket"
+    },
+    {
+        "name": "Slingshot Train Demolition Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on Train Demolition - Slingshot"
+    },
+    {
+        "name": "Hyperlaser Train Demolition Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on Train Demolition - Hyperlaser"
+    },
+    {
+        "name": "Shuriken Train Demolition Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on Train Demolition - Shuriken"
+    },
+    {
+        "name": "Scythe Train Demolition Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on Train Demolition - Scythe"
+    },
+    {
+        "name": "Medkit Train Demolition Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on Train Demolition - Medkit"
+    },
+    {
+        "name": "Boombox Train Demolition Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on Train Demolition - Boombox"
+    },
+    {
+        "name": "Subspace Train Demolition Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on Train Demolition - Subspace"
+    },
+    {
+        "name": "Vine Staff Train Demolition Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on Train Demolition - Vine Staff"
+    },
+    {
+        "name": "Coil Train Demolition Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on Train Demolition - Coil"
+    },
+    {
+        "name": "Sword Underground War Tracker",
+        "category": [
+            "Tracker",
+            "Sword Tracker"
+        ],
+        "copy_location": "Win on Underground War - Sword"
+    },
+    {
+        "name": "Skateboard Underground War Tracker",
+        "category": [
+            "Tracker",
+            "Skateboard Tracker"
+        ],
+        "copy_location": "Win on Underground War - Skateboard"
+    },
+    {
+        "name": "Biograft Underground War Tracker",
+        "category": [
+            "Tracker",
+            "Biograft Tracker"
+        ],
+        "copy_location": "Win on Underground War - Biograft"
+    },
+    {
+        "name": "Katana Underground War Tracker",
+        "category": [
+            "Tracker",
+            "Katana Tracker"
+        ],
+        "copy_location": "Win on Underground War - Katana"
+    },
+    {
+        "name": "Ban Hammer Underground War Tracker",
+        "category": [
+            "Tracker",
+            "Ban Hammer Tracker"
+        ],
+        "copy_location": "Win on Underground War - Ban Hammer"
+    },
+    {
+        "name": "Rocket Underground War Tracker",
+        "category": [
+            "Tracker",
+            "Rocket Tracker"
+        ],
+        "copy_location": "Win on Underground War - Rocket"
+    },
+    {
+        "name": "Slingshot Underground War Tracker",
+        "category": [
+            "Tracker",
+            "Slingshot Tracker"
+        ],
+        "copy_location": "Win on Underground War - Slingshot"
+    },
+    {
+        "name": "Hyperlaser Underground War Tracker",
+        "category": [
+            "Tracker",
+            "Hyperlaser Tracker"
+        ],
+        "copy_location": "Win on Underground War - Hyperlaser"
+    },
+    {
+        "name": "Shuriken Underground War Tracker",
+        "category": [
+            "Tracker",
+            "Shuriken Tracker"
+        ],
+        "copy_location": "Win on Underground War - Shuriken"
+    },
+    {
+        "name": "Scythe Underground War Tracker",
+        "category": [
+            "Tracker",
+            "Scythe Tracker"
+        ],
+        "copy_location": "Win on Underground War - Scythe"
+    },
+    {
+        "name": "Medkit Underground War Tracker",
+        "category": [
+            "Tracker",
+            "Medkit Tracker"
+        ],
+        "copy_location": "Win on Underground War - Medkit"
+    },
+    {
+        "name": "Boombox Underground War Tracker",
+        "category": [
+            "Tracker",
+            "Boombox Tracker"
+        ],
+        "copy_location": "Win on Underground War - Boombox"
+    },
+    {
+        "name": "Subspace Underground War Tracker",
+        "category": [
+            "Tracker",
+            "Subspace Tracker"
+        ],
+        "copy_location": "Win on Underground War - Subspace"
+    },
+    {
+        "name": "Vine Staff Underground War Tracker",
+        "category": [
+            "Tracker",
+            "Vine Staff Tracker"
+        ],
+        "copy_location": "Win on Underground War - Vine Staff"
+    },
+    {
+        "name": "Coil Underground War Tracker",
+        "category": [
+            "Tracker",
+            "Coil Tracker"
+        ],
+        "copy_location": "Win on Underground War - Coil"
+    }
 ]
