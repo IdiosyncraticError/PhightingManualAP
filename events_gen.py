@@ -29,7 +29,7 @@ maps = [
     "Doomspire",
     "Hotel Elephant",
     "King of the Hill",
-    "Nuke the Whales",
+    "Nuke The Whales",
     "Protect Telamon",
     "Raven Rock",
     "ROBLOX Arcade",
