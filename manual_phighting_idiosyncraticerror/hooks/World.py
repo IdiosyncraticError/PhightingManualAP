@@ -130,7 +130,11 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         if region.player == player:
             if region.name != "Base":
                 while len(list(region.locations)) > map_number:
-                    region.locations.remove(world.random.choice(list(region.locations)))
+                    chosen = world.random.choice(list(region.locations))
+                    region.locations.remove(world.random.choice(chosen))
+                    #need to do secondary check for phighter map win category
+                    #also its not even giving the same mount of checks per phighter like bro wtf
+                    #maybe something about list(region.locations) is breaking the remove check ??? bcs its in a list ?????
 
     return item_pool
 
