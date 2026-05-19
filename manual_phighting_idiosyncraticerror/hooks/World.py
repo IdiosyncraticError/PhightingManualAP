@@ -133,7 +133,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         
                 possible_maps.extend(
                     [
-                        name for name, i in region.locations
+                        name for name, i in region.locations #need to find another way to get only map wins, this line dont work
                             if "Map Wins" in i.get("category", []) # .get() accounts for the key not existing and provides a default if it doesn't
                     ]
                 )
