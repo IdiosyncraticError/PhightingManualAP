@@ -123,7 +123,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
             if region.name != "Base":
                 phighters.append(region)
 
-    while map_number*len(phighters) < len(item_pool):
+    while map_number*len(phighters) < len(item_pool) or map_number < world.options.total_map_win_count:
         map_number += 1
 
     for region in multiworld.regions:
@@ -133,8 +133,8 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         
                 possible_maps.extend(
                     [
-                        name for name, i in region.locations #need to find another way to get only map wins, this line dont work
-                            if "Map Wins" in i.get("category", []) # .get() accounts for the key not existing and provides a default if it doesn't
+                        location for location in region.locations #need to find another way to get only map wins, this line dont work
+                            if "Map Wins" in location.get("category", []) # .get() accounts for the key not existing and provides a default if it doesn't
                     ]
                 )
                 
