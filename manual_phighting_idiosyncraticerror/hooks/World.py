@@ -133,8 +133,8 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         
                 possible_maps.extend(
                     [
-                        location for location in region.locations #need to find another way to get only map wins, this line dont work
-                            if "Map Wins" in location.get("category", []) # .get() accounts for the key not existing and provides a default if it doesn't
+                        location for location in region.locations
+                            if "Map Wins" in location.get("category", []) #find a way to search a location's categories
                     ]
                 )
                 
