@@ -129,10 +129,21 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     for region in multiworld.regions:
         if region.player == player:
             if region in phighters:
-                while len(list(region.locations)) > map_number:
-                    chosen = world.random.choice(list(region.locations))
+                possible_maps = []
+        
+                possible_maps.extend(
+                    [
+                        name for name, i in region.locations
+                            if "Map Wins" in i.get("category", []) # .get() accounts for the key not existing and provides a default if it doesn't
+                    ]
+                )
+                
+                # remove any duplicate names from the list of possible items
+                possible_maps = set(possible_maps)
+                
+                while len(possible_maps) > map_number:
+                    chosen = world.random.choice(possible_maps)
                     region.locations.remove(chosen)
-                    #need to do secondary check for phighter map win category
                     #also its not even giving the same mount of checks per phighter like bro wtf
                     #maybe something about list(region.locations) is breaking the remove check ??? bcs its in a list ?????
 
