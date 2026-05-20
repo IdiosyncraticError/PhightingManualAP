@@ -22,6 +22,14 @@
         }
     },
     "user": {
+        "abilitysanity":{
+            "description": [
+                "Toggle abilitysanity on/off"
+            ],
+            "type": "Toggle",
+            "default": true,
+            "group": "Abilitysanity"
+        },
         "sword_abilitysanity":{
             "description": [
                 "Sword's base and empowered abilities are individually locked"
@@ -62,6 +70,7 @@
             "default": false,
             "group": "Abilitysanity"
         },
+
         "skinsanity":{
             "description": [
                 "Skins are checks"

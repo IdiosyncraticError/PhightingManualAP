@@ -52,11 +52,21 @@ class StartingPhighterCount(Range):
     range_end = 15
     default = 1
 
+class MapChecks(Range):
+    """
+    Number of maps that will be checks on each phighter.
+    If number of locations is not large enough for all the enabled items, the minimum amount of maps per phighter will instead be enabled.
+    """
+    range_start = 1
+    range_end = 30
+    default = 15
+
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options["total_phighter_win_count"] = TotalPhighterWinCount
     options["total_map_win_count"] = TotalMapWinCount
     options["starting_phighter_count"] = StartingPhighterCount
+    options["map_count"] = MapChecks
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
