@@ -56,6 +56,7 @@ class MapChecks(Range):
     """
     Number of maps that will be checks on each phighter.
     If number of locations is not large enough for all the enabled items, the minimum amount of maps per phighter will instead be enabled.
+    If number of locations is not large enough for victory requirement, the minimum amount of maps per phighter will be enabled.
     """
     range_start = 1
     range_end = 30
