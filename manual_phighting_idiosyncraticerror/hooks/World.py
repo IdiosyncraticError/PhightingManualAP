@@ -134,7 +134,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
                 possible_maps.extend(
                     [
                         location for location in region.locations
-                            if "Map Wins" in location.get("category", []) #find a way to search a location's categories
+                            if location.name.startswith("Win on ")
                     ]
                 )
                 
