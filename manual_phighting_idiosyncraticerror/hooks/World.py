@@ -131,18 +131,16 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
             if region in phighters:
                 possible_maps = []
         
-                possible_maps.extend(
-                    [
-                        location for location in region.locations
-                            if location.name.startswith("Win on ")
-                    ]
-                )
+                possible_maps.extend([
+                    location for location in region.locations
+                        if location.name.startswith("Win on ")
+                ])
                 
                 while len(possible_maps) > map_number:
                     chosen = world.random.choice(possible_maps)
-                    region.locations.remove(chosen)
-                    #also its not even giving the same mount of checks per phighter like bro wtf
-                    #maybe something about list(region.locations) is breaking the remove check ??? bcs its in a list ?????
+                    for l in region.locations:
+                        if l.name == chosen.name:
+                            region.locations.remove(chosen)
 
     return item_pool
 
