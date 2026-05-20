@@ -138,9 +138,6 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
                     ]
                 )
                 
-                # remove any duplicate names from the list of possible items
-                possible_maps = set(possible_maps)
-                
                 while len(possible_maps) > map_number:
                     chosen = world.random.choice(possible_maps)
                     region.locations.remove(chosen)
