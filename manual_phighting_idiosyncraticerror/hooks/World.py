@@ -140,7 +140,8 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
                     chosen = world.random.choice(possible_maps)
                     for l in region.locations:
                         if l.name == chosen.name:
-                            region.locations.remove(chosen)
+                            region.locations.remove(l)
+                            possible_maps.remove(chosen)
 
     return item_pool
 
