@@ -13,7 +13,10 @@
         "hidden": true
     },
     "MVP Badges": {
-        "hidden": true
+        "hidden": true,
+        "yaml_option": [
+            "mvp_badges"
+        ]
     },
     "Sword Abilitysanity": {
         "hidden": true,

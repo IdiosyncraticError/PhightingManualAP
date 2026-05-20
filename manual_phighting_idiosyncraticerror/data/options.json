@@ -19,6 +19,13 @@
             "values": {
                 "recommended": 20
             }
+        },
+        "mvp_badges": {
+            "description": [
+                "Toggle MVP Badges on/off"
+            ],
+            "type": "Toggle",
+            "default": false,
         }
     },
     "user": {
