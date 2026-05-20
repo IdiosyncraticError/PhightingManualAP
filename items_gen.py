@@ -25,27 +25,32 @@ abilities = [
     "Phinisher"
 ]
 
-victory = {
-    "name": "victory",
-    "victory": "true",
-    
-}
-
 output = []
 for phighter in phighters:
     obj = {}
-    obj["name"] = phighter + " Win Condition"
-    obj["category"] = ["Win Progression"]
-    obj["requires"] = "{OptionCount(@" + phighter + " Tracker, total_map_win_count)}"
+    obj["count"] = 1
+    obj["name"] = phighter + " Unlock"
+    obj["category"] = ["Phighter Unlock"]
+    obj["progression"] = True
     output.append(obj)
-
-for m in maps:
-    for phighter in phighters:
+    
+for phighter in phighters:
+    for ab in abilities:
         obj = {}
-        obj["name"] = phighter + " " + m + " Tracker"
-        obj["category"] = ["Tracker", phighter + " Tracker"]
-        obj["copy_location"] = "Win on " + m + " - " + phighter
-        output.append(obj)    
+        obj["count"] = 1
+        obj["name"] = phighter + " " + ab + " Unlock"
+    if phighter == "Sword":
+        for ab in abilities:
+            pass
+    if phighter == "Skateboard":
+        for ab in abilities:
+            pass
+    if phighter == "Scythe":
+        for ab in abilities:
+            pass
+    if phighter == "Coil":
+        for ab in abilities:
+            pass
 
 with open("data.json", "w") as file:
     json.dump(output, file, indent=4)

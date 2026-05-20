@@ -63,13 +63,13 @@ mvp_badges = [
     "bulwark"
 ]
 
-skins = []
+skins = [] #aw hell naw bro i aint doing this till im out of mental health
 
-stickers = []
+stickers = 0 #sticker will be treated like its egg shop/grubfather bcs they all cost the same
 
 rng = [
-    "x13",
-    "x66.6",
+    "a x13 round",
+    "a x66.6 round",
     "Fractured Space"
 ]
 
@@ -100,20 +100,60 @@ other = [
 ]
 
 output = []
-for phighter in phighters:
-    obj = {}
-    obj["name"] = phighter + " Win Condition"
-    obj["category"] = ["Win Progression"]
-    obj["requires"] = "{OptionCount(@" + phighter + " Tracker, total_map_win_count)}"
-    output.append(obj)
+
+victory = {
+    "name": "victory",
+    "victory": True,
+    "requires": "{OptionCount(@Win Progression, total_phighter_win_count)}"
+}
+output.append(victory)
 
 for m in maps:
     for phighter in phighters:
         obj = {}
-        obj["name"] = phighter + " " + m + " Tracker"
-        obj["category"] = ["Tracker", phighter + " Tracker"]
-        obj["copy_location"] = "Win on " + m + " - " + phighter
-        output.append(obj)    
+        obj["name"] = "Win on " + m + " - " + phighter
+        obj["region"] = phighter
+        obj["category"] = ["Map Wins", phighter + " Map Wins"]
+        output.append(obj)
+
+for b in mvp_badges:
+    for phighter in phighters:
+        obj = {}
+        if b.endswith("VP"):
+            obj["name"] = "Be the " + b + " - " + phighter
+        else:
+            obj["name"] = "Get the " + b + " badge - " + phighter
+        
+        obj["region"] = phighter
+        obj["category"] = ["MVP Badges", phighter + " MVP Badges"]
+        
+for hi in rng:
+    obj = {
+        "name": "Experience " + hi,
+        "category": ["rng", "Luck Rounds"]
+    }
+    output.append(obj)
+    
+for hi in bonus_rounds:
+    obj = {
+        "name": "Experience " + hi,
+        "category": ["rng", "Bonus Rounds"]
+    }
+    output.append(obj)
+
+for hi in sword_events:
+    obj = {
+        "name": "\"Meet\" " + hi,
+        "category": ["rng", "Sword Events"]
+    }
+    output.append(obj)
+
+for hi in other:
+    obj = {
+        "name": hi,
+        "category": ["Other"]
+    }
+    output.append(obj)
 
 with open("data.json", "w") as file:
     json.dump(output, file, indent=4)
