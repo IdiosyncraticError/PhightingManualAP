@@ -25,7 +25,7 @@
                 "Toggle MVP Badges on/off"
             ],
             "type": "Toggle",
-            "default": false,
+            "default": false
         }
     },
     "user": {
