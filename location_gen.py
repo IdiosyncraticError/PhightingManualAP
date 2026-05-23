@@ -99,6 +99,34 @@ other = [
     "Experience Boomball",
 ]
 
+phest_titles = [
+    "Fan",
+    "Member",
+    "Enjoyer",
+    "Lover",
+    "Pawn",
+    "Player",
+    "Phighter",
+    "Pro",
+    "Ace",
+    "Expert",
+    "Knight",
+    "Paladin",
+    "Champion",
+    "Boss",
+    "Master",
+    "Ruler",
+    "Emperor",
+    "Monarch",
+    "Idol",
+    "Divinity",
+    "Deity",
+    "God",
+    "Celestial",
+    "Immortal",
+    "a + title"
+]
+
 output = []
 
 victory = {
@@ -153,6 +181,13 @@ for hi in other:
     obj = {
         "name": hi,
         "category": ["Other"]
+    }
+    output.append(obj)
+
+for title in phest_titles:
+    obj = {
+        "name": "Earn " + title,
+        "category": ["Phest Titles"]
     }
     output.append(obj)
 

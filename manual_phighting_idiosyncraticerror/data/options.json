@@ -94,6 +94,13 @@
             "default": false,
             "group": "Alt Account"
         },
+        "phestival_titles":{
+            "description": [
+                "each phestival title rank is a check (until first +)"
+            ],
+            "type": "Toggle",
+            "default": false
+        },
         "Example_Choice":{
             "type": "Choice",
             "description": [
@@ -109,17 +116,6 @@
             "default": 0,
             "allow_custom_value": false,
             "group": "Example Options"
-        },
-        "DLC_enabled":{
-            "display_name": "DLC Enabled",
-            "description": "Is the Dlc enabled?",
-            "type": "Toggle",
-            "visibility": [
-                "simple_ui",
-                "complex_ui",
-                "template"
-            ],
-            "default": true
         }
     }
 

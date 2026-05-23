@@ -33,6 +33,11 @@
     "Other": {
         "hidden": true
     },
+    "Phest Titles": {
+        "yaml_option": [
+            "phestival_titles"
+        ]
+    },
     "Sword Abilitysanity": {
         "hidden": true,
         "yaml_option": [
