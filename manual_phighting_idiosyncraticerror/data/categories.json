@@ -18,6 +18,21 @@
             "mvp_badges"
         ]
     },
+    "rng": {
+        "hidden": true
+    },
+    "Luck Rounds": {
+
+    },
+    "Bonus Rounds": {
+
+    },
+    "Sword Events": {
+ 
+    },
+    "Other": {
+        "hidden": true
+    },
     "Sword Abilitysanity": {
         "hidden": true,
         "yaml_option": [

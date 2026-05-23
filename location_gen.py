@@ -126,6 +126,7 @@ for b in mvp_badges:
         
         obj["region"] = phighter
         obj["category"] = ["MVP Badges", phighter + " MVP Badges"]
+        output.append(obj)
         
 for hi in rng:
     obj = {
