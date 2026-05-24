@@ -18,20 +18,30 @@
             "mvp_badges"
         ]
     },
-    "rng": {
-        "hidden": true
-    },
     "Luck Rounds": {
-
+        "yaml_option": [
+            "luck_rounds"
+        ]
     },
     "Bonus Rounds": {
-
+        "yaml_option": [
+            "bonus_rounds"
+        ]
     },
     "Sword Events": {
- 
+        "yaml_option": [
+            "sword_events"
+        ]
     },
-    "Other": {
-        "hidden": true
+    "Doomsekkar": {
+        "yaml_option": [
+            "doomsekkar"
+        ]
+    },
+    "Boomball": {
+        "yaml_option": [
+            "boomball"
+        ]
     },
     "Phest Titles": {
         "yaml_option": [

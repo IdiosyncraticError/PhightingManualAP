@@ -58,9 +58,102 @@ class MapChecks(Range):
     If number of locations is not large enough for all the enabled items, the minimum amount of maps per phighter will instead be enabled.
     If number of locations is not large enough for victory requirement, the minimum amount of maps per phighter will be enabled.
     """
+    display_name = "Number of map locations per phighter"
     range_start = 1
     range_end = 30
     default = 15
+
+class MVPBadges(Toggle):
+    """
+    Whether MVP badges (SVP, MVP, the icons to the left of your username) will be checks
+    Hover over the badge to see its name
+    """
+    display_name = "MVP badge locations"
+
+class LuckRounds(Toggle):
+    """
+    Adds x13, x66.6, and Fractured Space to locations
+    """
+    display_name = "Special Rounds"
+
+class BonusRounds(Toggle):
+    """
+    Adds round modifiers to locations
+    (phighter beans, bonus damage/speed/phinisher charge, one for all, random phighters)
+    """
+    display_name = "Bonus Rounds"
+
+class SwordEvents(Toggle):
+    """
+    Adds one minute left sword events to the location pool
+    """
+    display_name = "Sword Events"
+
+class Doomsekkar(Toggle):
+    """
+    Adds defeating Doomsekkar as a location
+    """
+    display_name = "Doomsekkar"
+
+class Boomball(Toggle):
+    """
+    Adds Boomball as a location
+    """
+    display_name = "Boomball"
+
+class PhestivalTitles(Toggle):
+    """
+    Every phestival title rank becomes a check (final check is earning a +)
+    """
+    display_name = "Phestival title locations"
+
+class Abilitysanity(DefaultOnToggle):
+    """
+    Each ability will be locked until you receive the corresponding unlock item
+    """
+    display_name = "Abilitysanity"
+
+class SwordAbility(Toggle):
+    """
+    Sword's normal and empowered abilities are now individually locked
+    """
+    display_name = "Sword Abilitysanity"
+
+class SkateAbility(Toggle):
+    """
+    Skateboard's onboard and offboard abilities are now individually locked
+    """
+    display_name = "Skateboard Abilitysanity"
+
+class ScytheAbility(Toggle):
+    """
+    Scythe's melee and ranged abilities are now individually locked (including phinisher)
+    """
+    display_name = "Scythe Abilitysanity"
+
+class CoilAbility(Toggle):
+    """
+    Each ability is also locked per coil mode
+    """
+    display_name = "Coil Abilitysanity"
+
+class CoilPhinisher(Toggle):
+    """
+    Each fusion coil ability is also individually locked
+    """
+    display_name = "Coil Phinishersanity"
+
+class Stickers(Toggle):
+    """
+    Each sticker is now a check
+    """
+    display_name = "Stickersanity"
+
+class Skins(Toggle):
+    """
+    Each skin is now a check
+    """
+    display_name = "Skinsanity"
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
@@ -68,6 +161,25 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["total_map_win_count"] = TotalMapWinCount
     options["starting_phighter_count"] = StartingPhighterCount
     options["map_count"] = MapChecks
+
+    options["mvp_badges"] = MVPBadges
+    options["luck_rounds"] = LuckRounds
+    options["bonus_rounds"] = BonusRounds
+    options["sword_events"] = SwordEvents
+    options["doomsekkar"] = Doomsekkar
+    options["boomball"] = Boomball
+    options["phestival_titles"] = PhestivalTitles
+
+    options["abilitysanity"] = Abilitysanity
+    options["sword_abilitysanity"] = SwordAbility
+    options["skateboard_abilitysanity"] = SkateAbility
+    options["scythe_abilitysanity"] = ScytheAbility
+    options["coil_abilitysanity"] = CoilAbility
+    options["coil_phinishersanity"] = CoilPhinisher
+
+    options["skinsanity"] = Skins
+    options["stickersanity"] = Stickers
+
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
@@ -85,6 +197,9 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
 # Use this Hook if you want to add your Option to an Option group (existing or not)
 def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> dict[str, list[Type[Option[Any]]]]:
     # Uses the format groups['GroupName'] = [TotalCharactersToWinWith]
+    groups["Optional Locations"] = [MVPBadges, LuckRounds, BonusRounds, SwordEvents, Doomsekkar, Boomball, PhestivalTitles]
+    groups["Abilitysanity"] = [Abilitysanity, SwordAbility, SkateAbility, ScytheAbility, CoilAbility, CoilPhinisher]
+    groups["Alt Account Locations"] = [Skins, Stickers]
     return groups
 
 def after_option_groups_created(groups: list[OptionGroup]) -> list[OptionGroup]:

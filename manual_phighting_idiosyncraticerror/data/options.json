@@ -11,112 +11,14 @@
             "aliases": {"easiest": 0},
             "hidden": false
         },
-        "death_link": {
-            "default": false
-        },
         "filler_traps": {
             "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
+            "description": "THIS DOES NOTHING",
             "values": {
                 "recommended": 20
             }
-        },
-        "mvp_badges": {
-            "description": [
-                "Toggle MVP Badges on/off"
-            ],
-            "type": "Toggle",
-            "default": false
         }
     },
-    "user": {
-        "abilitysanity":{
-            "description": [
-                "Toggle abilitysanity on/off"
-            ],
-            "type": "Toggle",
-            "default": true,
-            "group": "Abilitysanity"
-        },
-        "sword_abilitysanity":{
-            "description": [
-                "Sword's base and empowered abilities are individually locked"
-            ],
-            "type": "Toggle",
-            "default": true,
-            "group": "Abilitysanity"
-        },
-        "skateboard_abilitysanity":{
-            "description": [
-                "Skateboard's offboard and onboard abilities are individually locked"
-            ],
-            "type": "Toggle",
-            "default": true,
-            "group": "Abilitysanity"
-        },
-        "scythe_abilitysanity":{
-            "description": [
-                "Scythe's melee and ranged abilities (including Phinishers) are individually locked"
-            ],
-            "type": "Toggle",
-            "default": true,
-            "group": "Abilitysanity"
-        },
-        "coil_abilitysanity":{
-            "description": [
-                "Every coil mode's abilities are individually locked"
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Abilitysanity"
-        },
-        "coil_phinishersanity":{
-            "description": [
-                "Fusion coil abilities are individually locked"
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Abilitysanity"
-        },
-
-        "skinsanity":{
-            "description": [
-                "Skins are checks"
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Alt Account"
-        },
-        "stickersanity":{
-            "description": [
-                "Stickers are checks"
-            ],
-            "type": "Toggle",
-            "default": false,
-            "group": "Alt Account"
-        },
-        "phestival_titles":{
-            "description": [
-                "each phestival title rank is a check (until first +)"
-            ],
-            "type": "Toggle",
-            "default": false
-        },
-        "Example_Choice":{
-            "type": "Choice",
-            "description": [
-                "This is a Choice",
-                "Let the user pick from a list of values",
-                "allow_custom_value let a player define their own text value",
-                "Currently the only use for Choice in Manual outside of hooks is the goal"
-            ],
-            "values": {
-                "start":0,
-                "test":1
-             },
-            "default": 0,
-            "allow_custom_value": false,
-            "group": "Example Options"
-        }
-    }
+    "user": {}
 
 }

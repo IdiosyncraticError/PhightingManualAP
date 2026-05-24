@@ -94,11 +94,6 @@ sword_events = [
     "Valk"
 ]
 
-other = [
-    "Defeat Doomsekkar",
-    "Experience Boomball",
-]
-
 phest_titles = [
     "Fan",
     "Member",
@@ -159,28 +154,21 @@ for b in mvp_badges:
 for hi in rng:
     obj = {
         "name": "Experience " + hi,
-        "category": ["rng", "Luck Rounds"]
+        "category": ["Luck Rounds"]
     }
     output.append(obj)
     
 for hi in bonus_rounds:
     obj = {
         "name": "Experience " + hi,
-        "category": ["rng", "Bonus Rounds"]
+        "category": ["Bonus Rounds"]
     }
     output.append(obj)
 
 for hi in sword_events:
     obj = {
         "name": "\"Meet\" " + hi,
-        "category": ["rng", "Sword Events"]
-    }
-    output.append(obj)
-
-for hi in other:
-    obj = {
-        "name": hi,
-        "category": ["Other"]
+        "category": ["Sword Events"]
     }
     output.append(obj)
 
@@ -190,6 +178,17 @@ for title in phest_titles:
         "category": ["Phest Titles"]
     }
     output.append(obj)
+
+doomsekkar = {
+    "name": "Defeat Doomsekkar",
+    "category": ["Doomsekkar"]
+}
+output.append(doomsekkar)
+
+boomball = {
+    "name": "Play Boomball",
+    "category": ["Boomball"]
+}
 
 with open("data.json", "w") as file:
     json.dump(output, file, indent=4)
