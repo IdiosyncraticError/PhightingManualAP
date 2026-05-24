@@ -103,7 +103,7 @@ class Boomball(Toggle):
 
 class PhestivalTitles(Toggle):
     """
-    Every phestival title rank becomes a check (final check is earning a +)
+    Every phestival title rank becomes a location (final location is earning a +)
     """
     display_name = "Phestival title locations"
 
@@ -133,13 +133,13 @@ class ScytheAbility(Toggle):
 
 class CoilAbility(Toggle):
     """
-    Each ability is also locked per coil mode
+    Each ability is also locked per coil mode (not including phinisher)
     """
     display_name = "Coil Abilitysanity"
 
 class CoilPhinisher(Toggle):
     """
-    Each fusion coil ability is also individually locked
+    Each fusion coil ability is individually locked on top of the phinisher itself
     """
     display_name = "Coil Phinishersanity"
 
