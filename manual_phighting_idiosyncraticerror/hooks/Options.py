@@ -145,9 +145,18 @@ class CoilPhinisher(Toggle):
 
 class Stickers(Toggle):
     """
-    Each sticker is now a check
+    Every sticker bought is a check
+    If you turn this on inside a sync bro thats your own fault
     """
     display_name = "Stickersanity"
+
+class StickerRange(Range):
+    """
+    The total number of sticker checks
+    """
+    range_start = 1
+    range_end = 39
+    default = 10
 
 class Skins(Toggle):
     """

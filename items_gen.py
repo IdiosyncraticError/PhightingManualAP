@@ -48,11 +48,19 @@ for phighter in phighters:
                     else:
                         obj["category"] = ["Sword Ability Unlock", "Sword Abilitysanity"]
                     obj["progression"] = True
+                    output.append(obj)
+        phin = {
+            "count": 1,
+            "name": "Sword Phinisher Unlock",
+            "category": ["Sword Ability Unlock"],
+            "progression": True
+        }
+        output.append(phin)
     elif phighter == "Skateboard":
         types = ["", "Offboard ", "Onboard "]
         for t in types:
             for ab in abilities:
-                if ab != "Phinisher" and (t!= "Offboard " or t != "Onboard "):
+                if ab != "Phinisher" and (t != "Offboard " or t != "Onboard "):
                     obj = {}
                     obj["count"] = 1
                     obj["name"] = "Skateboard " + t + ab + " Unlock"
@@ -61,6 +69,14 @@ for phighter in phighters:
                     else:
                         obj["category"] = ["Skateboard Ability Unlock", "Skateboard Abilitysanity"]
                     obj["progression"] = True
+                    output.append(obj)
+        phin = {
+            "count": 1,
+            "name": "Skateboard Phinisher Unlock",
+            "category": ["Skateboard Ability Unlock"],
+            "progression": True
+        }
+        output.append(phin)
     elif phighter == "Scythe":
         types = ["", "Melee ", "Ranged "]
         for t in types:
@@ -73,26 +89,38 @@ for phighter in phighters:
                 else:
                     obj["category"] = ["Scythe Ability Unlock", "Scythe Abilitysanity"]
                 obj["progression"] = True
+                output.append(obj)
     elif phighter == "Coil":
         types = ["", "Regen ", "Bounce ", "Haste "]
         for t in types:
             for ab in abilities:
-                obj = {}
-                obj["count"] = 1
-                obj["name"] = "Coil " + t + ab + " Unlock"
-                if t == "":
-                    obj["category"] = ["Coil Ability Unlock", "!Coil Abilitysanity"]
-                else:
-                    obj["category"] = ["Coil Ability Unlock", "Coil Abilitysanity"]
-                obj["progression"] = True
-            for ab in abilities:
                 if ab != "Phinisher":
+                    obj = {}
+                    obj["count"] = 1
+                    obj["name"] = "Coil " + t + ab + " Unlock"
+                    if t == "":
+                        obj["category"] = ["Coil Ability Unlock", "!Coil Abilitysanity"]
+                    else:
+                        obj["category"] = ["Coil Ability Unlock", "Coil Abilitysanity"]
+                    obj["progression"] = True
+                    output.append(obj)
+                elif ab == "Phinisher" and t == "":
                     obj = {
                         "count": 1,
-                        "name": "Coil Phinisher " + ab + " Unlock",
-                        "category": ["Coil Ability Unlock", "Coil Phinisher Abilitysanity"],
+                        "name": "Coil Phinisher Unlock",
+                        "category": ["Coil Ability Unlock"],
                         "progression": True
                     }
+                    output.append(obj)
+        for ab in abilities:
+            if ab != "Phinisher":
+                obj = {
+                    "count": 1,
+                    "name": "Coil Phinisher " + ab + " Unlock",
+                    "category": ["Coil Ability Unlock", "Coil Phinisher Abilitysanity"],
+                    "progression": True
+                }
+                output.append(obj)
     else:
         for ab in abilities:
             obj = {}
@@ -101,7 +129,6 @@ for phighter in phighters:
             obj["category"] = [phighter + " Ability Unlock"]
             obj["progression"] = True
             output.append(obj)
-
 
 with open("data.json", "w") as file:
     json.dump(output, file, indent=4)
