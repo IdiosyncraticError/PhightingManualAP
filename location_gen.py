@@ -138,6 +138,32 @@ phest_titles = [
     "a +"
 ]
 
+badges = [ #option check if abilitysanity is turned on then requires ability unlock
+    ["welcome phighter!", ""],
+    ["stuck sword", "Sword", "|Sword Phinisher Unlock|"],
+    ["direct detonation", "Rocket", "|Rocket M2 Unlock|"],
+    ["sharp shooter", "Slingshot", "|Slingshot Q Unlock|"],
+    ["guardian angel", "Medkit", "|Medkit Phinisher Unlock|"],
+    ["bass drop", "Boombox", "|Boombox Phinisher Unlock|"],
+    ["vehicular manslaughter", "Skateboard", "|Skateboard E Unlock|"], #okay but like fr what the fuck am i putting here sob sob
+    ["your demise", "Biograft", "|Biograft Q Unlock|"],
+    ["bounty collected", "Hyperlaser", "|Hyperlaser Phinisher Unlock|"],
+    ["experiment successful", "Subspace", "|Subspace Phinisher Unlock|"],
+    ["sever the soul", "Katana", "|Katana Phinisher Unlock|"],
+    ["silver shadow", "Shuriken", "|Shuriken Phinisher Unlock| and |Shuriken Q Unlock|"],
+    #["new beginnings", "Vine Staff", "|Vine Staff Phinisher Unlock|"], #oookay is this one even possible who knows
+    ["adjourned", "Ban Hammer", "|Ban Hammer Phinisher Unlock|"],
+    ["headhunter", "Scythe"], #L no requirements
+    ["cold snap", "Coil", "|Coil Phinisher Unlock|"],
+    ["first steps", ""],
+    ["PWNED!", ""],
+    ["the one", ""], #this one needs its own category lmaooo
+    #ive nearly gotten a penta like 5 times it pmo
+    ["devil's game", ""],
+    ["Supreme Survivor", ""], #this too
+    #["caged by the dead", ""], #this already exists as doomsekkar location so like... idk
+]
+
 output = []
 
 victory = {
