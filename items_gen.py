@@ -35,31 +35,22 @@ for phighter in phighters:
     output.append(obj)
     
 for phighter in phighters:
+    for ab in abilities:
+        obj = {}
+        obj["count"] = 1
+        obj["name"] = phighter + " " + ab + " Unlock"
     if phighter == "Sword":
         for ab in abilities:
-            obj = {
-                "count": 1,
-                "name": "Sword Base " + ab + " Unlock"
-            }
             pass
-    elif phighter == "Skateboard":
+    if phighter == "Skateboard":
         for ab in abilities:
             pass
-    elif phighter == "Scythe":
+    if phighter == "Scythe":
         for ab in abilities:
             pass
-    elif phighter == "Coil":
+    if phighter == "Coil":
         for ab in abilities:
             pass
-    else:
-        for ab in abilities:
-            obj = {}
-            obj["count"] = 1
-            obj["name"] = phighter + " " + ab + " Unlock"
-            obj["category"] = [phighter + " Ability Unlock"]
-            obj["progression"] = True
-            output.append(obj)
-
 
 with open("data.json", "w") as file:
     json.dump(output, file, indent=4)
