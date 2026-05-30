@@ -107,6 +107,13 @@ class PhestivalTitles(Toggle):
     """
     display_name = "Phestival title locations"
 
+class HardLocations(Toggle):
+    """
+    Adds very challenging locations
+    As of now, includes the Pentakill badge and the max Sword Events badge (requires badges to be on)
+    """
+    display_name = "Challenge Locations"
+
 class Abilitysanity(DefaultOnToggle):
     """
     Each ability will be locked until you receive the corresponding unlock item
@@ -153,6 +160,7 @@ class Stickers(Toggle):
 class StickerRange(Range):
     """
     The total number of sticker checks
+    Currently unimplemented
     """
     range_start = 1
     range_end = 39
@@ -163,6 +171,24 @@ class Skins(Toggle):
     Each skin is now a check
     """
     display_name = "Skinsanity"
+
+class SkinRange(Range):
+    """
+    Total number of skin checks
+    Currently unimplemented
+    """
+    range_start = 1
+    range_end = 73
+    default = 10
+
+class Badges(Toggle):
+    """
+    Adds badges as a location
+    Excludes "caged by the dead" since Doomsekkar has its own setting
+    "the one" and "Supreme Survivor" must be toggled with the Challenge Locations option
+    Vine Staff's badge is currently unavailable
+    """
+    display_name = "Achievementsanity"
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
@@ -178,6 +204,7 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["doomsekkar"] = Doomsekkar
     options["boomball"] = Boomball
     options["phestival_titles"] = PhestivalTitles
+    options["hard_locations"] = HardLocations
 
     options["abilitysanity"] = Abilitysanity
     options["sword_abilitysanity"] = SwordAbility
@@ -188,6 +215,7 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
 
     options["skinsanity"] = Skins
     options["stickersanity"] = Stickers
+    options["achievementsanity"] = Badges
 
     return options
 
@@ -206,9 +234,9 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
 # Use this Hook if you want to add your Option to an Option group (existing or not)
 def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> dict[str, list[Type[Option[Any]]]]:
     # Uses the format groups['GroupName'] = [TotalCharactersToWinWith]
-    groups["Optional Locations"] = [MVPBadges, LuckRounds, BonusRounds, SwordEvents, Doomsekkar, Boomball, PhestivalTitles]
+    groups["Optional Locations"] = [HardLocations, MVPBadges, LuckRounds, BonusRounds, SwordEvents, Doomsekkar, Boomball, PhestivalTitles]
     groups["Abilitysanity"] = [Abilitysanity, SwordAbility, SkateAbility, ScytheAbility, CoilAbility, CoilPhinisher]
-    groups["Alt Account Locations"] = [Skins, Stickers]
+    groups["Alt Account Locations"] = [Skins, Stickers, Badges]
     return groups
 
 def after_option_groups_created(groups: list[OptionGroup]) -> list[OptionGroup]:

@@ -157,10 +157,10 @@ badges = [ #option check if abilitysanity is turned on then requires ability unl
     ["cold snap", "Coil", "|Coil Phinisher Unlock|"],
     ["first steps", ""],
     ["PWNED!", ""],
-    ["the one", ""], #this one needs its own category lmaooo
+    ["the one", "Challenge"], #this one needs its own category lmaooo
     #ive nearly gotten a penta like 5 times it pmo
-    ["devil's game", ""],
-    ["Supreme Survivor", ""], #this too
+    ["devil's game", ""], #this is also just the x66 location
+    ["Supreme Survivor", "Challenge"], #this too
     #["caged by the dead", ""], #this already exists as doomsekkar location so like... idk
 ]
 
@@ -246,6 +246,22 @@ for i in range(sticker_count):
         "name": "Purchase " + str(i+1) + " sticker(s)",
         "category": ["Stickers"]
     }
+    output.append(obj)
+
+for i in badges:
+    obj = {}
+    obj["name"] = "Get the " + i[0] + " achievement"
+    cat_list = ["Achievement"]
+    if i[1] == "Challenge":
+        cat_list.append(i[1])
+    elif i[1] != "":
+        obj["region"] = i[1]
+
+    obj["category"] = cat_list
+
+    if 3 == len(i):
+        obj["requires"] = i[2]
+
     output.append(obj)
 
 with open("data.json", "w") as file:

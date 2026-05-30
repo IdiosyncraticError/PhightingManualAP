@@ -5286,5 +5286,154 @@
         "category": [
             "Stickers"
         ]
+    },
+    {
+        "name": "Get the welcome phighter! achievement",
+        "category": [
+            "Achievement"
+        ]
+    },
+    {
+        "name": "Get the stuck sword achievement",
+        "region": "Sword",
+        "category": [
+            "Achievement"
+        ],
+        "requires": "|Sword Phinisher Unlock|"
+    },
+    {
+        "name": "Get the direct detonation achievement",
+        "region": "Rocket",
+        "category": [
+            "Achievement"
+        ],
+        "requires": "|Rocket M2 Unlock|"
+    },
+    {
+        "name": "Get the sharp shooter achievement",
+        "region": "Slingshot",
+        "category": [
+            "Achievement"
+        ],
+        "requires": "|Slingshot Q Unlock|"
+    },
+    {
+        "name": "Get the guardian angel achievement",
+        "region": "Medkit",
+        "category": [
+            "Achievement"
+        ],
+        "requires": "|Medkit Phinisher Unlock|"
+    },
+    {
+        "name": "Get the bass drop achievement",
+        "region": "Boombox",
+        "category": [
+            "Achievement"
+        ],
+        "requires": "|Boombox Phinisher Unlock|"
+    },
+    {
+        "name": "Get the vehicular manslaughter achievement",
+        "region": "Skateboard",
+        "category": [
+            "Achievement"
+        ],
+        "requires": "|Skateboard E Unlock|"
+    },
+    {
+        "name": "Get the your demise achievement",
+        "region": "Biograft",
+        "category": [
+            "Achievement"
+        ],
+        "requires": "|Biograft Q Unlock|"
+    },
+    {
+        "name": "Get the bounty collected achievement",
+        "region": "Hyperlaser",
+        "category": [
+            "Achievement"
+        ],
+        "requires": "|Hyperlaser Phinisher Unlock|"
+    },
+    {
+        "name": "Get the experiment successful achievement",
+        "region": "Subspace",
+        "category": [
+            "Achievement"
+        ],
+        "requires": "|Subspace Phinisher Unlock|"
+    },
+    {
+        "name": "Get the sever the soul achievement",
+        "region": "Katana",
+        "category": [
+            "Achievement"
+        ],
+        "requires": "|Katana Phinisher Unlock|"
+    },
+    {
+        "name": "Get the silver shadow achievement",
+        "region": "Shuriken",
+        "category": [
+            "Achievement"
+        ],
+        "requires": "|Shuriken Phinisher Unlock| and |Shuriken Q Unlock|"
+    },
+    {
+        "name": "Get the adjourned achievement",
+        "region": "Ban Hammer",
+        "category": [
+            "Achievement"
+        ],
+        "requires": "|Ban Hammer Phinisher Unlock|"
+    },
+    {
+        "name": "Get the headhunter achievement",
+        "region": "Scythe",
+        "category": [
+            "Achievement"
+        ]
+    },
+    {
+        "name": "Get the cold snap achievement",
+        "region": "Coil",
+        "category": [
+            "Achievement"
+        ],
+        "requires": "|Coil Phinisher Unlock|"
+    },
+    {
+        "name": "Get the first steps achievement",
+        "category": [
+            "Achievement"
+        ]
+    },
+    {
+        "name": "Get the PWNED! achievement",
+        "category": [
+            "Achievement"
+        ]
+    },
+    {
+        "name": "Get the the one achievement",
+        "category": [
+            "Achievement",
+            "Challenge"
+        ]
+    },
+    {
+        "name": "Get the devil's game achievement",
+        "category": [
+            "Achievement"
+        ]
+    },
+    {
+        "name": "Get the Supreme Survivor achievement",
+        "category": [
+            "Achievement",
+            "Challenge"
+        ]
     }
 ]
