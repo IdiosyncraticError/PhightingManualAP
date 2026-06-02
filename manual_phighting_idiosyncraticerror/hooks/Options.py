@@ -63,6 +63,8 @@ class MapChecks(Range):
     range_end = 30
     default = 15
 
+#optionset??? for the list thing
+
 class MVPBadges(Toggle):
     """
     Whether MVP badges (SVP, MVP, the icons to the left of your username) will be checks
@@ -218,6 +220,7 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["hard_locations"] = HardLocations
 
     options["abilitysanity"] = Abilitysanity
+    options["random_ability_start"] = StartingAbility
     options["sword_abilitysanity"] = SwordAbility
     options["skateboard_abilitysanity"] = SkateAbility
     options["scythe_abilitysanity"] = ScytheAbility
@@ -225,7 +228,9 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
     options["coil_phinishersanity"] = CoilPhinisher
 
     options["skinsanity"] = Skins
+    options["skin_range"] = SkinRange
     options["stickersanity"] = Stickers
+    options["sticker_range"] = StickerRange
     options["achievementsanity"] = Badges
 
     return options
@@ -246,8 +251,8 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
 def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> dict[str, list[Type[Option[Any]]]]:
     # Uses the format groups['GroupName'] = [TotalCharactersToWinWith]
     groups["Optional Locations"] = [HardLocations, MVPBadges, LuckRounds, BonusRounds, SwordEvents, Doomsekkar, Boomball, PhestivalTitles]
-    groups["Abilitysanity"] = [Abilitysanity, SwordAbility, SkateAbility, ScytheAbility, CoilAbility, CoilPhinisher]
-    groups["Alt Account Locations"] = [Skins, Stickers, Badges]
+    groups["Abilitysanity"] = [Abilitysanity, StartingAbility, SwordAbility, SkateAbility, ScytheAbility, CoilAbility, CoilPhinisher]
+    groups["Alt Account Locations"] = [Skins, SkinRange, Stickers, StickerRange, Badges]
     return groups
 
 def after_option_groups_created(groups: list[OptionGroup]) -> list[OptionGroup]:

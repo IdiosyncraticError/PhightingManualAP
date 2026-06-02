@@ -60,6 +60,17 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
             for location in list(region.locations):
                 if location.name in locationNamesToRemove:
                     region.locations.remove(location)
+                    
+    sticker_locations = []
+    for i in range(world.options.sticker_range.value):
+        sticker_locations.append("Purchase " + str(i+1) + " sticker(s)")
+    
+    for region in multiworld.regions:
+        if region.player == player:
+            for location in list(region.locations):
+                if location.name.endswith("sticker(s)") and location.name not in sticker_locations:
+                    region.locations.remove(location)
+                    
 
 # This hook allows you to access the item names & counts before the items are created. Use this to increase/decrease the amount of a specific item in the pool
 # Valid item_config key/values:
