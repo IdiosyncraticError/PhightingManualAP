@@ -117,8 +117,19 @@ class HardLocations(Toggle):
 class Abilitysanity(DefaultOnToggle):
     """
     Each ability will be locked until you receive the corresponding unlock item
+    DO NOT TURN THIS ON IN A SYNC
     """
     display_name = "Abilitysanity"
+
+class StartingAbility(Range):
+    """
+    The number of randomly selected abilities that each phighter will start with (not just starting phighters)
+    Highly recommended to have at least 1 to make initial locations less painful to get
+    """
+    display_name = "Starting Ability Count"
+    range_start = 0
+    range_end = 3
+    default = 1
 
 class SwordAbility(Toggle):
     """
