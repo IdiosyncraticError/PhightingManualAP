@@ -141,7 +141,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
         possible_abilities = []
         possible_abilities.extend([
                 name for name, i in world.item_name_to_item.items()
-                    if p + " Ability Unlock" in i.get("category", []) # .get() accounts for the key not existing and provides a default if it doesn't
+                    if p + " Ability Unlock" in i.get("category", []) and "Coil Phinisher Abilitysanity" not in i.get("category", []) # .get() accounts for the key not existing and provides a default if it doesn't
             ])
 
         possible_abilities = set(possible_abilities)
@@ -153,10 +153,9 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
         for _ in range(random_abilities):
             start_ability = world.random.choice(abilities)
-            if "Coil Phinisher Abilitysanity" not in start_ability.get("category", []):
-                multiworld.push_precollected(start_ability)
-                possible_items.remove(start_ability) # don't allow choosing the exact same item again
-                item_pool.remove(start_ability) # remove it from the pool since we're starting with it
+            multiworld.push_precollected(start_ability)
+            possible_items.remove(start_ability) # don't allow choosing the exact same item again
+            item_pool.remove(start_ability) # remove it from the pool since we're starting with it
 
     return item_pool
 
