@@ -51,15 +51,6 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
-    locationNamesToRemove: list[str] = [] # List of location names
-
-    # Add your code here to calculate which locations to remove
-
-    for region in multiworld.regions:
-        if region.player == player:
-            for location in list(region.locations):
-                if location.name in locationNamesToRemove:
-                    region.locations.remove(location)
                     
     sticker_locations = []
     for i in range(world.options.sticker_range.value):
@@ -70,6 +61,22 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
             for location in list(region.locations):
                 if location.name.endswith("sticker(s)") and location.name not in sticker_locations:
                     region.locations.remove(location)
+    
+    skin_locations = []
+    for region in multiworld.regions:
+        if region.player == player:
+            for location in list(region.locations):
+                if location.name.startswith("Purchase") and not location.name.endswith("sticker(s)"):
+                    skin_locations.append(location)
+    
+    while len(skin_locations) > world.options.skin_range.value:
+        remove = world.random.choice(skin_locations)
+        for region in multiworld.regions:
+            if region.player == player:
+                for location in list(region.locations):
+                    if location.name == remove:
+                        region.locations.remove(location)
+                        skin_locations.remove(remove)
                     
 
 # This hook allows you to access the item names & counts before the items are created. Use this to increase/decrease the amount of a specific item in the pool
