@@ -74,7 +74,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
         for region in multiworld.regions:
             if region.player == player:
                 for location in list(region.locations):
-                    if location.name == remove:
+                    if location.name == remove.name:
                         region.locations.remove(location)
                         skin_locations.remove(remove)
                     
