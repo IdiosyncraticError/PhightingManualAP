@@ -5299,7 +5299,7 @@
         "category": [
             "Achievement"
         ],
-        "requires": "|Sword Phinisher Unlock|"
+        "requires": "{OptOne(|Sword Phinisher Unlock|)}"
     },
     {
         "name": "Get the direct detonation achievement",
@@ -5307,7 +5307,7 @@
         "category": [
             "Achievement"
         ],
-        "requires": "|Rocket M2 Unlock|"
+        "requires": "{OptOne(|Rocket M2 Unlock|)}"
     },
     {
         "name": "Get the sharp shooter achievement",
@@ -5315,7 +5315,7 @@
         "category": [
             "Achievement"
         ],
-        "requires": "|Slingshot Q Unlock|"
+        "requires": "{OptOne(|Slingshot Q Unlock|)}"
     },
     {
         "name": "Get the guardian angel achievement",
@@ -5323,7 +5323,7 @@
         "category": [
             "Achievement"
         ],
-        "requires": "|Medkit Phinisher Unlock|"
+        "requires": "{OptOne(|Medkit Phinisher Unlock|)}"
     },
     {
         "name": "Get the bass drop achievement",
@@ -5331,7 +5331,7 @@
         "category": [
             "Achievement"
         ],
-        "requires": "|Boombox Phinisher Unlock|"
+        "requires": "{OptOne(|Boombox Phinisher Unlock|)}"
     },
     {
         "name": "Get the vehicular manslaughter achievement",
@@ -5339,7 +5339,7 @@
         "category": [
             "Achievement"
         ],
-        "requires": "|Skateboard E Unlock|"
+        "requires": "{OptOne(|Skateboard E Unlock|)}"
     },
     {
         "name": "Get the your demise achievement",
@@ -5347,7 +5347,7 @@
         "category": [
             "Achievement"
         ],
-        "requires": "|Biograft Q Unlock|"
+        "requires": "{OptOne(|Biograft Q Unlock|)}"
     },
     {
         "name": "Get the bounty collected achievement",
@@ -5355,7 +5355,7 @@
         "category": [
             "Achievement"
         ],
-        "requires": "|Hyperlaser Phinisher Unlock|"
+        "requires": "{OptOne(|Hyperlaser Phinisher Unlock|)}"
     },
     {
         "name": "Get the experiment successful achievement",
@@ -5363,7 +5363,7 @@
         "category": [
             "Achievement"
         ],
-        "requires": "|Subspace Phinisher Unlock|"
+        "requires": "{OptOne(|Subspace Phinisher Unlock|)}"
     },
     {
         "name": "Get the sever the soul achievement",
@@ -5371,7 +5371,7 @@
         "category": [
             "Achievement"
         ],
-        "requires": "|Katana Phinisher Unlock|"
+        "requires": "{OptOne(|Katana Phinisher Unlock|)}"
     },
     {
         "name": "Get the silver shadow achievement",
@@ -5379,7 +5379,7 @@
         "category": [
             "Achievement"
         ],
-        "requires": "|Shuriken Phinisher Unlock| and |Shuriken Q Unlock|"
+        "requires": "{OptAll(|Shuriken Phinisher Unlock| and |Shuriken Q Unlock|)}"
     },
     {
         "name": "Get the adjourned achievement",
@@ -5387,7 +5387,7 @@
         "category": [
             "Achievement"
         ],
-        "requires": "|Ban Hammer Phinisher Unlock|"
+        "requires": "{OptOne(|Ban Hammer Phinisher Unlock|)}"
     },
     {
         "name": "Get the headhunter achievement",
@@ -5402,7 +5402,7 @@
         "category": [
             "Achievement"
         ],
-        "requires": "|Coil Phinisher Unlock|"
+        "requires": "{OptOne(|Coil Phinisher Unlock|)}"
     },
     {
         "name": "Get the first steps achievement",
