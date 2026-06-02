@@ -48,6 +48,17 @@
             "phestival_titles"
         ]
     },
+    "Achievements": {
+        "yaml_option": [
+            "achievementsanity"
+        ]
+    },
+    "Challenge": {
+        "yaml_option": [
+            "hard_locations"
+        ],
+        "hidden": true
+    },
     "Sword Abilitysanity": {
         "hidden": true,
         "yaml_option": [
