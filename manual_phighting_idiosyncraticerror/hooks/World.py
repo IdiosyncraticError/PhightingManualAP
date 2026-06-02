@@ -117,6 +117,45 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             multiworld.push_precollected(random_starting_item)
             possible_items.remove(random_starting_item) # don't allow choosing the exact same item again
             item_pool.remove(random_starting_item) # remove it from the pool since we're starting with it
+            
+    random_abilities = world.options.random_ability_start.value
+    phighters = [
+        "Sword",
+        "Skateboard",
+        "Biograft",
+        "Katana",
+        "Ban Hammer",
+        "Rocket",
+        "Slingshot",
+        "Hyperlaser",
+        "Shuriken",
+        "Scythe",
+        "Medkit",
+        "Boombox",
+        "Subspace",
+        "Vine Staff",
+        "Coil"
+    ]
+    
+    for p in phighters:
+        possible_abilities = []
+        possible_abilities.extend([
+                name for name, i in world.item_name_to_item.items()
+                    if p + " Ability Unlock" in i.get("category", []) and "Coil Phinisher Abilitysanity" not in i.get("category", []) # .get() accounts for the key not existing and provides a default if it doesn't
+            ])
+
+        possible_abilities = set(possible_abilities)
+
+        abilities = [
+                i for i in item_pool 
+                    if i.name in possible_abilities
+            ]
+
+        for _ in range(random_abilities):
+            start_ability = world.random.choice(abilities)
+            multiworld.push_precollected(start_ability)
+            abilities.remove(start_ability) # don't allow choosing the exact same item again
+            item_pool.remove(start_ability) # remove it from the pool since we're starting with it
 
     return item_pool
 
@@ -133,12 +172,29 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)
         item_pool.remove(item)
+        
+    phighters = [
+        "Sword",
+        "Skateboard",
+        "Biograft",
+        "Katana",
+        "Ban Hammer",
+        "Rocket",
+        "Slingshot",
+        "Hyperlaser",
+        "Shuriken",
+        "Scythe",
+        "Medkit",
+        "Boombox",
+        "Subspace",
+        "Vine Staff",
+        "Coil"
+    ]
 
     map_number = world.options.map_count.value
-    phighters = []
     for region in multiworld.regions:
         if region.player == player:
-            if region.name != "Base":
+            if region.name in phighters:
                 phighters.append(region)
 
     while map_number*len(phighters) < len(item_pool) or map_number < world.options.total_map_win_count:
