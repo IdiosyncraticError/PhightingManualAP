@@ -148,7 +148,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
         abilities = [
                 i for i in item_pool 
-                    if i.name in possible_item_names
+                    if i.name in possible_abilities
             ]
 
         for _ in range(random_abilities):
