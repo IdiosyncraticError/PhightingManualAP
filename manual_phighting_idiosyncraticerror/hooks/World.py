@@ -192,7 +192,6 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     ]
 
     map_number = world.options.map_count.value
-    phighters = []
     for region in multiworld.regions:
         if region.player == player:
             if region.name in phighters:
