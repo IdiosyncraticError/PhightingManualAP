@@ -173,7 +173,6 @@ class Stickers(Toggle):
 class StickerRange(Range):
     """
     The total number of sticker checks
-    Currently unimplemented
     """
     range_start = 1
     range_end = 39
@@ -188,7 +187,6 @@ class Skins(Toggle):
 class SkinRange(Range):
     """
     Total number of skin checks
-    Currently unimplemented
     """
     range_start = 1
     range_end = 73
