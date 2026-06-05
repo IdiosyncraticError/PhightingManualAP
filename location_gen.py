@@ -251,7 +251,7 @@ for i in range(sticker_count):
 for i in badges:
     obj = {}
     obj["name"] = "Get the " + i[0] + " achievement"
-    cat_list = ["Achievement"]
+    cat_list = ["Achievements"]
     if i[1] == "Challenge":
         cat_list.append(i[1])
     elif i[1] != "":
