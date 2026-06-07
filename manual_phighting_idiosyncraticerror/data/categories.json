@@ -59,11 +59,16 @@
         ],
         "hidden": true
     },
+    "Abilitysanity": {
+        "hidden": true,
+        "yaml_option": [
+            "abilitysanity"
+        ]
+    },
     "Sword Abilitysanity": {
         "hidden": true,
         "yaml_option": [
-            "sword_abilitysanity",
-            "abilitysanity"
+            "sword_abilitysanity"
         ]
     },
     "Sword !Abilitysanity": {
@@ -75,8 +80,7 @@
     "Skateboard Abilitysanity": {
         "hidden": true,
         "yaml_option": [
-            "skateboard_abilitysanity",
-            "abilitysanity"
+            "skateboard_abilitysanity"
         ]
     },
     "Skateboard !Abilitysanity": {
@@ -88,8 +92,7 @@
     "Scythe Abilitysanity": {
         "hidden": true,
         "yaml_option": [
-            "scythe_abilitysanity",
-            "abilitysanity"
+            "scythe_abilitysanity"
         ]
     },
     "Scythe !Abilitysanity": {
@@ -101,8 +104,7 @@
     "Coil Abilitysanity": {
         "hidden": true,
         "yaml_option": [
-            "coil_abilitysanity",
-            "abilitysanity"
+            "coil_abilitysanity"
         ]
     },
     "Coil !Abilitysanity": {
@@ -114,8 +116,7 @@
     "Coil Phinisher Abilitysanity": {
         "hidden": true,
         "yaml_option": [
-            "coil_phinishersanity",
-            "abilitysanity"
+            "coil_phinishersanity"
         ]
     }
 }
