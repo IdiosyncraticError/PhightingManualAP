@@ -151,7 +151,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
                     if i.name in possible_abilities
             ]
 
-        for _ in range(random_abilities):
+        for _ in range(random_abilities) and world.options.abilitysanity == True:
             start_ability = world.random.choice(abilities)
             multiworld.push_precollected(start_ability)
             abilities.remove(start_ability) # don't allow choosing the exact same item again
