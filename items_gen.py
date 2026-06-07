@@ -52,7 +52,7 @@ for phighter in phighters:
         phin = {
             "count": 1,
             "name": "Sword Phinisher Unlock",
-            "category": ["Sword Ability Unlock"],
+            "category": ["Sword Ability Unlock", "Abilitysanity"],
             "progression": True
         }
         output.append(phin)
@@ -73,7 +73,7 @@ for phighter in phighters:
         phin = {
             "count": 1,
             "name": "Skateboard Phinisher Unlock",
-            "category": ["Skateboard Ability Unlock"],
+            "category": ["Skateboard Ability Unlock", "Abilitysanity"],
             "progression": True
         }
         output.append(phin)
@@ -108,7 +108,7 @@ for phighter in phighters:
                     obj = {
                         "count": 1,
                         "name": "Coil Phinisher Unlock",
-                        "category": ["Coil Ability Unlock"],
+                        "category": ["Coil Ability Unlock", "Abilitysanity"],
                         "progression": True
                     }
                     output.append(obj)

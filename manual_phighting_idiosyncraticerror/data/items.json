@@ -213,7 +213,8 @@
         "count": 1,
         "name": "Sword Phinisher Unlock",
         "category": [
-            "Sword Ability Unlock"
+            "Sword Ability Unlock",
+            "Abilitysanity"
         ],
         "progression": true
     },
@@ -311,7 +312,8 @@
         "count": 1,
         "name": "Skateboard Phinisher Unlock",
         "category": [
-            "Skateboard Ability Unlock"
+            "Skateboard Ability Unlock",
+            "Abilitysanity"
         ],
         "progression": true
     },
@@ -865,7 +867,8 @@
         "count": 1,
         "name": "Coil Phinisher Unlock",
         "category": [
-            "Coil Ability Unlock"
+            "Coil Ability Unlock",
+            "Abilitysanity"
         ],
         "progression": true
     },
