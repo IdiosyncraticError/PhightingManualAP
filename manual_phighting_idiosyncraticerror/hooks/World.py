@@ -119,16 +119,11 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             item_pool.remove(random_starting_item) # remove it from the pool since we're starting with it
             
     random_abilities = world.options.random_ability_start.value
-    enabled_phighters = []
+    enabled_phighters = [i.removesuffix(" Unlock") for i in possible_item_names]
     
-    for i in possible_item_names:
-        enabled_phighters.append(i.removesuffix(" Unlock"))
-    enabled_abilities = world.options.enabled_abilitysanity.value
-    
-    phighters = []
-    for p in enabled_phighters:
-        if p in enabled_abilities:
-            phighters.append(p)
+    from ..Helpers import get_option_value
+    enabled_abilities = get_option_value(multiworld, player, "enabled_abilitysanity")
+    phighters = [p for p in enabled_abilities if p in enabled_phighters]
     
     for p in phighters: #starting abilities
         possible_abilities = []
