@@ -123,7 +123,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     
     for i in possible_item_names:
         enabled_phighters.append(i.removesuffix(" Unlock"))
-    enabled_abilities = world.option.enabled_abilitysanity.value
+    enabled_abilities = world.options.enabled_abilitysanity.value
     
     phighters = []
     for p in enabled_phighters:
