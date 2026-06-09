@@ -159,16 +159,8 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)
         item_pool.remove(item)
-        
-    possible_item_names = []
-    possible_item_names.extend([
-            name for name, i in world.item_name_to_item.items()
-                if "Phighter Unlock" in i.get("category", []) # .get() accounts for the key not existing and provides a default if it doesn't
-        ])
-    possible_item_names = set(possible_item_names)
-    phighters = []
-    for i in possible_item_names:
-        phighters.append(i.removesuffix(" Unlock"))
+    
+    phighters = world.options.enabled_phighters.value
 
     map_number = world.options.map_count.value
 
