@@ -23,19 +23,33 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
         enabled_phighters = []
         for p in phighters:
             enabled_phighters.append(p + " MVP Badges")
+        print("category_name:", category_name)
+        print("enabled_phighters:", enabled_phighters)
+        print("allowed?", category_name in enabled_phighters)
         return category_name in enabled_phighters
     
     if category_name.endswith("Map Wins"):
         enabled_phighters = []
         for p in phighters:
             enabled_phighters.append(p + " Map Wins")
+        print("category_name:", category_name)
+        print("enabled_phighters:", enabled_phighters)
+        print("allowed?", category_name in enabled_phighters)
         return category_name in enabled_phighters
         
     return None
 
 # Use this if you want to override the default behavior of is_option_enabled
 # Return True to enable the item, False to disable it, or None to use the default behavior
-def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str, Any]) -> Optional[bool]:    
+def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str, Any]) -> Optional[bool]:
+    if item["name"].endswith("Win Condition"):
+        from ..Helpers import get_option_value
+        phighters = get_option_value(multiworld, player, "enabled_phighters")
+        enabled_phighters = []
+        for p in phighters:
+            enabled_phighters.append(p + " Win Condition")
+        return item["name"] in enabled_phighters
+    
     return None
 
 # Use this if you want to override the default behavior of is_option_enabled
