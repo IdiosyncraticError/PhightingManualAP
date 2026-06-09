@@ -68,10 +68,14 @@ class EnabledPhighters(OptionSet):
     """
     Phighters that will be randomized into the pool
     Removing a phighter will remove its abilitysanity and all associated locations
+    (except for skins and stickers)
     MUST CONTAIN AT LEAST 1 PHIGHTER
     """
     display_name = "Enabled Phighters"
-    valid_keys = item_name_groups["Phighter Unlock"]
+    keys = item_name_groups["Phighter Unlock"]
+    valid_keys = []
+    for i in keys:
+        valid_keys.append(i.removesuffix(" Unlock"))
     default = frozenset(valid_keys)
 
 class MVPBadges(Toggle):
@@ -144,7 +148,7 @@ class StartingAbility(Range):
 
 class EnabledPhighterAbsanity(OptionSet):
     """
-    Phighters whose abilities will be randomized into the pool
+    Phighters whose abilities will be randomized into the pool (must be enabled)
     Removing a phighter will only remove their ability unlocks
     You could remove all of them... but at that point use the toggle bro
     """

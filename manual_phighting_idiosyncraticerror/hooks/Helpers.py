@@ -5,12 +5,43 @@ from BaseClasses import MultiWorld
 # Use this if you want to override the default behavior of is_option_enabled
 # Return True to enable the category, False to disable it, or None to use the default behavior
 def before_is_category_enabled(multiworld: MultiWorld, player: int, category_name: str) -> Optional[bool]:
+    phighters = get_option_value(multiworld, player, "enabled_phighters")
+    
+    from ..Helpers import get_option_value
+    if category_name == "Abilitysanity":
+        ab = get_option_value(multiworld, player, "enabled_abilitysanity")
+        enabled_ab = []
+        for p in ab:
+            enabled_ab.append(p + " Ability Unlock")
+        
+        enabled_phighters = []
+        for p in phighters:
+            enabled_phighters.append(p + " Ability Unlock")
+        return category_name in enabled_ab and category_name in enabled_phighters
+    
+    if category_name == "MVP Badges":
+        enabled_phighters = []
+        for p in phighters:
+            enabled_phighters.append(p + " MVP Badges")
+        return category_name in enabled_phighters
+        
     return None
 
 # Use this if you want to override the default behavior of is_option_enabled
 # Return True to enable the item, False to disable it, or None to use the default behavior
 def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str, Any]) -> Optional[bool]:
-    
+    if item["name"].endswith("Unlock"):
+        from ..Helpers import get_option_value
+        enabled_class = get_option_value(multiworld, player, "enabled_classes")
+        return item["name"] in enabled_class
+
+    if item["name"].endswith("Win Progression Flag"):
+        from ..Helpers import get_option_value
+        enabled_class = get_option_value(multiworld, player, "enabled_classes")
+        for i in enabled_class:
+            if item["name"].startswith(i.removesuffix("Unlock")):
+                return True
+        return False
     
     return None
 

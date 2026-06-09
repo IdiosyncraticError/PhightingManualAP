@@ -119,25 +119,12 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             item_pool.remove(random_starting_item) # remove it from the pool since we're starting with it
             
     random_abilities = world.options.random_ability_start.value
-    phighters = [
-        "Sword",
-        "Skateboard",
-        "Biograft",
-        "Katana",
-        "Ban Hammer",
-        "Rocket",
-        "Slingshot",
-        "Hyperlaser",
-        "Shuriken",
-        "Scythe",
-        "Medkit",
-        "Boombox",
-        "Subspace",
-        "Vine Staff",
-        "Coil"
-    ]
+    phighters = []
     
-    for p in phighters:
+    for i in possible_item_names:
+        phighters.append(i.removesuffix(" Unlock"))
+    
+    for p in phighters: #starting abilities
         possible_abilities = []
         possible_abilities.extend([
                 name for name, i in world.item_name_to_item.items()
@@ -174,36 +161,24 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
         item = next(i for i in item_pool if i.name == itemName)
         item_pool.remove(item)
         
-    phighters = [
-        "Sword",
-        "Skateboard",
-        "Biograft",
-        "Katana",
-        "Ban Hammer",
-        "Rocket",
-        "Slingshot",
-        "Hyperlaser",
-        "Shuriken",
-        "Scythe",
-        "Medkit",
-        "Boombox",
-        "Subspace",
-        "Vine Staff",
-        "Coil"
-    ]
+    possible_item_names = []
+    possible_item_names.extend([
+            name for name, i in world.item_name_to_item.items()
+                if "Phighter Unlock" in i.get("category", []) # .get() accounts for the key not existing and provides a default if it doesn't
+        ])
+    possible_item_names = set(possible_item_names)
+    phighters = []
+    for i in possible_item_names:
+        phighters.append(i.removesuffix(" Unlock"))
 
     map_number = world.options.map_count.value
-    for region in multiworld.regions:
-        if region.player == player:
-            if region.name in phighters:
-                phighters.append(region)
 
     while map_number*len(phighters) < len(item_pool) or map_number < world.options.total_map_win_count:
         map_number += 1
 
     for region in multiworld.regions:
         if region.player == player:
-            if region in phighters:
+            if region.name in phighters:
                 possible_maps = []
         
                 possible_maps.extend([

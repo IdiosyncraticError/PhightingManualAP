@@ -16,7 +16,6 @@ IF YOU WANT AN UPDATE TO ADD A PHRENZY (if one occurs) PING ME IN MY PHIGHTING F
 coming next update: ability to choose how many stickers and skins become locations
 
 notes for myself:
-- starting abilities only does it for phighters that are activated, not just phighters that are in the phighter abilitysanity list
-- starting phighters checks for number of enabled phighters
-- remove unlock from ability unlock names bcs you cant get items by ["category"] in helper hook gg
+- remove unlock from ability unlock names bcs you cant get items by ["category"] in helper hook gg (for removing specific phighter unlocks)
 - do the map tracker events need to be removed?
+- achievements have yet to be implemented for optionset
