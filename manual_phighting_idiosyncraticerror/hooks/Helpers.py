@@ -16,7 +16,7 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
         
         enabled_phighters = []
         for p in phighters:
-            enabled_phighters.append(p + "Ability Unlock")
+            enabled_phighters.append(p + " Ability Unlock")
         
         print("category_name:", category_name)
         print("enabled_ab:", enabled_ab)
