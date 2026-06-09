@@ -273,7 +273,7 @@ def after_options_defined(options: Type[PerGameCommonOptions]):
 def before_option_groups_created(groups: dict[str, list[Type[Option[Any]]]]) -> dict[str, list[Type[Option[Any]]]]:
     # Uses the format groups['GroupName'] = [TotalCharactersToWinWith]
     groups["Optional Locations"] = [HardLocations, MVPBadges, LuckRounds, BonusRounds, SwordEvents, Doomsekkar, Boomball, PhestivalTitles]
-    groups["Abilitysanity"] = [Abilitysanity, StartingAbility, SwordAbility, SkateAbility, ScytheAbility, CoilAbility, CoilPhinisher]
+    groups["Abilitysanity"] = [Abilitysanity, StartingAbility, EnabledPhighterAbsanity, SwordAbility, SkateAbility, ScytheAbility, CoilAbility, CoilPhinisher]
     groups["Alt Account Locations"] = [Skins, SkinRange, Stickers, StickerRange, Badges]
     return groups
 
