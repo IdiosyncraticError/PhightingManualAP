@@ -139,7 +139,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
         possible_abilities = set(possible_abilities)
 
-        abilities = [
+        abilities = [ #this is empty presumably bcs of something related to the helper rule removing things. removing too much again?
                 i for i in item_pool 
                     if i.name in possible_abilities
             ]
