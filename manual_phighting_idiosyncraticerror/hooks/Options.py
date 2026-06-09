@@ -1,7 +1,8 @@
 # Object classes from AP that represent different types of options that you can create
-from Options import Option, FreeText, NumericOption, Toggle, DefaultOnToggle, Choice, TextChoice, Range, NamedRange, OptionGroup, PerGameCommonOptions
+from Options import Option, FreeText, NumericOption, Toggle, DefaultOnToggle, Choice, TextChoice, Range, NamedRange, OptionSet, OptionGroup, PerGameCommonOptions
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
 from ..Helpers import is_option_enabled, get_option_value
+from ..Items import item_name_groups
 from typing import Type, Any
 
 
@@ -63,7 +64,13 @@ class MapChecks(Range):
     range_end = 30
     default = 15
 
-#optionset??? for the list thing
+class EnabledPhighters(OptionSet):
+    """
+    Phighters that will be randomized into the pool
+    Removing a phighter will remove its abilitysanity and all associated locations
+    """
+    display_name = "Enabled Phighters"
+    valid_keys = 
 
 class MVPBadges(Toggle):
     """

@@ -10,13 +10,6 @@
             "description": "How to End your Randomized playthrough.",
             "aliases": {"easiest": 0},
             "hidden": false
-        },
-        "filler_traps": {
-            "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
-            "description": "THIS DOES NOTHING",
-            "values": {
-                "recommended": 20
-            }
         }
     },
     "user": {}
