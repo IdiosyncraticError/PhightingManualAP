@@ -19,3 +19,4 @@ notes for myself:
 - remove unlock from ability unlock names bcs you cant get items by ["category"] in helper hook gg (for removing specific phighter unlocks)
 - do the map tracker events need to be removed?
 - achievements have yet to be implemented for optionset
+- WHY DOES IT SAY ABILITYLIST IS EMPTY...
