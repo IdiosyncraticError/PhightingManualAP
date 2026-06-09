@@ -121,7 +121,25 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
     random_abilities = world.options.random_ability_start.value
     enabled_abilities = world.options.enabled_abilitysanity.value
     enabled_phighters = world.options.enabled_phighters.value
-    phighters = [p for p in enabled_abilities if p in enabled_phighters]
+    #phighters = [p for p in enabled_abilities if p in enabled_phighters]
+    
+    phighters = [
+        "Sword",
+        "Skateboard",
+        "Biograft",
+        "Katana",
+        "Ban Hammer",
+        "Rocket",
+        "Slingshot",
+        "Hyperlaser",
+        "Shuriken",
+        "Scythe",
+        "Medkit",
+        "Boombox",
+        "Subspace",
+        "Vine Staff",
+        "Coil"
+    ]
     
     for p in phighters: #starting abilities
         possible_abilities = []
@@ -137,7 +155,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
                     if i.name in possible_abilities
             ]
 
-        if world.options.abilitysanity.value == True:
+        if world.options.abilitysanity.value == True and p in enabled_abilities and p in enabled_phighters:
             for _ in range(random_abilities):
                 start_ability = world.random.choice(abilities)
                 multiworld.push_precollected(start_ability)
