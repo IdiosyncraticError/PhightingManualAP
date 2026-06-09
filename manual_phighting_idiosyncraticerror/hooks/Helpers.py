@@ -5,9 +5,9 @@ from BaseClasses import MultiWorld
 # Use this if you want to override the default behavior of is_option_enabled
 # Return True to enable the category, False to disable it, or None to use the default behavior
 def before_is_category_enabled(multiworld: MultiWorld, player: int, category_name: str) -> Optional[bool]:
+    from ..Helpers import get_option_value
     phighters = get_option_value(multiworld, player, "enabled_phighters")
     
-    from ..Helpers import get_option_value
     if category_name == "Abilitysanity":
         ab = get_option_value(multiworld, player, "enabled_abilitysanity")
         enabled_ab = []
