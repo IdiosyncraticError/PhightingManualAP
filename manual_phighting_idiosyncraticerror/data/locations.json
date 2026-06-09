@@ -4685,6 +4685,30 @@
         ]
     },
     {
+        "name": "Get the guardian badge - Medkit",
+        "region": "Medkit",
+        "category": [
+            "MVP Badges",
+            "Medkit MVP Badges"
+        ]
+    },
+    {
+        "name": "Get the guardian badge - Vine Staff",
+        "region": "Vine Staff",
+        "category": [
+            "MVP Badges",
+            "Vine Staff MVP Badges"
+        ]
+    },
+    {
+        "name": "Get the guardian badge - Coil",
+        "region": "Coil",
+        "category": [
+            "MVP Badges",
+            "Coil MVP Badges"
+        ]
+    },
+    {
         "name": "Experience a x13 round",
         "category": [
             "Luck Rounds"

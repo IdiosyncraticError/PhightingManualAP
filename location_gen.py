@@ -192,6 +192,16 @@ for b in mvp_badges:
         obj["region"] = phighter
         obj["category"] = ["MVP Badges", phighter + " MVP Badges"]
         output.append(obj)
+
+healer = ["Medkit", "Vine Staff", "Coil"]
+for h in healer:
+    obj = {
+        "name": "Get the guardian badge - " + h,
+        "region": h,
+        "category": ["MVP Badges", h + " MVP Badges"]
+    }
+    output.append(obj)
+
         
 for hi in rng:
     obj = {

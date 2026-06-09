@@ -68,9 +68,11 @@ class EnabledPhighters(OptionSet):
     """
     Phighters that will be randomized into the pool
     Removing a phighter will remove its abilitysanity and all associated locations
+    MUST CONTAIN AT LEAST 1 PHIGHTER
     """
     display_name = "Enabled Phighters"
-    valid_keys = 
+    valid_keys = item_name_groups["Phighter Unlock"]
+    default = frozenset(valid_keys)
 
 class MVPBadges(Toggle):
     """
@@ -126,7 +128,7 @@ class HardLocations(Toggle):
 class Abilitysanity(DefaultOnToggle):
     """
     Each ability will be locked until you receive the corresponding unlock item
-    DO NOT TURN THIS ON IN A SYNC
+    DO NOT TURN THIS ON IN A SYNC (unless you hate yourself or have 1000 levels)
     """
     display_name = "Abilitysanity"
 
@@ -139,6 +141,19 @@ class StartingAbility(Range):
     range_start = 0
     range_end = 3
     default = 1
+
+class EnabledPhighterAbsanity(OptionSet):
+    """
+    Phighters whose abilities will be randomized into the pool
+    Removing a phighter will only remove their ability unlocks
+    You could remove all of them... but at that point use the toggle bro
+    """
+    display_name = "Enabled Abilitysanity"
+    keys = item_name_groups["Phighter Unlock"]
+    valid_keys = []
+    for i in keys:
+        valid_keys.append(i.removesuffix(" Unlock"))
+    default = frozenset(valid_keys)
 
 class SwordAbility(Toggle):
     """
@@ -212,6 +227,7 @@ class Badges(Toggle):
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
     options["total_phighter_win_count"] = TotalPhighterWinCount
     options["total_map_win_count"] = TotalMapWinCount
+    options["enabled_phighters"] = EnabledPhighters
     options["starting_phighter_count"] = StartingPhighterCount
     options["map_count"] = MapChecks
 
@@ -226,6 +242,7 @@ def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, T
 
     options["abilitysanity"] = Abilitysanity
     options["random_ability_start"] = StartingAbility
+    options["enabled_abilitysanity"] = EnabledPhighterAbsanity
     options["sword_abilitysanity"] = SwordAbility
     options["skateboard_abilitysanity"] = SkateAbility
     options["scythe_abilitysanity"] = ScytheAbility
