@@ -71,7 +71,7 @@
             "sword_abilitysanity"
         ]
     },
-    "Sword !Abilitysanity": {
+    "!Sword Abilitysanity": {
         "hidden": true,
         "yaml_option": [
             "!sword_abilitysanity"
@@ -83,7 +83,7 @@
             "skateboard_abilitysanity"
         ]
     },
-    "Skateboard !Abilitysanity": {
+    "!Skateboard Abilitysanity": {
         "hidden": true,
         "yaml_option": [
             "!skateboard_abilitysanity"
@@ -95,7 +95,7 @@
             "scythe_abilitysanity"
         ]
     },
-    "Scythe !Abilitysanity": {
+    "!Scythe Abilitysanity": {
         "hidden": true,
         "yaml_option": [
             "!scythe_abilitysanity"
@@ -107,7 +107,7 @@
             "coil_abilitysanity"
         ]
     },
-    "Coil !Abilitysanity": {
+    "!Coil Abilitysanity": {
         "hidden": true,
         "yaml_option": [
             "!coil_abilitysanity"
