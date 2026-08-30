@@ -13,8 +13,6 @@ Optional locations: post-round badges (mvp/svp/icons which u can hover over), sw
 
 IF YOU WANT AN UPDATE TO ADD A PHRENZY (if one occurs) PING ME IN MY PHIGHTING FORUM IN THE MANUAL APWORLD DISCORD
 
-coming next update: ability to choose how many stickers and skins become locations
-
 notes for myself:
 - remove unlock from ability unlock names bcs you cant get items by ["category"] in helper hook gg (for removing specific phighter unlocks) maybe???
 - do the map tracker events need to be removed?
