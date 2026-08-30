@@ -63,20 +63,28 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
                     region.locations.remove(location)
     
     skin_locations = []
+    for i in range(world.options.skin_range.value):
+        skin_locations.append("Purchase " + str(i+1) + " skin(s)")
+
     for region in multiworld.regions:
-        if region.player == player:
-            for location in list(region.locations):
-                if location.name.startswith("Purchase") and not location.name.endswith("sticker(s)"):
-                    skin_locations.append(location)
-    
-    while len(skin_locations) > world.options.skin_range.value:
-        remove = world.random.choice(skin_locations)
-        for region in multiworld.regions:
             if region.player == player:
                 for location in list(region.locations):
-                    if location.name == remove.name:
+                    if location.name.endswith("skin(s)") and location.name not in skin_locations:
                         region.locations.remove(location)
-                        skin_locations.remove(remove)
+#    for region in multiworld.regions:
+#        if region.player == player:
+#            for location in list(region.locations):
+#                if location.name.startswith("Purchase") and not location.name.endswith("sticker(s)"):
+#                    skin_locations.append(location)
+#    
+#    while len(skin_locations) > world.options.skin_range.value:
+#        remove = world.random.choice(skin_locations)
+#        for region in multiworld.regions:
+#            if region.player == player:
+#                for location in list(region.locations):
+#                    if location.name == remove.name:
+#                        region.locations.remove(location)
+#                        skin_locations.remove(remove)
                     
 
 # This hook allows you to access the item names & counts before the items are created. Use this to increase/decrease the amount of a specific item in the pool
