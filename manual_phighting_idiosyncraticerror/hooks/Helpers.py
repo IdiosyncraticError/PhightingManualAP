@@ -17,7 +17,11 @@ def before_is_category_enabled(multiworld: MultiWorld, player: int, category_nam
         enabled_phighters = []
         for p in phighters:
             enabled_phighters.append(p + " Ability Unlock")
-        return category_name in enabled_ab and category_name in enabled_phighters
+        print(category_name in enabled_ab and category_name in enabled_phighters)
+        print(category_name)
+        print(enabled_ab)
+        print(enabled_phighters)
+        return (category_name in enabled_ab and category_name in enabled_phighters)
     
     if category_name.endswith(" MVP Badges"):
         enabled_phighters = []
