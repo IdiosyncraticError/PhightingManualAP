@@ -18,4 +18,3 @@ coming next update: ability to choose how many stickers and skins become locatio
 notes for myself:
 - remove unlock from ability unlock names bcs you cant get items by ["category"] in helper hook gg (for removing specific phighter unlocks) maybe???
 - do the map tracker events need to be removed?
-- achievements have yet to be implemented for optionset
