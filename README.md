@@ -16,3 +16,4 @@ IF YOU WANT AN UPDATE TO ADD A PHRENZY (if one occurs) PING ME IN MY PHIGHTING F
 notes for myself:
 - remove unlock from ability unlock names bcs you cant get items by ["category"] in helper hook gg (for removing specific phighter unlocks) maybe???
 - do the map tracker events need to be removed?
+- run a try/except for if numbers are greater than enabled phighters/abilities (e.g. starting abilities)
