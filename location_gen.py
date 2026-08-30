@@ -63,25 +63,26 @@ mvp_badges = [
     "bulwark"
 ]
 
-skins = {
-    "Sword": ["Sci-Fi Sword", "Marshmallow Sword", "Follower Sword", "Sunburst Sword", "Harpy Sword"],
-    "Skateboard": ["Hoverboard", "Snowboard", "Egobworder", "Surfboard", "Hellboarder"],
-    "Biograft": ["Floatie Biograft", "Biocarved", "Betagraft", "Cocoagraft", "Biohazard", "Beetlegraft"],
-    "Katana": ["Kramptana", "Moaitana", "Cybertana", "Follower Katana", "Katana Neo", "Fishertana"],
-    "Ban Hammer": ["Frankenhammer", "Sunkenhammer", "Clownhammer", "Rockhammer"],
-    "Rocket": ["PJ Rocket", "Buster Rocket", "Stargazer Rocket", "Party Rocket"],
-    "Slingshot": ["Catshot", "Cozyshot", "Cursedshot", "Seashot", "Bugshot"],
-    "Hyperlaser": ["Witchlaser", "Seraphlaser", "Yulaser", "Kittylaser"],
-    "Shuriken": ["Shurifin", "Shuri-long", "Astroken", "Shurisuit"],
-    "Scythe": ["Dutchman Scythe", "Reaper Scythe"],
-    "Medkit": ["Medcarrot", "Pirate Medkit", "Sianachkit", "7MK0", "Bivekit", "Madkit", "Wranglerkit"],
-    "Boombox": ["Cooler Boombox", "Eggsquerade Boombox", "Rainbox", "Astrobox", "Boomwave"],
-    "Subspace": ["Exorspace", "Cutiespace", "Jesterspace", "Grieferspace", "Outerspace", "Glitchspace"],
-    "Vine Staff": ["Valleystaff", "Vine Splash", "Vineberry", "Mothstaff"],
-    "Coil": ["Coil 2.0", "Sharkbite Coil", "Punk Coil", "Werecoil"]
-}
+#skins = {
+#    "Sword": ["Sci-Fi Sword", "Marshmallow Sword", "Follower Sword", "Sunburst Sword", "Harpy Sword"],
+#    "Skateboard": ["Hoverboard", "Snowboard", "Egobworder", "Surfboard", "Hellboarder"],
+#    "Biograft": ["Floatie Biograft", "Biocarved", "Betagraft", "Cocoagraft", "Biohazard", "Beetlegraft"],
+#    "Katana": ["Kramptana", "Moaitana", "Cybertana", "Follower Katana", "Katana Neo", "Fishertana"],
+#    "Ban Hammer": ["Frankenhammer", "Sunkenhammer", "Clownhammer", "Rockhammer"],
+#    "Rocket": ["PJ Rocket", "Buster Rocket", "Stargazer Rocket", "Party Rocket"],
+#    "Slingshot": ["Catshot", "Cozyshot", "Cursedshot", "Seashot", "Bugshot"],
+#    "Hyperlaser": ["Witchlaser", "Seraphlaser", "Yulaser", "Kittylaser"],
+#    "Shuriken": ["Shurifin", "Shuri-long", "Astroken", "Shurisuit"],
+#    "Scythe": ["Dutchman Scythe", "Reaper Scythe"],
+#    "Medkit": ["Medcarrot", "Pirate Medkit", "Sianachkit", "7MK0", "Bivekit", "Madkit", "Wranglerkit"],
+#    "Boombox": ["Cooler Boombox", "Eggsquerade Boombox", "Rainbox", "Astrobox", "Boomwave"],
+#    "Subspace": ["Exorspace", "Cutiespace", "Jesterspace", "Grieferspace", "Outerspace", "Glitchspace"],
+#    "Vine Staff": ["Valleystaff", "Vine Splash", "Vineberry", "Mothstaff"],
+#    "Coil": ["Coil 2.0", "Sharkbite Coil", "Punk Coil", "Werecoil"]
+#}
 
-sticker_count = 39
+skin_count = 50
+sticker_count = 50
 
 rng = [
     "a x13 round",
@@ -242,13 +243,20 @@ boomball = {
     "category": ["Boomball"]
 }
 
-for phighter, skin in skins.items():
-    for s in skin:
-        obj = {
-            "name": "Purchase " + s,
-            "region": phighter,
-            "category": ["Skins"]
-        }
+#for phighter, skin in skins.items():
+#    for s in skin:
+#        obj = {
+#           "name": "Purchase " + s,
+#            "region": phighter,
+#            "category": ["Skins"]
+#        }
+#    output.append(obj)
+
+for i in range(skin_count):
+    obj = {
+        "name": "Purchase " + str(i+1) + " skin(s)",
+        "category": ["Skins"]
+    }
     output.append(obj)
 
 for i in range(sticker_count):

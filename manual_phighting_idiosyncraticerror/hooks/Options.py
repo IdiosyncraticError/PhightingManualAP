@@ -191,7 +191,8 @@ class CoilPhinisher(Toggle):
 
 class Stickers(Toggle):
     """
-    Every sticker bought is a check
+    Stickers are checks
+    Capped at 50 stickers because I don't want to keep up with sticker releases
     If you turn this on inside a sync bro thats your own fault
     """
     display_name = "Stickersanity"
@@ -201,12 +202,16 @@ class StickerRange(Range):
     The total number of sticker checks
     """
     range_start = 1
-    range_end = 39
-    default = 10
+    range_end = 50
+    default = 5
+    display_name = "Sticker Range"
 
 class Skins(Toggle):
     """
-    Each skin is now a check
+    Skins are checks
+    Capped at 50 skins because I also don't want to keep up with skin releases
+    miss the days when they only came out in phests lwk
+    If you turn this on inside a sync that's also your own fault
     """
     display_name = "Skinsanity"
 
@@ -215,8 +220,9 @@ class SkinRange(Range):
     Total number of skin checks
     """
     range_start = 1
-    range_end = 73
-    default = 10
+    range_end = 50
+    default = 3
+    display_name = "Skin Range"
 
 class Badges(Toggle):
     """
