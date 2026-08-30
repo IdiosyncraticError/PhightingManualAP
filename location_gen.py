@@ -63,25 +63,26 @@ mvp_badges = [
     "bulwark"
 ]
 
-skins = {
-    "Sword": ["Sci-Fi Sword", "Marshmallow Sword", "Follower Sword", "Sunburst Sword", "Harpy Sword"],
-    "Skateboard": ["Hoverboard", "Snowboard", "Egobworder", "Surfboard", "Hellboarder"],
-    "Biograft": ["Floatie Biograft", "Biocarved", "Betagraft", "Cocoagraft", "Biohazard", "Beetlegraft"],
-    "Katana": ["Kramptana", "Moaitana", "Cybertana", "Follower Katana", "Katana Neo", "Fishertana"],
-    "Ban Hammer": ["Frankenhammer", "Sunkenhammer", "Clownhammer", "Rockhammer"],
-    "Rocket": ["PJ Rocket", "Buster Rocket", "Stargazer Rocket", "Party Rocket"],
-    "Slingshot": ["Catshot", "Cozyshot", "Cursedshot", "Seashot", "Bugshot"],
-    "Hyperlaser": ["Witchlaser", "Seraphlaser", "Yulaser", "Kittylaser"],
-    "Shuriken": ["Shurifin", "Shuri-long", "Astroken", "Shurisuit"],
-    "Scythe": ["Dutchman Scythe", "Reaper Scythe"],
-    "Medkit": ["Medcarrot", "Pirate Medkit", "Sianachkit", "7MK0", "Bivekit", "Madkit", "Wranglerkit"],
-    "Boombox": ["Cooler Boombox", "Eggsquerade Boombox", "Rainbox", "Astrobox", "Boomwave"],
-    "Subspace": ["Exorspace", "Cutiespace", "Jesterspace", "Grieferspace", "Outerspace", "Glitchspace"],
-    "Vine Staff": ["Valleystaff", "Vine Splash", "Vineberry", "Mothstaff"],
-    "Coil": ["Coil 2.0", "Sharkbite Coil", "Punk Coil", "Werecoil"]
-}
+#skins = {
+#    "Sword": ["Sci-Fi Sword", "Marshmallow Sword", "Follower Sword", "Sunburst Sword", "Harpy Sword"],
+#    "Skateboard": ["Hoverboard", "Snowboard", "Egobworder", "Surfboard", "Hellboarder"],
+#    "Biograft": ["Floatie Biograft", "Biocarved", "Betagraft", "Cocoagraft", "Biohazard", "Beetlegraft"],
+#    "Katana": ["Kramptana", "Moaitana", "Cybertana", "Follower Katana", "Katana Neo", "Fishertana"],
+#    "Ban Hammer": ["Frankenhammer", "Sunkenhammer", "Clownhammer", "Rockhammer"],
+#    "Rocket": ["PJ Rocket", "Buster Rocket", "Stargazer Rocket", "Party Rocket"],
+#    "Slingshot": ["Catshot", "Cozyshot", "Cursedshot", "Seashot", "Bugshot"],
+#    "Hyperlaser": ["Witchlaser", "Seraphlaser", "Yulaser", "Kittylaser"],
+#    "Shuriken": ["Shurifin", "Shuri-long", "Astroken", "Shurisuit"],
+#    "Scythe": ["Dutchman Scythe", "Reaper Scythe"],
+#    "Medkit": ["Medcarrot", "Pirate Medkit", "Sianachkit", "7MK0", "Bivekit", "Madkit", "Wranglerkit"],
+#    "Boombox": ["Cooler Boombox", "Eggsquerade Boombox", "Rainbox", "Astrobox", "Boomwave"],
+#    "Subspace": ["Exorspace", "Cutiespace", "Jesterspace", "Grieferspace", "Outerspace", "Glitchspace"],
+#    "Vine Staff": ["Valleystaff", "Vine Splash", "Vineberry", "Mothstaff"],
+#    "Coil": ["Coil 2.0", "Sharkbite Coil", "Punk Coil", "Werecoil"]
+#}
 
-sticker_count = 39
+skin_count = 50
+sticker_count = 50
 
 rng = [
     "a x13 round",
@@ -145,7 +146,7 @@ badges = [ #option check if abilitysanity is turned on then requires ability unl
     ["sharp shooter", "Slingshot", "{OptOne(|Slingshot Q Unlock|)}"],
     ["guardian angel", "Medkit", "{OptOne(|Medkit Phinisher Unlock|)}"],
     ["bass drop", "Boombox", "{OptOne(|Boombox Phinisher Unlock|)}"],
-    ["vehicular manslaughter", "Skateboard", "{OptOne(|Skateboard E Unlock|)}"], #okay but like fr what the fuck am i putting here sob sob
+    ["vehicular manslaughter", "Skateboard", "{OptOne(|Skateboard E Unlock|) or OptOne(|Skateboard Offboard E Unlock)}"], #okay but like fr what the fuck am i putting here sob sob
     ["your demise", "Biograft", "{OptOne(|Biograft Q Unlock|)}"],
     ["bounty collected", "Hyperlaser", "{OptOne(|Hyperlaser Phinisher Unlock|)}"],
     ["experiment successful", "Subspace", "{OptOne(|Subspace Phinisher Unlock|)}"],
@@ -162,6 +163,7 @@ badges = [ #option check if abilitysanity is turned on then requires ability unl
     ["devil's game", ""], #this is also just the x66 location
     ["Supreme Survivor", "Challenge"], #this too
     #["caged by the dead", ""], #this already exists as doomsekkar location so like... idk
+    #["level 25"] ??
 ]
 
 output = []
@@ -192,6 +194,16 @@ for b in mvp_badges:
         obj["region"] = phighter
         obj["category"] = ["MVP Badges", phighter + " MVP Badges"]
         output.append(obj)
+
+healer = ["Medkit", "Vine Staff", "Coil"]
+for h in healer:
+    obj = {
+        "name": "Get the guardian badge - " + h,
+        "region": h,
+        "category": ["MVP Badges", h + " MVP Badges"]
+    }
+    output.append(obj)
+
         
 for hi in rng:
     obj = {
@@ -232,13 +244,20 @@ boomball = {
     "category": ["Boomball"]
 }
 
-for phighter, skin in skins.items():
-    for s in skin:
-        obj = {
-            "name": "Purchase " + s,
-            "region": phighter,
-            "category": ["Skins"]
-        }
+#for phighter, skin in skins.items():
+#    for s in skin:
+#        obj = {
+#           "name": "Purchase " + s,
+#            "region": phighter,
+#            "category": ["Skins"]
+#        }
+#    output.append(obj)
+
+for i in range(skin_count):
+    obj = {
+        "name": "Purchase " + str(i+1) + " skin(s)",
+        "category": ["Skins"]
+    }
     output.append(obj)
 
 for i in range(sticker_count):

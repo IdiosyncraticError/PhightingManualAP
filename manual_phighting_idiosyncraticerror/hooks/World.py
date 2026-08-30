@@ -63,20 +63,28 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
                     region.locations.remove(location)
     
     skin_locations = []
+    for i in range(world.options.skin_range.value):
+        skin_locations.append("Purchase " + str(i+1) + " skin(s)")
+
     for region in multiworld.regions:
-        if region.player == player:
-            for location in list(region.locations):
-                if location.name.startswith("Purchase") and not location.name.endswith("sticker(s)"):
-                    skin_locations.append(location)
-    
-    while len(skin_locations) > world.options.skin_range.value:
-        remove = world.random.choice(skin_locations)
-        for region in multiworld.regions:
             if region.player == player:
                 for location in list(region.locations):
-                    if location.name == remove.name:
+                    if location.name.endswith("skin(s)") and location.name not in skin_locations:
                         region.locations.remove(location)
-                        skin_locations.remove(remove)
+#    for region in multiworld.regions:
+#        if region.player == player:
+#            for location in list(region.locations):
+#                if location.name.startswith("Purchase") and not location.name.endswith("sticker(s)"):
+#                    skin_locations.append(location)
+#    
+#    while len(skin_locations) > world.options.skin_range.value:
+#        remove = world.random.choice(skin_locations)
+#        for region in multiworld.regions:
+#            if region.player == player:
+#                for location in list(region.locations):
+#                    if location.name == remove.name:
+#                        region.locations.remove(location)
+#                        skin_locations.remove(remove)
                     
 
 # This hook allows you to access the item names & counts before the items are created. Use this to increase/decrease the amount of a specific item in the pool
@@ -92,17 +100,14 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    random_unlocks = world.options.starting_phighter_count.value
+    random_unlocks = world.options.starting_phighter_count.value #starting phighters
 
     possible_item_names = []
         
-    possible_item_names.extend(
-        # spacing out the list comprehension here maybe makes it easier to follow
-        [
+    possible_item_names.extend([
             name for name, i in world.item_name_to_item.items()
                 if "Phighter Unlock" in i.get("category", []) # .get() accounts for the key not existing and provides a default if it doesn't
-        ]
-    )
+    ])
     
     # remove any duplicate names from the list of possible items
     possible_item_names = set(possible_item_names)
@@ -119,25 +124,11 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             item_pool.remove(random_starting_item) # remove it from the pool since we're starting with it
             
     random_abilities = world.options.random_ability_start.value
-    phighters = [
-        "Sword",
-        "Skateboard",
-        "Biograft",
-        "Katana",
-        "Ban Hammer",
-        "Rocket",
-        "Slingshot",
-        "Hyperlaser",
-        "Shuriken",
-        "Scythe",
-        "Medkit",
-        "Boombox",
-        "Subspace",
-        "Vine Staff",
-        "Coil"
-    ]
+    enabled_abilities = world.options.enabled_abilitysanity.value
+    enabled_phighters = world.options.enabled_phighters.value
+    phighters = [p for p in enabled_abilities if p in enabled_phighters]
     
-    for p in phighters:
+    for p in phighters: #starting abilities
         possible_abilities = []
         possible_abilities.extend([
                 name for name, i in world.item_name_to_item.items()
@@ -146,7 +137,7 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 
         possible_abilities = set(possible_abilities)
 
-        abilities = [
+        abilities = [ #this is empty presumably bcs of something related to the helper rule removing things. removing too much again?
                 i for i in item_pool 
                     if i.name in possible_abilities
             ]
@@ -173,37 +164,17 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)
         item_pool.remove(item)
-        
-    phighters = [
-        "Sword",
-        "Skateboard",
-        "Biograft",
-        "Katana",
-        "Ban Hammer",
-        "Rocket",
-        "Slingshot",
-        "Hyperlaser",
-        "Shuriken",
-        "Scythe",
-        "Medkit",
-        "Boombox",
-        "Subspace",
-        "Vine Staff",
-        "Coil"
-    ]
+    #removes extra maps
+    phighters = world.options.enabled_phighters.value
 
     map_number = world.options.map_count.value
-    for region in multiworld.regions:
-        if region.player == player:
-            if region.name in phighters:
-                phighters.append(region)
 
     while map_number*len(phighters) < len(item_pool) or map_number < world.options.total_map_win_count:
         map_number += 1
 
     for region in multiworld.regions:
         if region.player == player:
-            if region in phighters:
+            if region.name in phighters:
                 possible_maps = []
         
                 possible_maps.extend([
