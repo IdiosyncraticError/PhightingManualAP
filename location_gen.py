@@ -146,7 +146,7 @@ badges = [ #option check if abilitysanity is turned on then requires ability unl
     ["sharp shooter", "Slingshot", "{OptOne(|Slingshot Q Unlock|)}"],
     ["guardian angel", "Medkit", "{OptOne(|Medkit Phinisher Unlock|)}"],
     ["bass drop", "Boombox", "{OptOne(|Boombox Phinisher Unlock|)}"],
-    ["vehicular manslaughter", "Skateboard", "{OptOne(|Skateboard E Unlock|)}"], #okay but like fr what the fuck am i putting here sob sob
+    ["vehicular manslaughter", "Skateboard", "{OptOne(|Skateboard E Unlock|) or OptOne(|Skateboard Offboard E Unlock)}"], #okay but like fr what the fuck am i putting here sob sob
     ["your demise", "Biograft", "{OptOne(|Biograft Q Unlock|)}"],
     ["bounty collected", "Hyperlaser", "{OptOne(|Hyperlaser Phinisher Unlock|)}"],
     ["experiment successful", "Subspace", "{OptOne(|Subspace Phinisher Unlock|)}"],
@@ -163,6 +163,7 @@ badges = [ #option check if abilitysanity is turned on then requires ability unl
     ["devil's game", ""], #this is also just the x66 location
     ["Supreme Survivor", "Challenge"], #this too
     #["caged by the dead", ""], #this already exists as doomsekkar location so like... idk
+    #["level 25"] ??
 ]
 
 output = []
