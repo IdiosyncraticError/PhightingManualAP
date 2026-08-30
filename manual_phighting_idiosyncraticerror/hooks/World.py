@@ -100,17 +100,14 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    random_unlocks = world.options.starting_phighter_count.value
+    random_unlocks = world.options.starting_phighter_count.value #starting phighters
 
     possible_item_names = []
         
-    possible_item_names.extend(
-        # spacing out the list comprehension here maybe makes it easier to follow
-        [
+    possible_item_names.extend([
             name for name, i in world.item_name_to_item.items()
                 if "Phighter Unlock" in i.get("category", []) # .get() accounts for the key not existing and provides a default if it doesn't
-        ]
-    )
+    ])
     
     # remove any duplicate names from the list of possible items
     possible_item_names = set(possible_item_names)
@@ -167,7 +164,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     for itemName in itemNamesToRemove:
         item = next(i for i in item_pool if i.name == itemName)
         item_pool.remove(item)
-    
+    #removes extra maps
     phighters = world.options.enabled_phighters.value
 
     map_number = world.options.map_count.value
